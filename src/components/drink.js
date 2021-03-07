@@ -48,7 +48,7 @@ const Info = styled.div`
   & > span {
     font-size: ${(props) => props.bigFont? "18px":"14px"};
     font-weight: 400;
-    margin: 0 4px;
+    margin: 0 16px 0 0;
   }
 
   & > a {
