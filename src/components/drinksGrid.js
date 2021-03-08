@@ -82,7 +82,7 @@ const DrinksGrid = props => {
             <Drink key={drink.id} size="md" {...drink} />
           ))}
       </Grid>
-      <Flex>
+      <Flex justifyContent="center">
         {[...Array(Math.ceil(filteredDrinks.length / 20)).keys()].map(num => (
           <CustomButton
             color={num === currentPage ? "#a0a4a8" : "#957a58"}
