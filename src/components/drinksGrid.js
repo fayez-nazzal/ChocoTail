@@ -9,6 +9,8 @@ import CustomButton from "./customButton"
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 174px);
+  margin-bottom: 8px;
   grid-gap: 8px;
 `
 
@@ -46,23 +48,21 @@ const DrinksGrid = props => {
   const caloriesTo = parseInt(props.calories.split("-")[1])
 
   const [currentPage, setCurrentPage] = useState(0)
-  const [filteredDrinks] = useState(
-    shuffle(
-      drinks.filter(
-        drink =>
-          (!props.calories ||
-            (parseInt(drink.calories) >= caloriesFrom &&
-              parseInt(drink.calories) <= caloriesTo)) &&
-          (!props.exclude ||
-            !(
-              drink.name.toLowerCase().includes(props.exclude) ||
-              drink.ingredients.toLowerCase().includes(props.exclude)
-            )) &&
-          (drink.name.toLowerCase().includes(props.searchQuery.toLowerCase()) ||
-            drink.ingredients
-              .toLowerCase()
-              .includes(props.searchQuery.toLowerCase()))
-      )
+  const filteredDrinks = shuffle(
+    drinks.filter(
+      drink =>
+        (!props.calories ||
+          (parseInt(drink.calories) >= caloriesFrom &&
+            parseInt(drink.calories) <= caloriesTo)) &&
+        (!props.exclude ||
+          !(
+            drink.name.toLowerCase().includes(props.exclude) ||
+            drink.ingredients.toLowerCase().includes(props.exclude)
+          )) &&
+        (drink.name.toLowerCase().includes(props.searchQuery.toLowerCase()) ||
+          drink.ingredients
+            .toLowerCase()
+            .includes(props.searchQuery.toLowerCase()))
     )
   )
 

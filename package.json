@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "fast-sort": "^2.2.0",
     "fontsource-nunito": "^4.0.0",
     "gatsby": "^3.0.1",
     "gatsby-plugin-image": "^1.0.0",
