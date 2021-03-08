@@ -11,7 +11,7 @@ const Container = styled.div`
 `
 
 const Nav = styled.nav`
-  position: absolute;
+  position: ${(props) => props.homePage? "absolute":"sticky"};
   height: 56px;
   display: flex;
   justify-content: flex-end;
@@ -19,7 +19,7 @@ const Nav = styled.nav`
   top: 0;
   left: 0;
   right: 0;
-  background-color: ${(props) => props.homePageScrolled? "rgba(147, 119, 85, 0.98)":"transparent"};
+  background-color: ${(props) => props.homePageScrolled || !props.homePage? "rgba(147, 119, 85, 0.98)":"transparent"};
   transition: background-color ease-in 0.15s;
   `
 
@@ -49,7 +49,7 @@ const ChocoColor = styled.span`
 
 const Navbar = (props) => (
   <Container>
-    <Nav homePageScrolled={props.homePageScrolled}>
+    <Nav homePageScrolled={props.homePageScrolled} homePage={props.homePage} >
       <StyledLink to="/" main smShow>
         <StyledCoffe />{" "}
         <Title>

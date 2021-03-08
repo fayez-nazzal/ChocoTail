@@ -82,13 +82,15 @@ const Grid = styled.div`
   @media only screen and (max-width: 768px) {
     grid-gap: 6px;
     grid-template-rows: 120px 120px;
-    
+
     .top2 {
       grid-column: 3 / 5;
-      grid-row: 1 / 3;  
+      grid-row: 1 / 3;
     }
 
-    .top3, .top4, .top5 {
+    .top3,
+    .top4,
+    .top5 {
       display: none;
     }
   }
@@ -112,18 +114,17 @@ const IndexPage = ({ data }) => {
 
   useEffect(() => {
     window.addEventListener("wheel", onWheelMove)
-    
+
     return () => window.removeEventListener("wheel", onWheelMove)
   }, [])
 
   const onWheelMove = e => {
-      const isDown = e.deltaY > 0
-      const topOfPage = window.scrollY < 100;
-      
-      if (!isDown && !topOfPage)
-        return
-      
-      setScrolled(isDown)
+    const isDown = e.deltaY > 0
+    const topOfPage = window.scrollY < 100
+
+    if (!isDown && !topOfPage) return
+
+    setScrolled(isDown)
   }
 
   const handleExploreClicked = () => {
@@ -131,8 +132,8 @@ const IndexPage = ({ data }) => {
   }
 
   return (
-    <Layout homePageScrolled={scrolled}>
-      <Container scrolled={scrolled} >
+    <Layout homePageScrolled={scrolled} homePage>
+      <Container scrolled={scrolled}>
         <StaticImage
           quality={100}
           src="../images/choco-bubble.png"
@@ -171,8 +172,8 @@ const IndexPage = ({ data }) => {
             )}
             auto
             maxChar={20}
-            bigFont={window.matchMedia("(max-width: 768px)")}
-            bigStar={window.matchMedia("(max-width: 768px)")}
+            bigFont={window.matchMedia("(max-width: 768px)").matches}
+            bigStar={window.matchMedia("(max-width: 768px)").matches}
             className="top2"
           />
           <Drink

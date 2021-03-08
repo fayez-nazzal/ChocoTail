@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import LinkIcon from "../images/link.svg"
-import Star from "../images/rating/star.svg"
 import Star1 from "../images/rating/star1.svg"
 import Star2 from "../images/rating/star2.svg"
 import Star3 from "../images/rating/star3.svg"
@@ -15,17 +14,17 @@ const Container = styled.span`
   width: ${props => (props.size === "md" ? "194px" : "auto")};
   height: ${props => (props.size === "md" ? "174px" : "auto")};
   margin-top: 6px;
-  
+
   .star {
     position: absolute;
     top: 4px;
     right: 4px;
-    width: ${(props) => props.bigStar? "48px":"32px"};
+    width: ${props => (props.bigStar ? "48px" : "32px")};
   }
 
   @media only screen and (max-width: 768px) {
-    width: ${props => (props.size === "md" ? "180px" : "auto")};
-    height: ${props => (props.size === "md" ? "150px" : "auto")};
+    width: ${props => (props.size === "md" ? "240px" : "auto")};
+    height: ${props => (props.size === "md" ? "200px" : "auto")};
   }
 `
 
@@ -40,13 +39,13 @@ const Info = styled.div`
   border-radius: 0 0 12px 12px;
 
   & > h3 {
-    font-size: ${(props) => props.bigFont? "24px":"18px"};
+    font-size: ${props => (props.bigFont ? "24px" : "18px")};
     margin: 0;
     grid-column: 1 / 5;
   }
 
   & > span {
-    font-size: ${(props) => props.bigFont? "18px":"14px"};
+    font-size: ${props => (props.bigFont ? "18px" : "14px")};
     font-weight: 400;
     margin: 0 16px 0 0;
   }
@@ -80,9 +79,7 @@ const getStar = rating =>
     <Star2 className="star" />
   ) : rating === 1 ? (
     <Star1 className="star" />
-  ) : (
-    <Star className="star" />
-  )
+  ) : null
 
 const Drink = props => {
   return (
@@ -118,7 +115,7 @@ Drink.propTypes = {
   maxChar: PropTypes.string,
   bigFont: PropTypes.bool,
   bigStar: PropTypes.bool,
-  className: PropTypes.string
+  className: PropTypes.string,
 }
 
 export default Drink

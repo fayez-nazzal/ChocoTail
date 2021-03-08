@@ -1,0 +1,62 @@
+{
+  "tags": [
+    "ice",
+    "fresh",
+    "hot",
+    "warm",
+    "apple",
+    "mango",
+    "banana",
+    "lemon",
+    "juice",
+    "strawberries",
+    "caramel",
+    "delecious",
+    "berry",
+    "cherry",
+    "carrot",
+    "cider",
+    "cocoa",
+    "coffee",
+    "watermelon",
+    "grape",
+    "cinnamon",
+    "almond",
+    "chai",
+    "tea",
+    "mint",
+    "ginger",
+    "orange",
+    "sugar",
+    "coconut",
+    "tomato",
+    "mocha",
+    "syrup",
+    "breakfast"
+  ],
+  "calorieOptions": [
+    { "value": "0 - 60", "label": "0 - 60" },
+    { "value": "60 - 120", "label": "60 - 120" },
+    { "value": "120 - 200", "label": "120 - 200" },
+    { "value": "200 - 300", "label": "200 - 300" },
+    { "value": "", "label": "all" }
+  ],
+  "sortOptions": [
+    { "value": "star-asc", "label": "rating 🠕" },
+    { "value": "kcal-asc", "label": "calories 🠕" },
+    { "value": "prep-asc", "label": "prep time 🠕" },
+    { "value": "star-desc", "label": "rating 🠗" },
+    { "value": "kcal-desc", "label": "calories 🠗" },
+    { "value": "prep-desc", "label": "prep time 🠗" },
+    { "value": "", "label": "none" }
+  ],
+  "excludeOptions": [
+    { "value": "sugar", "label": "sugar" },
+    { "value": "coffee", "label": "coffee" },
+    { "value": "cider", "label": "cider" },
+    { "value": "chocolate", "label": "chocolate" },
+    { "value": "cocoa", "label": "cocoa" },
+    { "value": "juice", "label": "juice" },
+    { "value": "tea", "label": "tea" }
+  ]
+}

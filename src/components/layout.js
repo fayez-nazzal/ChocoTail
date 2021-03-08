@@ -20,11 +20,11 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const Layout = ({ children, homePageScrolled }) => {
+const Layout = ({ children, homePageScrolled, homePage }) => {
   return (
     <>
       <GlobalStyle />
-      <Navbar homePageScrolled={homePageScrolled} />
+      <Navbar homePageScrolled={homePageScrolled} homePage={homePage} />
       <main>{children}</main>
       <Footer />
     </>

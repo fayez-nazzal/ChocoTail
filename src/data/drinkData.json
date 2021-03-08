@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://www.allrecipes.com/recipe/46777/chai-tea-mix/",
-    "name": "Chai Tea Mix",
-    "rating": "4.7528957528957525",
-    "ingredients": "1 cup nonfat dry milk powder, 1 cup powdered non-dairy creamer, 1 cup French vanilla flavored powdered non-dairy creamer, 2 ½ cups white sugar, 1 ½ cups unsweetened instant tea, 2 teaspoons ground ginger, 2 teaspoons ground cinnamon, 1 teaspoon ground cloves, 1 teaspoon ground cardamom",
-    "directions": "1. In a large bowl, combine milk powder, non-dairy creamer, vanilla flavored creamer, sugar and instant tea. Stir in ginger, cinnamon, cloves and cardamom. In a blender or food processor, blend 1 cup at a time, until mixture is the consistency of fine powder. 2. To serve: Stir 2 heaping tablespoons Chai tea mixture into a mug of hot water.",
-    "prep": "30 mins",
-    "cook": "2 mins",
-    "ready in": "32 mins",
-    "calories": "100",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5103463.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/109190/smooth-sweet-tea/",
     "name": "Smooth Sweet Tea",
     "rating": "4.804628999319265",
@@ -130,18 +118,6 @@
     "ready in": "10 mins",
     "calories": "102",
     "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7841427.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/48802/coffeebar-chai/",
-    "name": "Coffeebar Chai",
-    "rating": "4.6106870229007635",
-    "ingredients": "2 cups water, 4  black tea bags, ¼ cup honey, ½ teaspoon vanilla extract, 1  cinnamon stick, 5  whole cloves, ¼ teaspoon ground cardamom, ¼ teaspoon ground ginger, 1 pinch ground nutmeg, 2 cups milk",
-    "directions": "1. In a saucepan, bring water to a boil. Add tea, honey and vanilla. Season with cinnamon, cloves, cardamom, ginger and nutmeg. Simmer for 5 minutes. Pour in milk, and bring to a boil. Remove from heat, and strain through a fine sieve.",
-    "prep": "5 mins",
-    "cook": "10 mins",
-    "ready in": "15 mins",
-    "calories": "135",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8439344.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/236636/cherry-sport-drink/",
@@ -504,18 +480,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/3601817.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/23532/tea-punch/",
-    "name": "Tea Punch",
-    "rating": "4.647058823529412",
-    "ingredients": "1 cup white sugar, 1 cup strong brewed black tea, 4 cups orange juice, 4 cups pineapple juice, 4 cups prepared lemonade, 1 (2 liter) bottle ginger ale, chilled",
-    "directions": "1. In a pitcher, combine sugar and tea. Stir until sugar is dissolved. Stir in orange juice, pineapple juice and lemonade. Chill in refrigerator for 4 hours. 2. Just before serving, pour chilled juice mixture into a punch bowl and stir in ginger ale.",
-    "prep": "30 mins",
-    "cook": "",
-    "ready in": "4 hrs 30 mins",
-    "calories": "118",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3464150.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/18395/russian-tea-ii/",
     "name": "Russian Tea II",
     "rating": "4.533333333333333",
@@ -574,18 +538,6 @@
     "ready in": "1 hr",
     "calories": "99",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/249931.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/237592/the-drink-by-will/",
-    "name": "The Drink by Will",
-    "rating": "4.166666666666667",
-    "ingredients": "1 cup water, 1  tomato, roughly chopped, 1 large carrot, roughly chopped, 1 cup kale, 2  radishes, roughly chopped, 1  lemon, peeled, 1 teaspoon spirulina powder, 6  ice cubes, or as needed",
-    "directions": "1. Pour water into a blender. Add tomato, carrot, kale, radishes, lemon, spirulina powder; top with ice cubes. Blend vegetable mixture until smooth.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "10 mins",
-    "calories": "98",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F08%2F11%2F3548022.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/180799/arnold-palmer/",
@@ -936,18 +888,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/3336706.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/256587/soothing-hot-ginger-tea/",
-    "name": "Soothing Hot Ginger Tea",
-    "rating": "4.5",
-    "ingredients": "1 (12 fl oz) can ginger ale (such as Canada Dry®), 1  black tea bag (such as Lipton®)",
-    "directions": "1. Pour ginger ale into a microwave-safe mug. Heat in the microwave for 1 to 2 minutes. 2. Steep tea bag in the hot ginger ale for 3 to 5 minutes.",
-    "prep": "5 mins",
-    "cook": "1 min",
-    "ready in": "9 mins",
-    "calories": "128",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4675686.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/237861/mint-garden-tea-concentrate/",
     "name": "Mint Garden Tea Concentrate",
     "rating": "4.5",
@@ -1030,30 +970,6 @@
     "ready in": "30 mins",
     "calories": "104",
     "imageUrl": "http://images.media-allrecipes.com/userphotos/600x600/1565212.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/236293/soursop-punch/",
-    "name": "Soursop Punch",
-    "rating": "5",
-    "ingredients": "1  soursop fruit, peeled and cut into chunks, 1 ½ cups milk, or to taste, 2 tablespoons white sugar, or to taste, 2 teaspoons vanilla extract, ½ teaspoon ground cinnamon, ¼ teaspoon ground nutmeg",
-    "directions": "1. Working in batches, press soursop pieces through a fine-mesh strainer with the back of a spoon into a bowl to remove the juice from the fruit. 2. Whisk milk, sugar, vanilla, cinnamon, and nutmeg into soursop juice until sugar is dissolved completely. Pour punch into a pitcher and refrigerate until chilled, at least 30 minutes.",
-    "prep": "15 mins",
-    "cook": "",
-    "ready in": "45 mins",
-    "calories": "724",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1133094.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/260584/harry-potters-pumpkin-juice/",
-    "name": "Harry Potter's Pumpkin Juice",
-    "rating": "5",
-    "ingredients": "1 (12 fluid ounce) can frozen apple juice concentrate, 3 cups water, ½ cup pumpkin puree, 2 tablespoons apricot preserves, 1 teaspoon vanilla extract, 1 teaspoon ground cinnamon, 4 tablespoons whipped cream, divided, or to taste",
-    "directions": "1. Place apple juice concentrate in a blender. Use the empty juice can to add 2 cans water to the blender. Add pumpkin puree, apricot preserves, vanilla extract, and cinnamon. Blend on high until smooth, about 10 seconds. Pour into serving mugs and top with whipped cream.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "212",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1357615.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/275609/london-fog-latte/",
@@ -1377,18 +1293,6 @@
     "ready in": "15 mins",
     "calories": "257",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/5324084.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/23076/delightful-punch/",
-    "name": "Delightful Punch",
-    "rating": "3.5",
-    "ingredients": "1 cup strong brewed black tea, 1 cup grapefruit juice, 1 cup orange juice, ½ cup pineapple juice, ½ cup simple syrup, 1 liter ginger ale soda",
-    "directions": "1. In a large punch bowl, combine tea, grapefruit juice, orange juice, pineapple juice and simple syrup. Stir in the ginger ale and serve.",
-    "prep": "20 mins",
-    "cook": "",
-    "ready in": "20 mins",
-    "calories": "76",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6850126.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/202691/brown-sugar-and-honey-limeade/",
@@ -1760,18 +1664,6 @@
     "ready in": "5 mins",
     "calories": "224",
     "imageUrl": "http://images.media-allrecipes.com/userphotos/250x140/3769488.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/20769/orange-drink/",
-    "name": "Orange Drink",
-    "rating": "4.571428571428571",
-    "ingredients": "1 (12 fluid ounce) can frozen orange juice concentrate, 2 liters ginger ale soda, 1  orange, sliced into rounds, 1 (4 ounce) jar maraschino cherries",
-    "directions": "1. Empty frozen orange juice into a large pitcher. VERY SLOWLY pour in the ginger ale. It is extremely important that you pour slowly because the soda will foam up and lose its carbonation if poured fast. Gently stir until all of orange juice is melted. Toss in all but 4 of the orange slices. 2. Cut reserved orange slices in half. Pour beverage into 8 glasses and garnish with half slice of orange and a cherry.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "10 mins",
-    "calories": "180",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4513616.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/62558/coffee-shake/",
@@ -2242,18 +2134,6 @@
     "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1128171.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/209934/the-ghouls-green-drink/",
-    "name": "The Ghoul's Green Drink",
-    "rating": "4.2",
-    "ingredients": "2 cups ice, or as needed, ½ (2 liter) bottle caffeinated citrus-flavored soda (such as Mountain Dew®), ¼ cup lime juice, 1 cup lime sherbet, or to taste",
-    "directions": "1. Place ice in a large punch bowl. Pour in the citrus-flavored soda and lime juice. Stir in the lime sherbet.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "10 mins",
-    "calories": "112",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/499975.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/258688/coconut-cardamom-iced-coffee/",
     "name": "Coconut Cardamom Iced Coffee",
     "rating": "4.875",
@@ -2276,18 +2156,6 @@
     "ready in": "1 hr 15 mins",
     "calories": "58",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/2050425.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/89582/kocoa-klastch-blend/",
-    "name": "Kocoa Klastch Blend",
-    "rating": "4.777777777777778",
-    "ingredients": "2 pounds confectioners' sugar, sifted, 4 cups French vanilla flavored powdered coffee creamer, 2 cups Dutch process cocoa powder, 2 tablespoons dried orange zest, 1 tablespoon ground cinnamon, 1 teaspoon ground anise seed",
-    "directions": "1. In a large bowl, stir together the confectioners' sugar, coffee creamer, cocoa, orange zest, cinnamon and anise seed. Store in an airtight container, or separate into smaller jars for gift giving. 2. To prepare, mix 1/4 cup of the cocoa mix with 1 1/2 cups of hot milk or boiling water.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "10 mins",
-    "calories": "299",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/752703.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/246117/watermelon-lime-agua-fresca/",
@@ -2602,18 +2470,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4508609.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/67163/isas-cola-de-mono/",
-    "name": "Isa's Cola de Mono",
-    "rating": "4.461538461538462",
-    "ingredients": "20  whole cloves, 5  cinnamon sticks, 1 cup water, 1 gallon cold milk, ¼ cup instant coffee granules, 1 cup white sugar, 1 tablespoon vanilla extract  (Optional), 1 cup pisco, white rum, brandy, or other lightly-flavored liquor  (Optional)",
-    "directions": "1. Gently simmer the cloves and cinnamon sticks in water until reduced by half, about 30 minutes. Add 1 cup of milk, and heat to a simmer, then stir in and dissolve the coffee and sugar. 2. Strain the coffee mixture into the remaining cold milk, and discard the cloves and cinnamon sticks. Stir in the vanilla extract and pisco. Store in the refrigerator.",
-    "prep": "",
-    "cook": "45 mins",
-    "ready in": "45 mins",
-    "calories": "171",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1053744.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/244313/turmeric-ginger-c-boost-life-juice/",
     "name": "Turmeric Ginger C Boost Life Juice",
     "rating": "4.666666666666667",
@@ -2710,18 +2566,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3580501.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/229481/simple-syrup-with-truvia-natural-sweetener/",
-    "name": "Simple Syrup with Truvia® Natural Sweetener",
-    "rating": "4.5",
-    "ingredients": "3 ½ tablespoons Truvia® natural sweetener spoonable*, ½ cup warm water",
-    "directions": "1. Add Truvia® natural sweetener to 1/2 cup of warm water. 2. Shake or blend until dissolved completely. 3. Store refrigerated. For best results, use within a day of making.",
-    "prep": "",
-    "cook": "",
-    "ready in": "",
-    "calories": "",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/989567.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/92405/chocolate-caramel-latte-syrup/",
     "name": "Chocolate Caramel Latte Syrup",
     "rating": "4.4",
@@ -2768,18 +2612,6 @@
     "ready in": "1 hr 25 mins",
     "calories": "49",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/1938404.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/236192/tres-en-uno-three-in-one/",
-    "name": "Tres-en-Uno (Three-in-One)",
-    "rating": "5",
-    "ingredients": "3 cups orange juice, 2 cups carrot juice, 1 cup beet juice, 1 teaspoon white sugar, or to taste  (Optional)",
-    "directions": "1. Mix orange juice, carrot juice, beet juice, and sugar together in a pitcher.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "10 mins",
-    "calories": "104",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/384988.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/247303/very-berry-tea-smoothie/",
@@ -3010,18 +2842,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/3117034.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/274661/french-press-cold-brew/",
-    "name": "French Press Cold Brew",
-    "rating": "4.666666666666667",
-    "ingredients": "4 ounces coarsely ground coffee beans, 2 cups filtered water, at room temperature",
-    "directions": "1. Pour ground coffee into a French press and add water. Place plunger lid on top and press the plunger down 1 to 2 inches to make sure all coffee grounds are fully submerged; do not press all the way down. Let coffee steep at room temperature for 16 to 18 hours. 2. Strain coffee through a coffee filter in a small strainer. Transfer to an airtight bottle or jar and keep in the fridge for up to a week. 3. To serve, fill a glass with ice, and add equal parts of cold brew and water or milk.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "16 hrs 5 mins",
-    "calories": "11",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6842328.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/282669/whipped-hot-chocolate-coffee/",
     "name": "Whipped Hot Chocolate Coffee",
     "ingredients": "5 tablespoons heavy whipping cream, 1 (1 ounce) envelope instant hot cocoa mix (such as Swiss Miss®), ¾ cup hot coffee, 1 (1 gram) packet stevia powder",
@@ -3043,18 +2863,6 @@
     "ready in": "15 mins",
     "calories": "159",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/7810425.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/237763/pomegranate-grenadine/",
-    "name": "Pomegranate Grenadine",
-    "rating": "5",
-    "ingredients": "4 cups pomegranate juice, divided, 1 cup white sugar",
-    "directions": "1. Combine 3 cups pomegranate juice and sugar together in a saucepan; heat to 244 degrees F (118 degrees C) or until a small amount of mixture dropped into cold water forms a firm ball. Remove saucepan from heat and cover with a lid; let cool until pan is cool enough to touch. Stir remaining 1 cup pomegranate juice into mixture. Refrigerate.",
-    "prep": "5 mins",
-    "cook": "20 mins",
-    "ready in": "55 mins",
-    "calories": "44",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/1172032.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/262288/keto-breakfast-coffee/",
@@ -3381,18 +3189,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4503766.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/256446/celtic-coffee/",
-    "name": "Celtic Coffee",
-    "rating": "4",
-    "ingredients": "1  egg white, 1 teaspoon lemon juice, ½ teaspoon stevia powder, or to taste, ¼ teaspoon grated lemon zest, or to taste, 3 tablespoons coarsely ground coffee beans, 1 cup boiling water, 2 tablespoons Scotch whiskey, 2 teaspoons honey",
-    "directions": "1. Beat egg white in a bowl using an electric mixer until soft peaks form; mix in lemon juice, stevia powder, and lemon zest. 2. Spoon ground coffee into a French press; add boiling water and cover. Let steep for 3 to 5 minutes. 3. Combine Scotch and honey in a glass; pour in coffee and mix well. Top coffee with lemon-flavored egg white.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "13 mins",
-    "calories": "148",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4395762.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/236292/strawberry-guava-spritzer/",
     "name": "Strawberry Guava Spritzer",
     "rating": "4",
@@ -3415,18 +3211,6 @@
     "ready in": "6 hrs 15 mins",
     "calories": "370",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/4514000.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/272451/cold-brew-iced-coffee/",
-    "name": "Cold Brew Iced Coffee",
-    "rating": "4",
-    "ingredients": "10 tablespoons coarsely ground coffee beans, 32 fluid ounces cold water, ice cubes",
-    "directions": "1. Place the coffee grounds into the bottom of a 34-ounce or larger French press. 2. Pour cold water over coffee grounds. Stir with a wooden spoon or chopstick until incorporated, 10 to 15 seconds. 3. Place the French press in the refrigerator for 12 to 24 hours. 4. Press down on the French press to separate water from coffee grounds. Divide coffee among 2 glasses; top with ice.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "12 hrs 5 mins",
-    "calories": "15",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6587615.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/233677/strawberry-mint-chia-fresca/",
@@ -3524,18 +3308,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/8136060.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/256814/easy-starbucks-replicated-cold-brew-coffee/",
-    "name": "Easy Starbucks® Replicated Cold Brew Coffee",
-    "rating": "4",
-    "ingredients": "4 cups water, ½ cup dark roast ground coffee (such as Folgers®), 2 cups 2% milk, ¼ cup white sugar, 4 cups ice",
-    "directions": "1. Combine water and ground coffee in a French press; stir to ensure coffee is evenly mixed with water. Push the plunger halfway down slowly. Let coffee steep at room temperature for 20 to 24 hours. 2. Mix milk and sugar in a pitcher until sugar is dissolved. Push French press plunger all way the down; pour coffee over the cream. Divide coffee mixture among 4 glasses; top with ice.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "20 hrs 10 mins",
-    "calories": "115",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4464149.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/236479/coconut-maple-coffee/",
     "name": "Coconut Maple Coffee",
     "rating": "4",
@@ -3594,18 +3366,6 @@
     "ready in": "40 mins",
     "calories": "172",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/8432885.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/20508/zima-plus/",
-    "name": "Zima Plus",
-    "rating": "4.166666666666667",
-    "ingredients": "1 (12 fluid ounce) can or bottle clear malt liquor, 1 (1.5 fluid ounce) jigger blackberry brandy",
-    "directions": "1. Pour the malt liquor over ice in a tall glass. Stir in a shot of blackberry brandy.",
-    "prep": "1 min",
-    "cook": "",
-    "ready in": "1 min",
-    "calories": "358",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4556603.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/260025/iced-coffee-perfection/",
@@ -3704,18 +3464,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3591998.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/256816/cold-brewed-iced-coffee/",
-    "name": "Cold Brewed Iced Coffee",
-    "rating": "3.5",
-    "ingredients": "½ cup coarsely ground coffee beans, 4 cups water, divided, 1 cup white sugar, ice cubes",
-    "directions": "1. Place coffee beans in a French press or large measuring cup; pour in 2 cups water. Let coffee steep, 8 hours to overnight. 2. Combine remaining 2 cups water and sugar in a saucepan; bring to a boil. Simmer until sugar dissolves, 3 to 5 minutes. Pour syrup into a container and transfer to the refrigerator. 3. Strain coffee using the French press plunger or through a coffee filter in a fine-mesh strainer. Pour 1/2 cup coffee into a glass of ice; sweeten with simple syrup.",
-    "prep": "5 mins",
-    "cook": "8 mins",
-    "ready in": "8 hrs 13 mins",
-    "calories": "199",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4464113.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/238155/refreshing-tangy-cucumber-juice/",
     "name": "Refreshing Tangy Cucumber Juice",
     "rating": "3.5",
@@ -3762,18 +3510,6 @@
     "ready in": "5 mins",
     "calories": "341",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6427239.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/267361/chocolate-protein-muffins/",
-    "name": "Chocolate Protein Muffins",
-    "rating": "4.133333333333334",
-    "ingredients": "2 packets CARNATION BREAKFAST ESSENTIALS® Rich Milk Chocolate High Protein Powder Drink Mix, ¾ cup all-purpose flour, ½ teaspoon baking soda, ½ teaspoon baking powder, ¼ teaspoon salt, ½ cup applesauce, ½ cup plain low-fat Greek yogurt, ⅓ cup white sugar, 1  egg, ¾ teaspoon vanilla extract, ½ cup dark chocolate chips",
-    "directions": "1. Preheat the oven to 400 degrees F (200 degrees C). Line 9 muffin wells with cupcake liners or spray with nonstick spray. 2. Whisk powder drink mix, flour, baking soda, baking powder, and salt together in a medium bowl. 3. Whisk applesauce, yogurt, sugar, egg, and vanilla extract in a separate large bowl. Add the flour mixture; mix until just combined. Fold in chocolate chips. 4. Bake in the preheated oven for 7 minutes. Reduce heat to 350 degrees F (175 degrees C) and bake until muffins spring back when touched, an additional 10 to 12 minutes.",
-    "prep": "10 mins",
-    "cook": "20 mins",
-    "ready in": "30 mins",
-    "calories": "170",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F07%2F20%2Fchocolate-protein-muffins-2000.jpeg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/229720/iced-mocha-cola/",
@@ -3824,18 +3560,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/651404.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/220534/irish-cream/",
-    "name": "Irish Cream",
-    "rating": "3.8",
-    "ingredients": "3  eggs, 1 teaspoon instant coffee granules, 1 teaspoon chocolate syrup (such as Hershey's®), ¾ teaspoon almond extract, 1 (14 ounce) can sweetened condensed milk, 1 cup heavy whipping cream, 1 ½ cups whiskey",
-    "directions": "1. Blend eggs, coffee, chocolate syrup, and almond extract in a blender. 2. Pour sweetened condensed milk and whipping cream into the egg mixture; blend again. 3. Pour whiskey into the blender; blend until smooth. Chill overnight or 8 hours before using.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "8 hrs 5 mins",
-    "calories": "397",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3383992.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/257736/mojito-coffee/",
     "name": "Mojito Coffee",
     "rating": "2",
@@ -3870,18 +3594,6 @@
     "ready in": "15 mins",
     "calories": "288",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/1100379.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/71461/red-snapper-ii/",
-    "name": "Red Snapper II",
-    "rating": "4",
-    "ingredients": "1 ¼ fluid ounces whiskey, 1 fluid ounce amaretto liqueur, 1 fluid ounce cranberry juice, 1 cup ice cubes",
-    "directions": "1. Place the whiskey, amaretto, and cranberry juice into a shaker with ice. Shake, then strain into shot glasses.",
-    "prep": "",
-    "cook": "",
-    "ready in": "",
-    "calories": "108",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/93218.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/265875/iced-lemon-coffee/",
@@ -4303,39 +4015,6 @@
     "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3649908.jpg"
   },
   {
-    "url": "https://www.allrecipes.com/recipe/254678/pineapple-lavender-mint-spritzer-with-lavender-agave-simple-syrup/",
-    "name": "Pineapple Lavender Mint Spritzer (with Lavender Agave Simple Syrup)",
-    "ingredients": "1 ½ cups water, 1 ½ cups agave nectar, 1 ½ cups dried lavender blossoms, ¼ cup mint leaves, 2 ½ cups pineapple juice, ice cubes, 2 cups club soda, or to taste, 8 slices  lime, 8 sprigs mint",
-    "directions": "1. Bring water to a boil in a small saucepan. Reduce heat to low; whisk in agave nectar until dissolved. Remove from heat. 2. Stir lavender blossoms into the saucepan. Let syrup steep, about 15 minutes. Strain into a bowl through a strainer lined with cheesecloth. 3. Refrigerate syrup until chilled, at least 2 hours. 4. Pour 1 1/2 cup syrup into a glass measuring cup. Add mint leaves; mash gently with a cocktail muddler. Mix in pineapple juice. 5. Fill a pitcher with ice. Pour in pineapple juice mixture. Top off with club soda and stir. Serve garnished with a slice of lime and sprig of mint.",
-    "prep": "10 mins",
-    "cook": "5 mins",
-    "ready in": "2 hrs 30 mins",
-    "calories": "231",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1889266.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/259090/tiger-lily-punch/",
-    "name": "Tiger Lily Punch",
-    "ingredients": "2 (64 fluid ounce) bottles mandarin orange-mango juice (such as Welch's®), 8 (8.4 ounce) cans pineapple juice, 4 tablespoons orange-flavored drink mix (such as Tang®), 1 liter ginger ale",
-    "directions": "1. Mix orange-mango juice, pineapple juice, and orange drink mix in a large punch bowl. Top with ginger ale.",
-    "prep": "10 mins",
-    "cook": "",
-    "ready in": "10 mins",
-    "calories": "114",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/100x100/00/98/29/982985.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/256668/traditional-irish-coffee/",
-    "name": "Traditional Irish Coffee",
-    "ingredients": "1 cup So Delicious® Dairy Free French Vanilla Coconutmilk Creamer, 2 tablespoons So Delicious® Dairy Free Culinary Coconut Milk, ½ cup organic brown cane sugar, 1 tablespoon vegan chocolate chips, ¾ cup cold brew coffee (or drip coffee or espresso), 1 cup Traditional Irish Cream (above), ½ cup Irish whiskey, or to taste, 1 pinch Cocoa powder, 1 sprig Mint sprig, for garnish",
-    "directions": "1. Heat water in a double boiler to a low simmer. Add Coconutmilk Creamer, Culinary Coconutmilk and organic brown cane sugar to the double boiler bowl. Whisk occasionally until sugar is melted and mixture is very warm but not hot. 2. Drop in chocolate and whisk until fully incorporated. Remove bowl from double boiler and stir in coffee. Use immediately or refrigerate. 3. To make Vegan Irish Coffee, combine Vegan Irish Cream and whiskey in a jar and give it a shake. Pour 4 to 5 ounces into an ice filled glass (coffee cubes if you have them!). Dust with cocoa powder. 4. Smack a mint sprig to release its oil and lay on top of the drink.",
-    "prep": "",
-    "cook": "",
-    "ready in": "",
-    "calories": "303",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4450311.jpg"
-  },
-  {
     "url": "https://www.allrecipes.com/recipe/260241/honey-chai-tea-latte/",
     "name": "Honey Chai Tea Latte",
     "ingredients": "2 teaspoons whole fennel seeds, 8  green cardamom pods, 2  cinnamon sticks, broken into pieces, 10  black peppercorns, 10  whole cloves, 1  star anise pod, broken into pieces, ⅓ cup Aunt Sue’s® Raw & Unfiltered Honey, 6 cups water, 1 cup milk, 5  tea bags black tea",
@@ -4389,17 +4068,6 @@
     "ready in": "10 mins",
     "calories": "223",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/1108905.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/262047/roebucks-russian-tea/",
-    "name": "Roebuck's Russian Tea",
-    "ingredients": "1 gallon water, 3 cups white sugar, 16  whole cloves, 16  whole allspice berries, 4  tea bags, 1 (46 fluid ounce) can pineapple juice, 6  lemons, juiced, 4  oranges, juiced",
-    "directions": "1. Combine water, sugar, cloves, and allspice berries in a large pot and bring to a boil. Reduce heat to a simmer. Add tea bags; steep for 5 minutes and leave in the pot. Add pineapple juice, lemon juice, and orange juice. Simmer until heated through, about 15 minutes more. Remove tea bags and spices, if desired.",
-    "prep": "10 mins",
-    "cook": "30 mins",
-    "ready in": "40 mins",
-    "calories": "178",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3067631.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/260562/cranberry-rosemary-prosecco-float/",
@@ -4576,28 +4244,6 @@
     "ready in": "5 mins",
     "calories": "150",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/894274.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/247219/copycat-blackberry-sangria/",
-    "name": "Copycat Blackberry Sangria",
-    "ingredients": "1 (750 milliliter) bottle Cabernet Sauvignon, 13 fluid ounces blackberry brandy, 1 (12 fluid ounce) can frozen concentrated peach mango juice (such as Dole®), 1 cup pineapple juice, 1 cup water, ice cubes",
-    "directions": "1. Mix Cabernet Sauvignon, blackberry brandy, peach mango juice, pineapple juice, and water in a large pitcher to make sangria. Serve over ice.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "381",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6710361.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/272449/cold-brewed-tea/",
-    "name": "Cold-Brewed Tea",
-    "ingredients": "4  tea bags, cut open, 4 cups filtered water, at room temperature",
-    "directions": "1. Pour tea leaves into a French press carafe with the plunger up. Pour water on top. Cover and store on the counter or the fridge for 8 to 12 hours. 2. Push the carafe plunger down before pouring the tea into the bottle. Store in the refrigerator.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "8 hrs 5 mins",
-    "calories": "",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4564646.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/270193/karak-chai/",
@@ -4917,17 +4563,6 @@
     "ready in": "5 mins",
     "calories": "243",
     "imageUrl": "https://images.media-allrecipes.com/userphotos/3534553.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/281755/kilbeggan-irish-coffee/",
-    "name": "Kilbeggan® Irish Coffee",
-    "ingredients": "1 part Kilbeggan® Single Grain Irish Whiskey, 2 parts medium to dark roast coffee, 1 teaspoon brown sugar, Whipped Cream, for garnish",
-    "directions": "1. Combine all ingredients in a heat-proof mug, stirring to dissolve sugar. 2. Top with whipped cream.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8640576.jpg"
   },
   {
     "url": "https://www.allrecipes.com/recipe/273737/skinny-white-chocolate-peanut-butter-latte/",
