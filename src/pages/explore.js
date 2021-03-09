@@ -26,7 +26,7 @@ const SearchInputContainer = styled.div`
   display: flex;
 
   input,
-  .search {
+  .search-icon {
     border: 1px solid #7b4c2a;
     padding: 4px;
   }
@@ -44,11 +44,11 @@ const SearchInputContainer = styled.div`
     outline: none;
   }
 
-  .search {
+  .search-icon {
     height: 32px;
+    fill: #7b4c2a;
     background-color: white;
     border-right: none;
-    fill: #7b4c2a;
     border-radius: 8px 0 0 8px;
   }
 `
@@ -151,7 +151,7 @@ const Explore = ({
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
           <SearchInputContainer>
-            <SearchIcon className="search" />
+            <SearchIcon className="search-icon" />
             <input
               onChange={({ target: { value } }) => setSearchQuery(value)}
               value={searchQuery}
@@ -164,7 +164,7 @@ const Explore = ({
             <StyledButton
               padding="12px"
               margin="0 4px 8px 8px"
-              color="#957a58"
+              color="#af8e69"
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(-1.6)}
               onMouseLeave={stopScrolling}
@@ -175,7 +175,7 @@ const Explore = ({
             <StyledButton
               padding="12px"
               margin="0 8px 8px 4px"
-              color="#957a58"
+              color="#af8e69"
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(1.6)}
               onMouseLeave={stopScrolling}

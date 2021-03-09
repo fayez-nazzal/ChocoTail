@@ -1,5 +1,5 @@
 import * as React from "react"
-import CoffeeIcon from "../images/coffeeIcon.svg"
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import PropTypes from "prop-types"
@@ -11,50 +11,42 @@ const Container = styled.div`
 `
 
 const Nav = styled.nav`
-  position: ${(props) => props.homePage? "absolute":"sticky"};
-  height: 56px;
+  position: ${props => (props.homePage ? "absolute" : "sticky")};
+  height: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   top: 0;
   left: 0;
   right: 0;
-  background-color: ${(props) => props.homePageScrolled || !props.homePage? "rgba(147, 119, 85, 0.98)":"transparent"};
+  background-color: ${props =>
+    props.homePageScrolled || !props.homePage
+      ? "rgba(175,142,105,0.98)"
+      : "transparent"};
   transition: background-color ease-in 0.15s;
-  `
+`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: black;
   margin: ${props => (props.main ? "auto auto auto 8px" : "auto 16px")};
-  font-size: 28px;
+  font-size: 25px;
 
   @media only screen and (max-width: 768px) {
-    display: ${(props) => props.smShow? "inline-block":"none"};
+    display: ${props => (props.smShow ? "inline-block" : "none")};
   }
 `
 
-const Title = styled.span`
-  display: inline-block;
-  font-weight: "bolder";
-`
-
-const StyledCoffe = styled(CoffeeIcon)`
-  height: 32px;
-`
-
-const ChocoColor = styled.span`
-  color: #915821;
-`
-
-const Navbar = (props) => (
+const Navbar = props => (
   <Container>
-    <Nav homePageScrolled={props.homePageScrolled} homePage={props.homePage} >
+    <Nav homePageScrolled={props.homePageScrolled} homePage={props.homePage}>
       <StyledLink to="/" main smShow>
-        <StyledCoffe />{" "}
-        <Title>
-          <ChocoColor>Choco</ChocoColor>Tail
-        </Title>
+        <StaticImage
+          src="../images/logo.png"
+          quality={100}
+          placeholder="none"
+          alt="logo"
+        />
       </StyledLink>
       <StyledLink to="/explore">Explore</StyledLink>
       <StyledLink to="/suggest">Suggest</StyledLink>
@@ -64,7 +56,7 @@ const Navbar = (props) => (
 )
 
 Navbar.propTypes = {
-  homePageScrolled: PropTypes.bool
+  homePageScrolled: PropTypes.bool,
 }
 
 export default Navbar

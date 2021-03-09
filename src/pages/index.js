@@ -18,7 +18,7 @@ const Container = styled.div`
     }
   }
 
-  .choco-bubble {
+  .choco-bubbles {
     width: 100vw;
     height: 420px;
     z-index: -2;
@@ -28,7 +28,6 @@ const Container = styled.div`
     position: absolute;
     top: 4vh;
     right: 24vw;
-    width: 36vh;
     z-index: -1;
 
     @media only screen and (max-width: 768px) {
@@ -136,13 +135,13 @@ const IndexPage = ({ data }) => {
       <Container scrolled={scrolled}>
         <StaticImage
           quality={100}
-          src="../images/choco-bubble.png"
+          src="../images/choco-bubbles.jpg"
           alt="background"
           placeholder="blurred"
-          className="choco-bubble"
+          className="choco-bubbles"
         />
         <StaticImage
-          quality={100}
+          quality={90}
           src="../images/mug.png"
           alt="mug"
           placeholder="none"

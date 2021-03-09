@@ -30,7 +30,7 @@ module.exports = {
         background_color: `#845333`,
         theme_color: `#845333`,
         display: `minimal-ui`,
-        icon: `src/images/coffeeIcon.svg`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`,
       },
     },
     {
@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/index/`]
-      }
+        precachePages: [`/index/`],
+      },
     },
   ],
 }

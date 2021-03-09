@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Flex from "./flex"
 import CustomButton from "./customButton"
+import makeAnimated from "react-select/animated"
 
 const Grid = styled.div`
   display: grid;
@@ -85,7 +86,7 @@ const DrinksGrid = props => {
       <Flex justifyContent="center">
         {[...Array(Math.ceil(filteredDrinks.length / 20)).keys()].map(num => (
           <CustomButton
-            color={num === currentPage ? "#a0a4a8" : "#957a58"}
+            color={num === currentPage ? "#a0a4a8" : "#af8e69"}
             hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
             margin="8px 4px"
             padding="8px"

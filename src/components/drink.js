@@ -2,11 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import LinkIcon from "../images/link.svg"
-import Star1 from "../images/rating/star1.svg"
-import Star2 from "../images/rating/star2.svg"
-import Star3 from "../images/rating/star3.svg"
-import Star4 from "../images/rating/star4.svg"
-import Star5 from "../images/rating/star5.svg"
+import StarFill from "../images/star-fill.svg"
 
 const Container = styled.span`
   position: relative;
@@ -14,13 +10,6 @@ const Container = styled.span`
   width: ${props => (props.size === "md" ? "194px" : "auto")};
   height: ${props => (props.size === "md" ? "174px" : "auto")};
   margin-top: 6px;
-
-  .star {
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    width: ${props => (props.bigStar ? "48px" : "32px")};
-  }
 
   @media only screen and (max-width: 768px) {
     width: ${props => (props.size === "md" ? "240px" : "auto")};
@@ -68,24 +57,32 @@ const Img = styled.img`
     border-radius: 12px;
 `
 
-const getStar = rating =>
-  rating === 5 ? (
-    <Star5 className="star" />
-  ) : rating === 4 ? (
-    <Star4 className="star" />
-  ) : rating === 3 ? (
-    <Star3 className="star" />
-  ) : rating === 2 ? (
-    <Star2 className="star" />
-  ) : rating === 1 ? (
-    <Star1 className="star" />
-  ) : null
+const RatingContainer = styled.div`
+  display: flex;
+  background-color: #c0c0c092;
+  position: absolute;
+  border-radius: 12px;
+  padding: 4px;
+  top: 4px;
+  right: 2px;
+  font-size: 16px;
+  line-height: 16px;
+
+  .star {
+    margin-left: 2px;
+    fill: #fdcc0d;
+    height: 14px;
+  }
+`
 
 const Drink = props => {
   return (
     <Container {...props}>
       <Img src={props.imageUrl} alt={props.name} />
-      {getStar(parseInt(props.rating))}
+      <RatingContainer>
+        {parseInt(props.rating ? props.rating : 0)}
+        <StarFill className="star" />
+      </RatingContainer>
       <Info bigFont={props.bigFont}>
         <h3>
           {props.name.replace(
