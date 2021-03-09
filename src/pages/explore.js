@@ -9,7 +9,7 @@ import Flex from "../components/flex"
 import TagsFlex from "../components/tagsFlex"
 import StyledButton from "../components/customButton"
 
-const { ValueContainer, Placeholder } = components
+const { ValueContainer } = components
 
 const Container = styled.div`
   display: grid;
@@ -81,6 +81,11 @@ const StyledSelect = styled(Select)`
 
   .filter-select__control:hover {
     border-color: #7b4c2a !important;
+  }
+
+  .filter-select__option--is-focused,
+  .filter-select__option:hover {
+    background-color: #cbaa8560;
   }
 `
 

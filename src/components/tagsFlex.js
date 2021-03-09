@@ -1,6 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import styled from "styled-components"
 import Flex from "./flex"
 import sample from "lodash.sample"
 import CustomButton from "./customButton"
@@ -46,6 +45,7 @@ const TagsFlex = (props, ref) => {
           fontSize="18px"
           margin="0 4px 8px 4px"
           color={randomColor()}
+          animateOnClick
         >
           {tag}
         </CustomButton>
