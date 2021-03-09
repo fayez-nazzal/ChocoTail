@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Flex from "./flex"
 import CustomButton from "./customButton"
-import makeAnimated from "react-select/animated"
 
 const Grid = styled.div`
   display: grid;
