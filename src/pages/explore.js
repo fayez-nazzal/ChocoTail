@@ -109,6 +109,12 @@ const CustomValueContainer = ({ children, ...props }) => {
   )
 }
 
+const selectCommonProps = {
+  components: { ValueContainer: CustomValueContainer },
+  placeholder: "",
+  classNamePrefix: "filter-select",
+}
+
 const Explore = ({
   data: {
     allDataJson: {
@@ -122,17 +128,18 @@ const Explore = ({
   const [calories, setCalories] = useState("")
   const [sortBy, setSortBy] = useState("")
   const [exclude, setExclude] = useState("")
-  const [excludeOptionsState, setExcludeOptionsState] = useState({})
-  const onTagClicked = useCallback(tag => {
-    setSearchQuery(tag)
-  }, [])
+  const [excludeOptionsState, setExcludeOptionsState] = useState(excludeOptions)
 
   useEffect(() => {
     scrollX(4)
-    setExcludeOptionsState(excludeOptions)
+
     return () => {
       stopScrolling()
     }
+  }, [])
+
+  const onTagClicked = useCallback(tag => {
+    setSearchQuery(tag)
   }, [])
 
   const scrollX = x => {
@@ -151,6 +158,18 @@ const Explore = ({
     clearInterval(scrollInterval.current)
   }
 
+  const handleExcludeSelectChange = (str, { action }) => {
+    if (action === "input-change") {
+      const filteredOptions = [...excludeOptions].filter(opt => !opt.recent)
+      filteredOptions.push({
+        value: str,
+        label: str,
+        recent: true,
+      })
+      setExcludeOptionsState(filteredOptions)
+    }
+  }
+
   return (
     <Layout>
       <Container>
@@ -167,8 +186,8 @@ const Explore = ({
           </CustomDiv>
           <Flex>
             <StyledButton
-              padding="12px"
               margin="0 4px 8px 8px"
+              padding="12px"
               color="#af8e69"
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(-1.6)}
@@ -178,8 +197,8 @@ const Explore = ({
             </StyledButton>
             <TagsFlex ref={tagsRef} onTagClicked={onTagClicked} />
             <StyledButton
-              padding="12px"
               margin="0 8px 8px 4px"
+              padding="12px"
               color="#af8e69"
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(1.6)}
@@ -190,46 +209,28 @@ const Explore = ({
           </Flex>
         </CustomDiv>
         <CustomDiv
-          fontSize="18px"
           gridArea="f"
           backgroundColor="#dbdbdb88"
           padding="8px"
+          fontSize="18px"
         >
           <StyledSelect
+            {...selectCommonProps}
             innerProps={{ placeholder: "Calories" }}
-            components={{ ValueContainer: CustomValueContainer }}
-            placeholder=""
             options={calorieOptions}
-            classNamePrefix="filter-select"
             onChange={kcal => setCalories(kcal.value)}
           />
           <StyledSelect
+            {...selectCommonProps}
             innerProps={{ placeholder: "Sort by" }}
-            components={{ ValueContainer: CustomValueContainer }}
-            placeholder=""
             options={sortOptions}
-            classNamePrefix="filter-select"
             onChange={sortBy => setSortBy(sortBy.value)}
           />
           <StyledSelect
+            {...selectCommonProps}
             innerProps={{ placeholder: "Exclude" }}
-            components={{ ValueContainer: CustomValueContainer }}
-            placeholder=""
             options={excludeOptionsState}
-            classNamePrefix="filter-select"
-            onInputChange={(str, { action }) => {
-              if (action === "input-change") {
-                const filteredOptions = [...excludeOptions].filter(
-                  opt => !opt.recent
-                )
-                filteredOptions.push({
-                  value: str,
-                  label: str,
-                  recent: true,
-                })
-                setExcludeOptionsState(filteredOptions)
-              }
-            }}
+            onInputChange={handleExcludeSelectChange}
             onChange={exc => setExclude(exc.value)}
           />
         </CustomDiv>

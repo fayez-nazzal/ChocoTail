@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Drink from "./drink"
 import shuffle from "lodash.shuffle"
-import { useStaticQuery, graphql } from "gatsby"
+import useFilteredDrinks from "../hooks/useFilteredDrinks"
 import styled from "styled-components"
 import Flex from "./flex"
 import CustomButton from "./customButton"
@@ -24,71 +24,41 @@ const getCompareMap = (a, b) => ({
 })
 
 const DrinksGrid = props => {
-  const {
-    allDrinkDataJson: { nodes: drinks },
-  } = useStaticQuery(graphql`
-    {
-      allDrinkDataJson {
-        nodes {
-          id
-          name
-          ingredients
-          directions
-          url
-          imageUrl
-          prep
-          rating
-          calories
-        }
-      }
-    }
-  `)
+  const caloriesLimits = props.calories && {
+    from: parseInt(props.calories.split("-")[0]),
+    to: parseInt(props.calories.split("-")[1]),
+  }
 
-  const caloriesFrom = parseInt(props.calories.split("-")[0])
-  const caloriesTo = parseInt(props.calories.split("-")[1])
+  const drinks = shuffle(
+    useFilteredDrinks(caloriesLimits, props.searchQuery, props.exclude)
+  )
 
   const [currentPage, setCurrentPage] = useState(0)
-  const filteredDrinks = shuffle(
-    drinks.filter(
-      drink =>
-        (!props.calories ||
-          (parseInt(drink.calories) >= caloriesFrom &&
-            parseInt(drink.calories) <= caloriesTo)) &&
-        (!props.exclude ||
-          !(
-            drink.name.toLowerCase().includes(props.exclude) ||
-            drink.ingredients.toLowerCase().includes(props.exclude)
-          )) &&
-        (drink.name.toLowerCase().includes(props.searchQuery.toLowerCase()) ||
-          drink.ingredients
-            .toLowerCase()
-            .includes(props.searchQuery.toLowerCase()))
+
+  const viewDrinks = drinks
+    .sort((a, b) =>
+      a.name.toLowerCase().includes(props.searchQuery.toLowerCase()) &&
+      !b.name.toLowerCase().includes(props.searchQuery.toLowerCase())
+        ? -1
+        : 0
     )
-  )
+    .slice(currentPage * 20, currentPage * 20 + 20)
+    .sort((a, b) => getCompareMap(a, b)[props.sortBy])
 
   return (
     <>
       <Grid>
-        {filteredDrinks
-          .sort((a, b) =>
-            a.name.toLowerCase().includes(props.searchQuery.toLowerCase()) &&
-            !b.name.toLowerCase().includes(props.searchQuery.toLowerCase())
-              ? -1
-              : 0
-          )
-          .slice(currentPage * 20, currentPage * 20 + 20)
-          .sort((a, b) => getCompareMap(a, b)[props.sortBy])
-          .map(drink => (
-            <Drink key={drink.id} size="md" {...drink} />
-          ))}
+        {viewDrinks.map(drink => (
+          <Drink key={drink.id} size="md" {...drink} />
+        ))}
       </Grid>
       <Flex justifyContent="center">
-        {[...Array(Math.ceil(filteredDrinks.length / 20)).keys()].map(num => (
+        {[...Array(Math.ceil(drinks.length / 20)).keys()].map(num => (
           <CustomButton
-            color={num === currentPage ? "#a0a4a8" : "#af8e69"}
-            hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
             margin="8px 4px"
             padding="8px"
+            color={num === currentPage ? "#a0a4a8" : "#af8e69"}
+            hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
             onClick={() => setCurrentPage(num)}
           >
             {num + 1}

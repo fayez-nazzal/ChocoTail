@@ -43,9 +43,9 @@ const Navbar = props => (
       <StyledLink to="/" main smShow>
         <StaticImage
           src="../images/logo.png"
-          quality={100}
-          placeholder="none"
           alt="logo"
+          placeholder="none"
+          quality={100}
         />
       </StyledLink>
       <StyledLink to="/explore">Explore</StyledLink>

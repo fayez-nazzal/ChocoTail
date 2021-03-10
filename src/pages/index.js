@@ -130,22 +130,24 @@ const IndexPage = ({ data }) => {
     setScrolled(!scrolled)
   }
 
+  const isSmallScreen = window.matchMedia("(max-width: 768px)").matches
+
   return (
     <Layout homePageScrolled={scrolled} homePage>
       <Container scrolled={scrolled}>
         <StaticImage
-          quality={100}
           src="../images/choco-bubbles.jpg"
           alt="background"
-          placeholder="blurred"
           className="choco-bubbles"
+          quality={100}
+          placeholder="blurred"
         />
         <StaticImage
-          quality={90}
           src="../images/mug.png"
           alt="mug"
-          placeholder="none"
           className="mug"
+          quality={90}
+          placeholder="none"
         />
         <div className="info">
           <StyledPTitle>Keep Calm and prepare your mug</StyledPTitle>
@@ -160,9 +162,9 @@ const IndexPage = ({ data }) => {
               drink.directions.includes("[top1]")
             )}
             auto
-            maxChar={32}
             bigFont
             bigStar
+            maxChar={32}
             className="top1"
           />
           <Drink
@@ -170,9 +172,9 @@ const IndexPage = ({ data }) => {
               drink.directions.includes("[top2]")
             )}
             auto
+            bigFont={isSmallScreen}
+            bigStar={isSmallScreen}
             maxChar={20}
-            bigFont={window.matchMedia("(max-width: 768px)").matches}
-            bigStar={window.matchMedia("(max-width: 768px)").matches}
             className="top2"
           />
           <Drink

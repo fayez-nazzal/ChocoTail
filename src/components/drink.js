@@ -76,6 +76,11 @@ const RatingContainer = styled.div`
 `
 
 const Drink = props => {
+  const truncatedName = props.name.replace(
+    new RegExp(`(.${props.maxChar ? `{${props.maxChar}}` : `{16}`})..+`),
+    "$1…"
+  )
+
   return (
     <Container {...props}>
       <Img src={props.imageUrl} alt={props.name} />
@@ -84,14 +89,7 @@ const Drink = props => {
         <StarFill className="star" />
       </RatingContainer>
       <Info bigFont={props.bigFont}>
-        <h3>
-          {props.name.replace(
-            new RegExp(
-              `(.${props.maxChar ? `{${props.maxChar}}` : `{16}`})..+`
-            ),
-            "$1…"
-          )}
-        </h3>
+        <h3>{truncatedName}</h3>
         <span>{props.calories + "kcal"}</span>
         <span>{props.prep}</span>
         <a href={props.url}>
