@@ -12,6 +12,7 @@ const StyledButton = styled.button`
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  user-select: none;
 
   &:focus {
     outline: none;

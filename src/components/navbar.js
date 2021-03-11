@@ -24,6 +24,7 @@ const Nav = styled.nav`
       ? "rgba(175,142,105,0.98)"
       : "transparent"};
   transition: background-color ease-in 0.15s;
+  user-select: none;
 `
 
 const StyledLink = styled(Link)`

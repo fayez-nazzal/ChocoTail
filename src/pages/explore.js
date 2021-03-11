@@ -76,6 +76,7 @@ const DrinksContainer = styled.div`
 
 const StyledSelect = styled(Select)`
   margin-top: 8px;
+  user-select: none;
 
   .filter-select__control {
     border-color: #7b4c2a !important;
