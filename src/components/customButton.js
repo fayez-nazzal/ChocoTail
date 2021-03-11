@@ -32,7 +32,7 @@ const StyledButton = styled.button`
 const CustomButton = props => {
   const [animate, setAnimate] = useState(false)
 
-  const handleClick = () => {
+  const handleClick = e => {
     if (props.animateOnClick) {
       setAnimate(true)
       setTimeout(() => {
@@ -40,6 +40,7 @@ const CustomButton = props => {
       }, 800)
     }
     props.onClick()
+    e.preventDefault()
   }
 
   return (

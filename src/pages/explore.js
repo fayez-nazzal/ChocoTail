@@ -8,6 +8,7 @@ import Select, { components } from "react-select"
 import Flex from "../components/flex"
 import TagsFlex from "../components/tagsFlex"
 import StyledButton from "../components/customButton"
+import CustomButton from "../components/customButton"
 
 const { ValueContainer } = components
 
@@ -22,7 +23,7 @@ const Container = styled.div`
   grid-gap: 16px;
 `
 
-const SearchInputContainer = styled.div`
+const SearchInputContainer = styled.form`
   display: flex;
 
   input,
@@ -34,10 +35,11 @@ const SearchInputContainer = styled.div`
   input {
     height: 32px;
     width: 100%;
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
     border-left: none;
     border-radius: 0 8px 8px 0 !important;
+    font-weight: 300;
   }
 
   input:focus {
@@ -50,6 +52,11 @@ const SearchInputContainer = styled.div`
     background-color: white;
     border-right: none;
     border-radius: 8px 0 0 8px;
+  }
+
+  .search-icon:hover {
+    fill: black;
+    background-color: rgb(123, 76, 42, 0.1);
   }
 `
 
@@ -124,6 +131,7 @@ const Explore = ({
 }) => {
   const tagsRef = useRef(null)
   const scrollInterval = useRef(null)
+  const [searchInput, setSearchInput] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
   const [calories, setCalories] = useState("")
   const [sortBy, setSortBy] = useState("")
@@ -139,6 +147,7 @@ const Explore = ({
   }, [])
 
   const onTagClicked = useCallback(tag => {
+    setSearchInput(tag)
     setSearchQuery(tag)
   }, [])
 
@@ -170,15 +179,28 @@ const Explore = ({
     }
   }
 
+  const handleSubmit = () => {
+    setSearchQuery(searchInput)
+  }
+
   return (
     <Layout>
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
-          <SearchInputContainer>
-            <SearchIcon className="search-icon" />
+          <SearchInputContainer onSubmit={handleSubmit}>
+            <label>
+              <CustomButton
+                type="submit"
+                onClick={handleSubmit}
+                margin="0"
+                padding="0"
+              >
+                <SearchIcon className="search-icon" />
+              </CustomButton>
+            </label>
             <input
-              onChange={({ target: { value } }) => setSearchQuery(value)}
-              value={searchQuery}
+              onChange={({ target: { value } }) => setSearchInput(value)}
+              value={searchInput}
             />
           </SearchInputContainer>
           <CustomDiv margin="20px 16px 8px 8px" fontSize="20px">
