@@ -73,6 +73,7 @@ const DrinksGrid = props => {
           <CustomButton
             margin="8px 4px"
             padding="8px"
+            borderRadius="4px"
             color={num === currentPage ? "#a0a4a8" : "#af8e69"}
             hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
             onClick={() => setCurrentPage(num)}

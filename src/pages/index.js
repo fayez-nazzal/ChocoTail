@@ -5,6 +5,8 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import Drink from "../components/drink"
+import CustomButton from "../components/customButton"
+
 const shuffle = require("lodash.shuffle")
 
 const Container = styled.div`
@@ -22,6 +24,7 @@ const Container = styled.div`
     width: 100vw;
     height: 420px;
     z-index: -2;
+    user-select: none;
   }
 
   .mug {
@@ -29,7 +32,7 @@ const Container = styled.div`
     top: 4vh;
     right: 24vw;
     z-index: -1;
-
+    user-select: none;
     @media only screen and (max-width: 768px) {
       display: none;
     }
@@ -43,23 +46,6 @@ const Container = styled.div`
 const StyledPTitle = styled.h1`
   font-size: 48px;
   width: 420px;
-`
-
-const StyledButton = styled.button`
-  border: none;
-  border-radius: 50px;
-  padding: 8px 32px;
-  background-color: #f5d4a2;
-  margin-left: 8%;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #7a4c2a;
-  }
-
-  &:focus {
-    outline: none;
-  }
 `
 
 const StyledP = styled.p`
@@ -152,9 +138,16 @@ const IndexPage = ({ data }) => {
         <div className="info">
           <StyledPTitle>Keep Calm and prepare your mug</StyledPTitle>
           <StyledP>Explore a vast list of drinks</StyledP>
-          <StyledButton onClick={handleExploreClicked}>
+          <CustomButton
+            borderRadius="30px"
+            padding="8px 32px"
+            color="#f5d4a2"
+            hoverColor="#7a4c2a"
+            margin="20px 0 0 20px"
+            onClick={handleExploreClicked}
+          >
             Explore Now
-          </StyledButton>
+          </CustomButton>
         </div>
         <Grid>
           <Drink

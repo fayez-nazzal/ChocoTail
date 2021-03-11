@@ -189,16 +189,14 @@ const Explore = ({
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
           <SearchInputContainer onSubmit={handleSubmit}>
-            <label>
-              <CustomButton
-                type="submit"
-                onClick={handleSubmit}
-                margin="0"
-                padding="0"
-              >
-                <SearchIcon className="search-icon" />
-              </CustomButton>
-            </label>
+            <CustomButton
+              type="submit"
+              onClick={handleSubmit}
+              margin="0"
+              padding="0"
+            >
+              <SearchIcon className="search-icon" />
+            </CustomButton>
             <input
               onChange={({ target: { value } }) => setSearchInput(value)}
               value={searchInput}

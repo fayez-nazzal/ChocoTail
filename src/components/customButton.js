@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   font-size: ${props => props.fontSize};
   background-color: ${props => props.color};
   border: none;
-  border-radius: 2px;
+  border-radius: ${props => props.borderRadius};
   cursor: pointer;
   user-select: none;
 

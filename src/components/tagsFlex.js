@@ -41,9 +41,10 @@ const TagsFlex = (props, ref) => {
         <CustomButton
           key={tag}
           onClick={() => props.onTagClicked(tag)}
-          padding="8px"
+          padding="6px"
           fontSize="18px"
           margin="0 4px 8px 4px"
+          borderRadius="0"
           color={randomColor()}
           animateOnClick
         >
