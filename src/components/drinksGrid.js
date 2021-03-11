@@ -14,6 +14,15 @@ const Grid = styled.div`
   grid-gap: 8px;
 `
 
+const NoDrinks = styled.div`
+  margin-top: 32px;
+  grid-column: 1 / 4;
+  grid-row: 1 / 6;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+`
+
 const getCompareMap = (a, b) => ({
   "star-asc": a.rating - b.rating,
   "star-desc": b.rating - a.rating,
@@ -48,9 +57,16 @@ const DrinksGrid = props => {
   return (
     <>
       <Grid>
-        {viewDrinks.map(drink => (
-          <Drink key={drink.id} size="md" {...drink} />
-        ))}
+        {viewDrinks.length ? (
+          viewDrinks.map(drink => <Drink key={drink.id} size="md" {...drink} />)
+        ) : (
+          <NoDrinks>
+            No drinks to display{" "}
+            <span role="img" aria-label="slightly-sad">
+              🙁
+            </span>
+          </NoDrinks>
+        )}
       </Grid>
       <Flex justifyContent="center">
         {[...Array(Math.ceil(drinks.length / 20)).keys()].map(num => (
