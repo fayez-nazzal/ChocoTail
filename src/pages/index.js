@@ -291,49 +291,16 @@ const IndexPage = ({ data }) => {
           </CustomButton>
         </InfoContainer>
         <ShowGrid>
-          <Drink
-            {...data.allDrinkDataJson.nodes.find(drink =>
-              drink.directions.includes("[top1]")
-            )}
-            auto
-            bigFont
-            className="top1"
-          />
-          <Drink
-            {...data.allDrinkDataJson.nodes.find(drink =>
-              drink.directions.includes("[top2]")
-            )}
-            auto
-            className="top2"
-          />
-          <Drink
-            {...data.allDrinkDataJson.nodes.find(drink =>
-              drink.directions.includes("[top3]")
-            )}
-            auto
-            className="top3"
-          />
-          <Drink
-            {...data.allDrinkDataJson.nodes.find(drink =>
-              drink.directions.includes("[top4]")
-            )}
-            auto
-            className="top4"
-          />
-          <Drink
-            {...data.allDrinkDataJson.nodes.find(drink =>
-              drink.directions.includes("[top5]")
-            )}
-            auto
-            className="top5"
-          />
-          <Drink
-            {...data.allDrinkDataJson.nodes.find(drink =>
-              drink.directions.includes("[top6]")
-            )}
-            auto
-            className="top6"
-          />
+          {[...Array(6).keys()].map(index => (
+            <Drink
+              {...data.allDrinkDataJson.nodes.find(drink =>
+                drink.directions.includes(`top${index + 1}`)
+              )}
+              auto
+              bigFont={index === 0}
+              className={`top${index + 1}`}
+            />
+          ))}
         </ShowGrid>
         <MostRatedDiv>
           <h2>Most Rated</h2>
