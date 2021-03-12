@@ -9,6 +9,7 @@ import Flex from "../components/flex"
 import TagsFlex from "../components/tagsFlex"
 import StyledButton from "../components/customButton"
 import CustomButton from "../components/customButton"
+import useMedia from "../hooks/useMedia"
 
 const { ValueContainer } = components
 
@@ -19,6 +20,16 @@ const Container = styled.div`
   grid-template-areas:
     ". se se se se se se f f f ."
     ". d  d  d  d  d  d  d d d .";
+
+  // extra small screen devices
+  @media only screen and (max-width: 600px) {
+    grid-template-rows: minmax(150px, 160px) minmax(150px, 160px) auto;
+
+    grid-template-areas:
+      ". se se se se se se se se se ."
+      ". f  f  f  f  f  f  f  f  f ."
+      ". d  d  d  d  d  d  d d d .";
+  }
   margin-top: 16px;
   grid-gap: 16px;
 `
@@ -104,7 +115,6 @@ const StyledValueContainer = styled(ValueContainer)`
 `
 
 const CustomValueContainer = ({ children, ...props }) => {
-  console.log(props)
   return (
     <>
       <CustomDiv color="grey" fontSize="16px" margin="0 0 0 8px">
@@ -132,6 +142,7 @@ const Explore = ({
 }) => {
   const tagsRef = useRef(null)
   const scrollInterval = useRef(null)
+  const viewportMedia = useMedia()
   const [searchInput, setSearchInput] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
   const [calories, setCalories] = useState("")
@@ -158,10 +169,16 @@ const Explore = ({
       behaviour: "smooth",
     })
   }
-  const keepScrolling = x => {
-    scrollInterval.current = setInterval(() => {
-      scrollX(x)
-    }, 1)
+
+  const keepScrolling = (x, isTouch) => {
+    if (
+      viewportMedia &&
+      (isTouch || (!viewportMedia.sm && !viewportMedia.xs))
+    ) {
+      scrollInterval.current = setInterval(() => {
+        scrollX(x)
+      }, 1)
+    }
   }
 
   const stopScrolling = () => {
@@ -213,6 +230,8 @@ const Explore = ({
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(-1.6)}
               onMouseLeave={stopScrolling}
+              onTouchStart={(() => keepScrolling(-2), true)}
+              onTouchEnd={stopScrolling}
             >
               {"<"}
             </StyledButton>
@@ -224,6 +243,8 @@ const Explore = ({
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(1.6)}
               onMouseLeave={stopScrolling}
+              onTouchStart={() => keepScrolling(2, true)}
+              onTouchEnd={stopScrolling}
             >
               {">"}
             </StyledButton>

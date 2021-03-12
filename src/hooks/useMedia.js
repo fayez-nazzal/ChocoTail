@@ -9,7 +9,7 @@ const queries = {
   xxlg: "(min-width: 2304px)",
 }
 
-const useMediaBreakpoint = () => {
+const useMedia = () => {
   const [queryMatches, setQueryMatches] = useState(null)
 
   useEffect(() => {
@@ -67,4 +67,4 @@ const useMediaBreakpoint = () => {
   return queryMatches
 }
 
-export default useMediaBreakpoint
+export default useMedia

@@ -40,7 +40,7 @@ const CustomButton = props => {
         setAnimate(false)
       }, 800)
     }
-    props.onClick()
+    props.onClick && props.onClick()
     e.preventDefault()
   }
 

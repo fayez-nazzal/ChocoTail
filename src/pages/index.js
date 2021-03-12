@@ -1,12 +1,12 @@
 import * as React from "react"
-import { useState, useEffect, useRef } from "react"
+import { useState, useLayoutEffect, useEffect, useRef } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import Drink from "../components/drink"
 import CustomButton from "../components/customButton"
-import useMediaBreakpoint from "../hooks/useMediaBreakpoint"
+import useMedia from "../hooks/useMedia"
 
 const shuffle = require("lodash.shuffle")
 
@@ -216,7 +216,7 @@ const MostRatedGrid = styled.div`
 
 const IndexPage = ({ data }) => {
   const [scrolled, setScrolled] = useState(false)
-  const viewportMedia = useMediaBreakpoint()
+  const viewportMedia = useMedia()
   const lastScrollY = useRef(window.scrollY)
   const mostRatedDrinks = useRef(
     shuffle(data.allDrinkDataJson.nodes.filter(({ rating }) => rating === "5"))
@@ -229,7 +229,7 @@ const IndexPage = ({ data }) => {
     return () => window.removeEventListener("scroll", onWheelMove)
   }, [])
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (viewportMedia) {
       const newMostRatedDrinksCount =
         viewportMedia.xs || viewportMedia.sm

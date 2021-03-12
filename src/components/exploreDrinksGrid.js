@@ -1,10 +1,11 @@
-import React, { useState } from "react"
+import React, { useState, useLayoutEffect } from "react"
 import Drink from "./drink"
 import shuffle from "lodash.shuffle"
 import useFilteredDrinks from "../hooks/useFilteredDrinks"
 import styled from "styled-components"
 import Flex from "./flex"
 import CustomButton from "./customButton"
+import useMedia from "../hooks/useMedia"
 
 const Grid = styled.div`
   display: grid;
@@ -12,6 +13,22 @@ const Grid = styled.div`
   grid-template-rows: repeat(5, 174px);
   margin-bottom: 8px;
   grid-gap: 8px;
+
+  // for iMac Retina, MacBook, MacBook Pro
+  @media only screen and (min-width: 2000px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  // for HIDPI and up desktop & laptop screens
+  @media only screen and (min-width: 1920px) {
+    grid-template-rows: repeat(5, minmax(200px, 240px));
+  }
+
+  // extra small screen devices
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, minmax(150px, 160px));
+  }
 `
 
 const NoDrinks = styled.div`
@@ -33,6 +50,8 @@ const getCompareMap = (a, b) => ({
 })
 
 const DrinksGrid = props => {
+  const viewportMedia = useMedia()
+  const [countPerPage, setCountPerPage] = useState(20)
   const caloriesLimits = props.calories && {
     from: parseInt(props.calories.split("-")[0]),
     to: parseInt(props.calories.split("-")[1]),
@@ -44,6 +63,14 @@ const DrinksGrid = props => {
 
   const [currentPage, setCurrentPage] = useState(0)
 
+  useLayoutEffect(() => {
+    if (viewportMedia) {
+      setCountPerPage(
+        viewportMedia.xxlg ? 30 : viewportMedia.xs || viewportMedia.sm ? 16 : 20
+      )
+    }
+  }, [viewportMedia])
+
   const viewDrinks = drinks
     .sort((a, b) =>
       a.name.toLowerCase().includes(props.searchQuery.toLowerCase()) &&
@@ -51,14 +78,17 @@ const DrinksGrid = props => {
         ? -1
         : 0
     )
-    .slice(currentPage * 20, currentPage * 20 + 20)
+    .slice(
+      currentPage * countPerPage,
+      currentPage * countPerPage + countPerPage
+    )
     .sort((a, b) => getCompareMap(a, b)[props.sortBy])
 
   return (
     <>
       <Grid>
         {viewDrinks.length ? (
-          viewDrinks.map(drink => <Drink key={drink.id} size="md" {...drink} />)
+          viewDrinks.map(drink => <Drink key={drink.id} {...drink} />)
         ) : (
           <NoDrinks>
             No drinks to display{" "}
@@ -68,8 +98,8 @@ const DrinksGrid = props => {
           </NoDrinks>
         )}
       </Grid>
-      <Flex justifyContent="center">
-        {[...Array(Math.ceil(drinks.length / 20)).keys()].map(num => (
+      <Flex wrap justifyContent="center">
+        {[...Array(Math.ceil(drinks.length / countPerPage)).keys()].map(num => (
           <CustomButton
             margin="8px 4px"
             padding="8px"
