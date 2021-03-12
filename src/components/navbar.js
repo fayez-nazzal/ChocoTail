@@ -14,6 +14,7 @@ const Nav = styled.nav`
   position: ${props => (props.homePage ? "absolute" : "sticky")};
   height: 50px;
   display: flex;
+  padding-right: 8px;
   justify-content: flex-end;
   align-items: center;
   top: 0;

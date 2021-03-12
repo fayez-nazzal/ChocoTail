@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useRef, useLayoutEffect } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import LinkIcon from "../images/link.svg"
@@ -10,11 +10,6 @@ const Container = styled.span`
   width: ${props => (props.size === "md" ? "194px" : "auto")};
   height: ${props => (props.size === "md" ? "174px" : "auto")};
   margin-top: 6px;
-
-  @media only screen and (max-width: 768px) {
-    width: ${props => (props.size === "md" ? "240px" : "auto")};
-    height: ${props => (props.size === "md" ? "200px" : "auto")};
-  }
 `
 
 const Info = styled.div`
@@ -26,11 +21,16 @@ const Info = styled.div`
   right: 0;
   background-color: #c0c0c092;
   border-radius: 0 0 12px 12px;
+  max-width: 100%;
 
   & > h3 {
     font-size: ${props => (props.bigFont ? "24px" : "18px")};
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
     margin: 0;
-    grid-column: 1 / 5;
   }
 
   & > span {
@@ -76,11 +76,6 @@ const RatingContainer = styled.div`
 `
 
 const Drink = props => {
-  const truncatedName = props.name.replace(
-    new RegExp(`(.${props.maxChar ? `{${props.maxChar}}` : `{16}`})..+`),
-    "$1…"
-  )
-
   return (
     <Container {...props}>
       <Img src={props.imageUrl} alt={props.name} />
@@ -89,7 +84,7 @@ const Drink = props => {
         <StarFill className="star" />
       </RatingContainer>
       <Info bigFont={props.bigFont}>
-        <h3>{truncatedName}</h3>
+        <h3>{props.name}</h3>
         <span>{props.calories + "kcal"}</span>
         <span>{props.prep}</span>
         <a href={props.url}>
@@ -107,7 +102,6 @@ Drink.propTypes = {
   url: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
   size: PropTypes.string.isRequired,
-  maxChar: PropTypes.string,
   bigFont: PropTypes.bool,
   bigStar: PropTypes.bool,
   className: PropTypes.string,
