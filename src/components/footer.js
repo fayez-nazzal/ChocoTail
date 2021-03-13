@@ -4,6 +4,8 @@ import styled from "styled-components"
 
 const StyledFooter = styled.footer`
   background-color: #937755;
+  max-width: 100%;
+  box-sizing: border-box;
   margin-top: 8px;
   padding: 10px 2px;
   display: flex;

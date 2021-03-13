@@ -1,4 +1,18 @@
 {
+  "navItems": [
+    {
+      "name": "Explore",
+      "to": "/explore"
+    },
+    {
+      "name": "Suggest",
+      "to": "/suggest"
+    },
+    {
+      "name": "About",
+      "to": "/about"
+    }
+  ],
   "tags": [
     "ice",
     "tea",

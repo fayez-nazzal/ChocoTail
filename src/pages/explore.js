@@ -3,12 +3,13 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SearchIcon from "../images/search.svg"
-import DrinksGrid from "../components/drinksGrid"
+import DrinksGrid from "../components/exploreDrinksGrid"
 import Select, { components } from "react-select"
 import Flex from "../components/flex"
 import TagsFlex from "../components/tagsFlex"
 import StyledButton from "../components/customButton"
 import CustomButton from "../components/customButton"
+import useMedia from "../hooks/useMedia"
 
 const { ValueContainer } = components
 
@@ -19,6 +20,16 @@ const Container = styled.div`
   grid-template-areas:
     ". se se se se se se f f f ."
     ". d  d  d  d  d  d  d d d .";
+
+  // extra small screen devices
+  @media only screen and (max-width: 600px) {
+    grid-template-rows: minmax(150px, 160px) minmax(150px, 160px) auto;
+
+    grid-template-areas:
+      ". se se se se se se se se se ."
+      ". f  f  f  f  f  f  f  f  f ."
+      ". d  d  d  d  d  d  d d d .";
+  }
   margin-top: 16px;
   grid-gap: 16px;
 `
@@ -104,7 +115,6 @@ const StyledValueContainer = styled(ValueContainer)`
 `
 
 const CustomValueContainer = ({ children, ...props }) => {
-  console.log(props)
   return (
     <>
       <CustomDiv color="grey" fontSize="16px" margin="0 0 0 8px">
@@ -123,22 +133,21 @@ const selectCommonProps = {
   classNamePrefix: "filter-select",
 }
 
-const Explore = ({
-  data: {
-    allDataJson: {
-      nodes: [{ excludeOptions, calorieOptions, sortOptions }],
-    },
-  },
-}) => {
+const Explore = props => {
   const tagsRef = useRef(null)
   const scrollInterval = useRef(null)
+  const viewportMedia = useMedia()
   const [searchInput, setSearchInput] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
   const [calories, setCalories] = useState("")
   const [sortBy, setSortBy] = useState("")
   const [exclude, setExclude] = useState("")
   const [excludeOptionsState, setExcludeOptionsState] = useState(excludeOptions)
-
+  const {
+    allDataJson: {
+      nodes: [{ excludeOptions, calorieOptions, sortOptions }],
+    },
+  } = props.data
   useEffect(() => {
     scrollX(4)
 
@@ -158,10 +167,16 @@ const Explore = ({
       behaviour: "smooth",
     })
   }
-  const keepScrolling = x => {
-    scrollInterval.current = setInterval(() => {
-      scrollX(x)
-    }, 1)
+
+  const keepScrolling = (x, isTouch) => {
+    if (
+      viewportMedia &&
+      (isTouch || (!viewportMedia.sm && !viewportMedia.xs))
+    ) {
+      scrollInterval.current = setInterval(() => {
+        scrollX(x)
+      }, 1)
+    }
   }
 
   const stopScrolling = () => {
@@ -185,7 +200,7 @@ const Explore = ({
   }
 
   return (
-    <Layout>
+    <Layout location={props.location}>
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
           <SearchInputContainer onSubmit={handleSubmit}>
@@ -213,6 +228,8 @@ const Explore = ({
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(-1.6)}
               onMouseLeave={stopScrolling}
+              onTouchStart={(() => keepScrolling(-2), true)}
+              onTouchEnd={stopScrolling}
             >
               {"<"}
             </StyledButton>
@@ -224,6 +241,8 @@ const Explore = ({
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(1.6)}
               onMouseLeave={stopScrolling}
+              onTouchStart={() => keepScrolling(2, true)}
+              onTouchEnd={stopScrolling}
             >
               {">"}
             </StyledButton>
