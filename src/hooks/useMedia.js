@@ -62,7 +62,7 @@ const useMedia = () => {
     }
 
     return () => {}
-  }, [queries])
+  }, [])
 
   return queryMatches
 }

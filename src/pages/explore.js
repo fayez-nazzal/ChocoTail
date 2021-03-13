@@ -134,6 +134,12 @@ const selectCommonProps = {
 }
 
 const Explore = props => {
+  const {
+    allDataJson: {
+      nodes: [{ excludeOptions, calorieOptions, sortOptions }],
+    },
+  } = props.data
+
   const tagsRef = useRef(null)
   const scrollInterval = useRef(null)
   const viewportMedia = useMedia()
@@ -143,11 +149,7 @@ const Explore = props => {
   const [sortBy, setSortBy] = useState("")
   const [exclude, setExclude] = useState("")
   const [excludeOptionsState, setExcludeOptionsState] = useState(excludeOptions)
-  const {
-    allDataJson: {
-      nodes: [{ excludeOptions, calorieOptions, sortOptions }],
-    },
-  } = props.data
+
   useEffect(() => {
     scrollX(4)
 

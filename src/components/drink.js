@@ -1,4 +1,4 @@
-import React, { useState, useRef, useLayoutEffect } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import LinkIcon from "../images/link.svg"
