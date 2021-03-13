@@ -1,18 +1,13 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
-import * as React from "react"
+import React, { useState, useEffect } from "react"
 import { createGlobalStyle } from "styled-components"
 import PropTypes from "prop-types"
 import Footer from "./footer"
 import Navbar from "./navbar"
+import OverlayNav from "./overlayNav"
 import "fontsource-nunito"
 import "fontsource-nunito/400.css"
 import "fontsource-nunito/300.css"
+import disableScroll from "disable-scroll"
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -24,16 +19,34 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: ${props => (props.scrollDisabled ? "hidden" : "auto")};
   }
 `
 
-const Layout = ({ children, homePageScrolled, homePage }) => {
+const Layout = props => {
+  const [overlayOpened, setOverlayOpened] = useState(false)
+
+  useEffect(() => {
+    disableScroll.off()
+  }, [])
+
+  const toggleOverlay = () => {
+    !overlayOpened && disableScroll.on()
+    overlayOpened && disableScroll.off()
+    setOverlayOpened(!overlayOpened)
+  }
+
   return (
     <>
-      <GlobalStyle />
-      <Navbar homePageScrolled={homePageScrolled} homePage={homePage} />
-      <main>{children}</main>
+      <GlobalStyle scrollDisabled={overlayOpened} />
+      <Navbar
+        homePageScrolled={props.homePageScrolled}
+        homePage={props.location.pathname === "/"}
+        handleSideButtonClick={toggleOverlay}
+        overlayOpened={overlayOpened}
+      />
+      <OverlayNav page={props.location.pathname} opened={overlayOpened} />
+      <main>{props.children}</main>
       <Footer />
     </>
   )

@@ -133,13 +133,7 @@ const selectCommonProps = {
   classNamePrefix: "filter-select",
 }
 
-const Explore = ({
-  data: {
-    allDataJson: {
-      nodes: [{ excludeOptions, calorieOptions, sortOptions }],
-    },
-  },
-}) => {
+const Explore = props => {
   const tagsRef = useRef(null)
   const scrollInterval = useRef(null)
   const viewportMedia = useMedia()
@@ -149,7 +143,11 @@ const Explore = ({
   const [sortBy, setSortBy] = useState("")
   const [exclude, setExclude] = useState("")
   const [excludeOptionsState, setExcludeOptionsState] = useState(excludeOptions)
-
+  const {
+    allDataJson: {
+      nodes: [{ excludeOptions, calorieOptions, sortOptions }],
+    },
+  } = props.data
   useEffect(() => {
     scrollX(4)
 
@@ -202,7 +200,7 @@ const Explore = ({
   }
 
   return (
-    <Layout>
+    <Layout location={props.location}>
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
           <SearchInputContainer onSubmit={handleSubmit}>

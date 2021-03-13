@@ -24,7 +24,7 @@ const Container = styled.div`
     }
 
     @media only screen and (max-width: 768px) {
-      height: 360px;
+      height: 390px;
     }
   }
 
@@ -214,12 +214,14 @@ const MostRatedGrid = styled.div`
   }
 `
 
-const IndexPage = ({ data }) => {
+const IndexPage = props => {
   const [scrolled, setScrolled] = useState(false)
   const viewportMedia = useMedia()
   const lastScrollY = useRef(window.scrollY)
   const mostRatedDrinks = useRef(
-    shuffle(data.allDrinkDataJson.nodes.filter(({ rating }) => rating === "5"))
+    shuffle(
+      props.data.allDrinkDataJson.nodes.filter(({ rating }) => rating === "5")
+    )
   )
   const [mostRatedDrinksCount, setMostRatedDrinksCount] = useState(5)
 
@@ -259,7 +261,7 @@ const IndexPage = ({ data }) => {
   }
 
   return (
-    <Layout homePageScrolled={scrolled} homePage>
+    <Layout homePageScrolled={scrolled} location={props.location}>
       <Container scrolled={scrolled}>
         <StaticImage
           src="../images/choco-bubbles.jpg"
@@ -293,7 +295,7 @@ const IndexPage = ({ data }) => {
         <ShowGrid>
           {[...Array(6).keys()].map(index => (
             <Drink
-              {...data.allDrinkDataJson.nodes.find(drink =>
+              {...props.data.allDrinkDataJson.nodes.find(drink =>
                 drink.directions.includes(`top${index + 1}`)
               )}
               auto
