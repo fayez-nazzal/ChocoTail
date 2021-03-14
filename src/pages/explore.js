@@ -200,6 +200,7 @@ const Explore = props => {
 
   const handleSubmit = () => {
     setSearchQuery(searchInput)
+
     if (searchInputRef.current) searchInputRef.current.blur()
   }
 

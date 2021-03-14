@@ -8,11 +8,12 @@ const StyledButton = styled.button`
   margin: ${props => props.margin};
   padding: ${props => props.padding};
   font-size: ${props => props.fontSize};
-  background-color: ${props => props.color};
+  background-color: ${props => (props.color ? props.color : "transparent")};
   border: none;
-  border-radius: ${props => props.borderRadius};
+  border-radius: ${props => (props.borderRadius ? props.borderRadius : "none")};
   cursor: pointer;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 
   &:focus {
     outline: none;

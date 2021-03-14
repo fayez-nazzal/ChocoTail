@@ -54,12 +54,12 @@
     { "value": "", "label": "all" }
   ],
   "sortOptions": [
-    { "value": "kcal-asc", "label": "calories 🠕" },
-    { "value": "prep-asc", "label": "prep time 🠕" },
-    { "value": "star-desc", "label": "rating 🠗" },
-    { "value": "kcal-desc", "label": "calories 🠗" },
-    { "value": "prep-desc", "label": "prep time 🠗" },
-    { "value": "star-asc", "label": "rating 🠕" },
+    { "value": "kcal-asc", "label": "calories \u2193" },
+    { "value": "prep-asc", "label": "prep time \u2193" },
+    { "value": "star-desc", "label": "rating \u2191" },
+    { "value": "kcal-desc", "label": "calories \u2191" },
+    { "value": "prep-desc", "label": "prep time \u2191" },
+    { "value": "star-asc", "label": "rating \u2193" },
     { "value": "", "label": "none" }
   ],
   "excludeOptions": [

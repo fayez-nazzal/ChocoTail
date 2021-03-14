@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import styled, { keyframes } from "styled-components"
-import PropTypes from "prop-types"
 import { bounceIn } from "react-animations"
 
 const bounceInAnimation = keyframes`${bounceIn}`
@@ -17,8 +16,8 @@ const Nav = styled.nav`
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  background-color: rgba(175, 142, 105, 0.94);
-  box-shadow: inset 0 0 160px 15px #212121;
+  background-color: rgba(175, 142, 105, 0.96);
+  box-shadow: inset 0 0 180px 24px #212121;
   opacity: ${props => (props.opened ? "1" : "0")};
   transition: opacity 0.26s ease-in;
   user-select: none;
@@ -76,10 +75,6 @@ const Navbar = props => {
       <SpacerDiv />
     </Nav>
   )
-}
-
-Navbar.propTypes = {
-  homePageScrolled: PropTypes.bool,
 }
 
 export default Navbar

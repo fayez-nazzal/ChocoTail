@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-import PropTypes from "prop-types"
 import SideButtonIcon from "../images/menu.svg"
 import { getScrollPercent } from "../helpers/helpers"
 
@@ -111,10 +110,6 @@ const Navbar = props => {
       </Nav>
     </Container>
   )
-}
-
-Navbar.propTypes = {
-  homePage: PropTypes.bool,
 }
 
 export default Navbar

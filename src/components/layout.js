@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { createGlobalStyle } from "styled-components"
-import PropTypes from "prop-types"
 import Footer from "./footer"
 import Navbar from "./navbar"
 import OverlayNav from "./overlayNav"
@@ -8,6 +7,7 @@ import "fontsource-nunito"
 import "fontsource-nunito/400.css"
 import "fontsource-nunito/300.css"
 import disableScroll from "disable-scroll"
+import { Helmet } from "react-helmet"
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -39,8 +39,11 @@ const Layout = props => {
   return (
     <>
       <GlobalStyle scrollDisabled={overlayOpened} />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>ChocoTail</title>
+      </Helmet>
       <Navbar
-        homePageScrolled={props.homePageScrolled}
         homePage={props.location.pathname === "/"}
         handleSideButtonClick={toggleOverlay}
         overlayOpened={overlayOpened}
@@ -50,11 +53,6 @@ const Layout = props => {
       <Footer />
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  homePageScrolled: PropTypes.bool,
 }
 
 export default Layout

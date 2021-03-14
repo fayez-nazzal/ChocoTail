@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from "react"
+import React, { useState, useEffect, useLayoutEffect } from "react"
 import Drink from "./drink"
 import shuffle from "lodash.shuffle"
 import useFilteredDrinks from "../hooks/useFilteredDrinks"
@@ -62,6 +62,10 @@ const DrinksGrid = props => {
   )
 
   const [currentPage, setCurrentPage] = useState(0)
+
+  useEffect(() => {
+    setCurrentPage(0)
+  }, [props.searchQuery])
 
   useLayoutEffect(() => {
     if (viewportMedia) {

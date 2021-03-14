@@ -117,6 +117,12 @@ const MostRatedDiv = styled.div`
   margin: 8px;
   wax-width: 100%;
   box-sizing: border-box;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
   h2 {
     margin-bottom: 4px;
@@ -161,9 +167,7 @@ const MostRatedGrid = styled.div`
 `
 
 const IndexPage = props => {
-  const [scrolled, setScrolled] = useState(false)
   const viewportMedia = useMedia()
-  const lastScrollY = useRef(window.scrollY)
   const mostRatedDrinks = useRef(
     shuffle(
       props.data.allDrinkDataJson.nodes.filter(({ rating }) => rating === "5")
@@ -172,12 +176,6 @@ const IndexPage = props => {
   const [mostRatedDrinksCount, setMostRatedDrinksCount] = useState(5)
   const [headlineText, setHeadlineText] = useState("")
   const [activeImages, setActiveImages] = useState([1])
-
-  useEffect(() => {
-    window.addEventListener("scroll", onWheelMove)
-
-    return () => window.removeEventListener("scroll", onWheelMove)
-  }, [])
 
   useLayoutEffect(() => {
     if (viewportMedia) {
@@ -195,36 +193,27 @@ const IndexPage = props => {
     }
   }, [viewportMedia])
 
-  const onWheelMove = () => {
-    const isDown = lastScrollY.current < window.scrollY
-    const topOfPage = window.scrollY < 100
-
-    if (!isDown && !topOfPage) return
-
-    setScrolled(isDown)
-  }
-
   useEffect(() => {
-    setTimeout(() => {
-      setHeadlineText("Begin your Good Morning.")
+    if (activeImages.length === 1) {
       setTimeout(() => {
-        setHeadlineText("Cold, hot, whatever you prefer.")
-        setActiveImages([...activeImages, 2])
+        setHeadlineText("Begin your Good Morning.")
         setTimeout(() => {
-          setHeadlineText("Smooth out your day, every day.")
-          setActiveImages([...activeImages, 3])
-        }, 8000)
-      }, 6000)
-    }, 300)
-  }, [])
+          setHeadlineText("Cold, hot, whatever you prefer.")
+          setActiveImages([...activeImages, 2])
+          setTimeout(() => {
+            setHeadlineText("Smooth out your day, every day.")
+            setActiveImages([...activeImages, 3])
+          }, 8000)
+        }, 6000)
+      }, 300)
+    }
+  }, [activeImages])
 
-  const handleExploreClicked = () => {
-    setScrolled(!scrolled)
-  }
+  const handleExploreClicked = () => {}
 
   return (
-    <Layout homePageScrolled={scrolled} location={props.location}>
-      <Container scrolled={scrolled}>
+    <Layout location={props.location}>
+      <Container>
         <ImagesWrapper>
           <StaticImage
             src="../images/tea.jpg"
