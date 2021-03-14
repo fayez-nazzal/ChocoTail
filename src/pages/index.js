@@ -5,94 +5,40 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import Drink from "../components/drink"
-import CustomButton from "../components/customButton"
 import useMedia from "../hooks/useMedia"
-
+import InfoContainer from "../components/infoContainer"
 const shuffle = require("lodash.shuffle")
 
 const Container = styled.div`
   wax-width: 100%;
-
-  .choco-bubbles {
-    height: 400px;
-    min-width: 100%;
-    z-index: -2;
-    user-select: none;
-
-    @media only screen and (min-width: 1920px) {
-      height: 440px;
-    }
-
-    @media only screen and (max-width: 768px) {
-      height: 390px;
-    }
-  }
-
-  .mug {
-    position: absolute;
-    top: 26px;
-    right: 116px;
-    z-index: -1;
-    user-select: none;
-
-    @media only screen and (min-width: 1920px) {
-      top: 48px;
-      right: 180px;
-    }
-
-    @media only screen and (max-width: 760px) {
-      display: none;
-    }
-  }
 `
 
-const InfoContainer = styled.div`
-  position: absolute;
-  top: 80px;
-  left: 24px;
+const ImagesWrapper = styled.div`
+  position: relative;
+  height: 500px;
+  min-width: 100%;
+  z-index: -2;
+  user-select: none;
 
-  h1 {
-    font-size: 48px;
-    width: 420px;
-  }
-
-  p {
-    margin: 4px 0;
-    font-size: 24px;
-  }
-
-  // for HIDPI desktops & laptops and up
   @media only screen and (min-width: 1920px) {
-    left: 60px;
-
-    h1 {
-      width: 500px;
-      font-size: 56px;
-    }
-
-    p {
-      font-size: 36px;
-    }
+    height: 600px;
   }
 
-  // for devices like Galaxy Note 5
-  @media only screen and (min-width: 400px) and (max-width: 600px) {
-    h1 {
-      width: 360px;
-      font-size: 40px;
-    }
-    p {
-      font-size: 28px;
-    }
+  @media only screen and (max-width: 768px) {
+    height: 390px;
   }
 
-  // extra small screen devices
-  @media only screen and (max-width: 400px) {
-    left: 8px;
-    h1 {
-      width: 280px;
-      font-size: 34px;
-    }
+  .headline-image {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.6s;
+  }
+
+  .headline-image-active {
+    opacity: 1;
   }
 `
 
@@ -224,6 +170,8 @@ const IndexPage = props => {
     )
   )
   const [mostRatedDrinksCount, setMostRatedDrinksCount] = useState(5)
+  const [headlineText, setHeadlineText] = useState("")
+  const [activeImages, setActiveImages] = useState([1])
 
   useEffect(() => {
     window.addEventListener("scroll", onWheelMove)
@@ -256,6 +204,20 @@ const IndexPage = props => {
     setScrolled(isDown)
   }
 
+  const onFirstImageLoad = () => {
+    setTimeout(() => {
+      setHeadlineText("Smooth out your day, every day.")
+      setTimeout(() => {
+        setHeadlineText("Cold, hot, whatever you prefer.")
+        setActiveImages([...activeImages, 2])
+        setTimeout(() => {
+          setHeadlineText("Begin your Good Morning.")
+          setActiveImages([...activeImages, 3])
+        }, 8000)
+      }, 6000)
+    }, 100)
+  }
+
   const handleExploreClicked = () => {
     setScrolled(!scrolled)
   }
@@ -263,35 +225,38 @@ const IndexPage = props => {
   return (
     <Layout homePageScrolled={scrolled} location={props.location}>
       <Container scrolled={scrolled}>
-        <StaticImage
-          src="../images/choco-bubbles.jpg"
-          alt="background"
-          className="choco-bubbles"
-          quality={90}
-          placeholder="blurred"
+        <ImagesWrapper>
+          <StaticImage
+            src="../images/coffee.jpg"
+            className={`headline-image headline-image-active`}
+            alt="background"
+            quality={90}
+            placeholder="blurred"
+            onLoad={onFirstImageLoad}
+          />
+          <StaticImage
+            src="../images/healthyDrinks.jpeg"
+            className={`headline-image ${
+              activeImages.includes(2) && "headline-image-active"
+            }`}
+            alt="background"
+            quality={90}
+            placeholder="blurred"
+          />
+          <StaticImage
+            src="../images/tea.jpg"
+            className={`headline-image ${
+              activeImages.includes(3) && "headline-image-active"
+            }`}
+            alt="background"
+            quality={90}
+            placeholder="blurred"
+          />
+        </ImagesWrapper>
+        <InfoContainer
+          headlineText={headlineText}
+          handleExploreClicked={handleExploreClicked}
         />
-        <StaticImage
-          src="../images/mug.png"
-          alt="mug"
-          className="mug"
-          quality={90}
-          placeholder="none"
-        />
-        <InfoContainer>
-          <h1>Keep Calm and prepare your mug</h1>
-          <p>Explore a vast list of drinks</p>
-          <CustomButton
-            borderRadius="30px"
-            padding="12px 32px"
-            fojntSize="20px"
-            color="#f5d4a2"
-            hoverColor="#7a4c2a"
-            margin="16px 0 0 20px"
-            onClick={handleExploreClicked}
-          >
-            Explore Now
-          </CustomButton>
-        </InfoContainer>
         <ShowGrid>
           {[...Array(6).keys()].map(index => (
             <Drink
