@@ -10,14 +10,15 @@ const Nav = styled.nav`
   position: fixed;
   z-index: 1;
   height: 100%;
-  top: 50px;
+  top: 0;
   left: 0;
   right: 0;
   display: ${props => (props.opened ? "flex" : "none")};
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  background-image: linear-gradient(to top, #332a23 0%, #75573f 100%);
+  background-color: rgba(175, 142, 105, 0.94);
+  box-shadow: inset 0 0 160px 15px #212121;
   opacity: ${props => (props.opened ? "1" : "0")};
   transition: opacity 0.26s ease-in;
   user-select: none;
@@ -30,7 +31,7 @@ const StyledLink = styled(Link)`
   margin: 16px auto;
   padding: 8px 16px;
   background-color: ${props =>
-    props.samePage ? "rgb(247, 241, 235, 0.6)" : "rgb(175, 142, 105, 0.4)"};
+    props.samePage ? "rgb(247, 241, 235, 0.4)" : "rgb(117, 87, 63, 0.4)"};
 
   &:active {
     background-color: rgb(247, 241, 235, 0.6) !important;

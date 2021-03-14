@@ -1,14 +1,24 @@
-import * as React from "react"
+import React, { useEffect, useState } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 import SideButtonIcon from "../images/menu.svg"
+import { getScrollPercent } from "../helpers/helpers"
 
 const Container = styled.div`
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
+`
+
+const ColorBackground = styled.div`
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(175, 142, 105, 0.98);
+  top: ${props => (props.homePage ? `${-50 * (1 - props.offset / 100)}px` : 0)};
+  left: 0;
 `
 
 const Nav = styled.nav`
@@ -21,16 +31,8 @@ const Nav = styled.nav`
   top: 0;
   left: 0;
   right: 0;
-  background-color: ${props =>
-    props.homePageScrolled || !props.homePage
-      ? "rgba(175,142,105,0.98)"
-      : "transparent"};
   transition: background-color ease-in 0.15s;
   user-select: none;
-
-  @media only screen and (max-width: 600px) {
-    background-color: rgb(175, 142, 105);
-  }
 `
 
 const StyledLink = styled(Link)`
@@ -74,10 +76,22 @@ const Navbar = props => {
       }
     }
   `)
+  const [offset, setOffset] = useState(0)
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll)
+
+    return () => window.removeEventListener("scroll", onScroll)
+  }, [])
+
+  const onScroll = () => {
+    setOffset(getScrollPercent())
+  }
 
   return (
     <Container>
-      <Nav homePageScrolled={props.homePageScrolled} homePage={props.homePage}>
+      <ColorBackground offset={offset} homePage={props.homePage} />
+      <Nav homePage={props.homePage}>
         <StyledLink to="/" main smShow>
           <StaticImage
             src="../images/logo.png"
@@ -100,7 +114,7 @@ const Navbar = props => {
 }
 
 Navbar.propTypes = {
-  homePageScrolled: PropTypes.bool,
+  homePage: PropTypes.bool,
 }
 
 export default Navbar

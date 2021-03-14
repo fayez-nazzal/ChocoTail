@@ -142,6 +142,7 @@ const Explore = props => {
 
   const tagsRef = useRef(null)
   const scrollInterval = useRef(null)
+  const searchInputRef = useRef(null)
   const viewportMedia = useMedia()
   const [searchInput, setSearchInput] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
@@ -199,6 +200,7 @@ const Explore = props => {
 
   const handleSubmit = () => {
     setSearchQuery(searchInput)
+    if (searchInputRef.current) searchInputRef.current.blur()
   }
 
   return (
@@ -215,6 +217,7 @@ const Explore = props => {
               <SearchIcon className="search-icon" />
             </CustomButton>
             <input
+              ref={searchInputRef}
               onChange={({ target: { value } }) => setSearchInput(value)}
               value={searchInput}
             />

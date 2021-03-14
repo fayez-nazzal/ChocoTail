@@ -23,7 +23,7 @@ const Container = styled.div`
   position: absolute;
   top: 80px;
   left: 32px;
-  background-color: rgba(230, 230, 230, 0.8);
+  background-color: rgba(230, 230, 230, 0.6);
   padding: 8px 32px;
   border-radius: 28px;
   animation: ${scaleXAnimation} 1.4s;
@@ -50,7 +50,6 @@ const Container = styled.div`
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-color: rgba(230, 230, 230, 0.5);
   }
 `
 

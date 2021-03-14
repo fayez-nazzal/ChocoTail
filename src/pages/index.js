@@ -204,19 +204,19 @@ const IndexPage = props => {
     setScrolled(isDown)
   }
 
-  const onFirstImageLoad = () => {
+  useEffect(() => {
     setTimeout(() => {
-      setHeadlineText("Smooth out your day, every day.")
+      setHeadlineText("Begin your Good Morning.")
       setTimeout(() => {
         setHeadlineText("Cold, hot, whatever you prefer.")
         setActiveImages([...activeImages, 2])
         setTimeout(() => {
-          setHeadlineText("Begin your Good Morning.")
+          setHeadlineText("Smooth out your day, every day.")
           setActiveImages([...activeImages, 3])
         }, 8000)
       }, 6000)
-    }, 100)
-  }
+    }, 300)
+  }, [])
 
   const handleExploreClicked = () => {
     setScrolled(!scrolled)
@@ -227,13 +227,13 @@ const IndexPage = props => {
       <Container scrolled={scrolled}>
         <ImagesWrapper>
           <StaticImage
-            src="../images/coffee.jpg"
+            src="../images/tea.jpg"
             className={`headline-image headline-image-active`}
             alt="background"
             quality={90}
             placeholder="blurred"
-            onLoad={onFirstImageLoad}
           />
+
           <StaticImage
             src="../images/healthyDrinks.jpeg"
             className={`headline-image ${
@@ -244,7 +244,7 @@ const IndexPage = props => {
             placeholder="blurred"
           />
           <StaticImage
-            src="../images/tea.jpg"
+            src="../images/coffee.jpg"
             className={`headline-image ${
               activeImages.includes(3) && "headline-image-active"
             }`}
