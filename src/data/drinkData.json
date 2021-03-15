@@ -9,7 +9,7 @@
     "cook": "15 mins",
     "ready in": "3 hrs 20 mins",
     "calories": "73",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/21/63/216335.jpg"
+    "summary": "Southern sweet tea, perfect for hot summer days! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/222172/polynesian-watermelon-drink-otai/",
@@ -21,19 +21,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "199",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/22/86/1228621.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/233177/spicy-tomato-drink/",
-    "name": "Spicy Tomato Drink",
-    "rating": "3.3333333333333335",
-    "ingredients": "1 (46 fluid ounce) can tomato juice, ½ cup cider vinegar, ⅓ cup white sugar, 3 tablespoons prepared horseradish, 2 tablespoons Worcestershire sauce, 2 tablespoons adobo seasoning, 1 tablespoon onion powder",
-    "directions": "1. Combine tomato juice, vinegar, sugar, horseradish, Worcestershire sauce, adobo seasoning, and onion powder in a 2-quart container. Mix well and chill for at least 1 hour.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "1 hr 5 mins",
-    "calories": "102",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/13/26/1132637.jpg"
+    "summary": "''Otai' is a fruit drink which originated in Tonga and is usually made as a summertime refreshment. It is a blend of water, coconut milk, and any variety of pulped tropical fruit such as coconut, watermelon, mango, and pineapple but is almost always watermelon as it is plentiful in Tonga. A small amount of sugar may be added, although the recipe is considerably sweet on its own. I lived in Sydney many moons ago and the Polynesian families drank this by the gallons in the summer. Soooo refreshing and yummy! Serve over ice cubes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246681/homemade-sports-drink-aka-greaterade/",
@@ -45,7 +33,7 @@
     "cook": "",
     "ready in": "",
     "calories": "40",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/3435010.jpg"
+    "summary": "The Golden State Warriors' decision to ban commercial sports drinks and make their own with Himalayan sea salt inspired me to try my own--with less sugar. You can tweak this recipe to create your perfect formula. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/169409/triple-fruit-drink/",
@@ -57,7 +45,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "92",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/958539.jpg"
+    "summary": "Great drink for brunch. Great mixture of orange, lemon, and apricot nectar. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228901/carrot-and-orange-juice/",
@@ -69,7 +57,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "183",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/968239.jpg"
+    "summary": "This quick, fresh, and delicious juice is \none of my favorite morning drinks! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/167011/breakfast-in-bangkok/",
@@ -81,7 +69,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "243",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x140/2320594.jpg"
+    "summary": "Deliriously delicious juice to start your day! The result will be a lovely, creamy, silky smooth beverage - and with a lovely orange glow, it's a real eye catcher, too! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235283/raspberry-syrup-for-drinks/",
@@ -93,7 +81,7 @@
     "cook": "5 mins",
     "ready in": "1 hr 15 mins",
     "calories": "38",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4533871.jpg"
+    "summary": "This syrup is great for flavoring iced tea, but can also be used in cocktails, soda, and other drinks. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/23828/hot-mocha-drink-mix/",
@@ -105,7 +93,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "28",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/82880.jpg"
+    "summary": "A nice creamy hot drink mix for both kids and adults!  A snap to make! Nutmeg or cinnamon may be added, if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/23016/russian-tea/",
@@ -117,7 +105,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "102",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7841427.jpg"
+    "summary": "I love this tangy beverage on a cold winter's morning when I want something tasty and hot, but don't want coffee! It makes a great gift from your kitchen, too! If calories are your concern, use an artificially sweetened orange drink mix, eliminate the sugar and sweeten to taste with sugar substitute. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236636/cherry-sport-drink/",
@@ -129,7 +117,7 @@
     "cook": "5 mins",
     "ready in": "4 hrs 15 mins",
     "calories": "73",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2805883.jpg"
+    "summary": "This drink is to be used in place of store-bought sport drinks filled with unrecognizable ingredients. Regular cherry juice can be used in place of tart cherry juice if desired. Coconut water can also be added. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/160033/fuss-free-hot-cranberry-tea/",
@@ -141,7 +129,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "100",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/77890.jpg"
+    "summary": "I have looked for recipes for hot cranberry tea that are simple and don't involve a lot of time. This is it! My mother is a cook who adds until it tastes good. This is what she came up with. Increase or decrease quantities to suit your own taste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233795/chef-johns-watermelon-agua-fresca/",
@@ -153,7 +141,7 @@
     "cook": "",
     "ready in": "50 mins",
     "calories": "177",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3627935.jpg"
+    "summary": "This is my all-time favorite summertime drink. When it's hot and humid and you're totally parched, there's nothing as refreshing, as revitalizing, and as restorative as ice-cold watermelon agua fresca. It's one of life's great drinkable pleasures. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/107794/tropical-carrot-apple-juice/",
@@ -165,7 +153,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "64",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5143979.jpg"
+    "summary": "This recipe can be changed to what you like. Add more apples, lower the amount of carrots; what have you. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228355/green-lemonade/",
@@ -177,7 +165,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "265",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/88/23/882326.jpg"
+    "summary": "This drink requires a juicer to make. It is super healthy and loaded with powerful nutrition. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/231606/celynes-green-juice-juicer-recipe/",
@@ -189,7 +177,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "44",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7098466.jpg"
+    "summary": "Great juicer recipe with veggies you won't taste. Great for kids as they don't taste the veggies. My 3- and 5-year-old boys love it! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32547/boston-iced-tea/",
@@ -201,7 +189,7 @@
     "cook": "15 mins",
     "ready in": "35 mins",
     "calories": "118",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/845934.jpg"
+    "summary": "After tasting Boston Iced Tea, I just had to try and concoct my own. Delicious and refreshing! You can also serve with a slice of fresh orange. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245065/rainbow-juice/",
@@ -213,7 +201,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "138",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4484533.jpg"
+    "summary": "Get all the colors of the rainbow and the full spectrum of health benefits from drinking this unbelievably delicious concoction of fresh juices. Nutritionists agree that you should get fresh fruits and vegetables daily that encompass the colors of the rainbow, each for a specific benefit. Please remember to use organic fruits and vegetables. Instant energy in a glass! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/240903/clean-green-juice/",
@@ -225,7 +213,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "285",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7861710.jpg"
+    "summary": "Use as part of a juice cleanse or as a clean meal replacement. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/23527/instant-russian-tea/",
@@ -237,7 +225,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "32",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/159112.jpg"
+    "summary": "This recipe was given to me two Christmas's ago from a very good friend. She said to pass it on.    So I am. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/69931/gunline-coffee/",
@@ -249,7 +237,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "39",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/506117.jpg"
+    "summary": "My Husband is in the artillery and every time he goes out to the field this is what he and the guys on his gun request.  They were the ones that came up with the name for this wonderful drink.  I love to bring it with us when we camp as well.  We love it! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/181891/sweet-lime-iced-tea/",
@@ -261,7 +249,7 @@
     "cook": "5 mins",
     "ready in": "4 hrs",
     "calories": "75",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5250651.jpg"
+    "summary": "What's more Southern than sweet iced tea? I've lived in Florida all my life, yet I'm not a huge fan of the overly sweet iced tea that is popular here in the South. My grandma has made this version for as long as I can remember and it is the BEST!! Not too sweet, and not too bitter...and the fresh lime juice --- amazing!!! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32682/orange-spice-tea-mix/",
@@ -273,7 +261,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "9",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8160385.jpg"
+    "summary": "A nice spicy tea mixture that can be given as a gift. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/242148/ginger-turmeric-herbal-tea/",
@@ -285,7 +273,7 @@
     "cook": "15 mins",
     "ready in": "20 mins",
     "calories": "37",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2281169.jpg"
+    "summary": "If you are having trouble including these anti-inflammatory spices in your diet, here is an alternative to supplements.  Actually quite tasty! I believe this tea is popular in Okinawa, Japan. Just remember turmeric stains. I make mine in an old mason jar, wrapped in an old tea towel! \n\nTurmeric is used for medicinal purposes in India. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/20613/beverage-cubes/",
@@ -297,7 +285,7 @@
     "cook": "",
     "ready in": "1 min",
     "calories": "0",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3588516.jpg"
+    "summary": "Everyone has a favorite drink that is always in the fridge...but don't you hate it when your ice cubes melt and make your drink watery?  Here's a simple solution! Use your favorite non-carbonated beverage; fruit juice, coffee and prepared drink mix all work great. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/21241/iced-tea-ii/",
@@ -309,7 +297,7 @@
     "cook": "1 hr",
     "ready in": "1 hr 10 mins",
     "calories": "76",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3843168.jpg"
+    "summary": "This iced tea is fabulous - it tastes like the brand names! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/42714/hot-cranberry-tea/",
@@ -321,7 +309,7 @@
     "cook": "1 hr 30 mins",
     "ready in": "1 hr 30 mins",
     "calories": "140",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6339.jpg"
+    "summary": "A sentimental favorite. My mother and I made it when I was 7 and it's been a part of our holiday tradition ever since. A fun recipe to make with the kids. A slow cooker will keep it warm while serving. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/46350/shemakes-instant-chai-tea/",
@@ -333,7 +321,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "47",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/125247.jpg"
+    "summary": "I have searched for an instant chai recipe on the net, but could not find one. This is what I made up, hope you enjoy it. Please feel free to modify it or adapt it. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235850/starbucks-caramel-frappuccino-copycat-recipe/",
@@ -345,7 +333,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "271",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5891044.jpg"
+    "summary": "This is my copycat version of the popular Starbucks Caramel Frappuccino®! Top each glass with whipped cream and drizzle additional caramel over the whipped cream. Serve with a straw. Leftovers keep well in the refrigerator! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/214367/watermelon-agua-fresca/",
@@ -357,7 +345,7 @@
     "cook": "",
     "ready in": "25 mins",
     "calories": "72",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6893973.jpg"
+    "summary": "This is a drink served throughout Mexico. It is made with several different fruits. This is a watermelon drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246118/agua-fresca-de-pepino-cucumber-limeade/",
@@ -369,7 +357,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "5",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3392023.jpg"
+    "summary": "This is another common agua fresca from Mexico. Refreshing, healthy, and delicious! Serve over ice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/9431/instant-russian-tea/",
@@ -381,7 +369,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "101",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F159112.jpg"
+    "summary": "This is an instant tea mix that can be given as a gift in a large jar. It tastes like mulled cider. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/82247/lemonade-mint-iced-tea/",
@@ -393,7 +381,7 @@
     "cook": "",
     "ready in": "25 mins",
     "calories": "102",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F98087.jpg"
+    "summary": "A refreshing and easy to prepare iced tea. You can vary the amounts of mint and sugar depending on your tastes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/213146/honey-milk-tea-hong-kong-style/",
@@ -405,7 +393,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "151",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/348364.jpg"
+    "summary": "I came up with this recipe after reading many Chinese posts; none of them sounded like the milk tea I have had before. Honey milk tea is what I always order when I go to a tea place. Technically, bubble tea is not much different from milk tea (I am not sure why they separate them into two different categories in the tea shop). There are also different styles of bubble/milk tea, like Hong Kong style, Taiwan style, etc. This is a Hong Kong-style milk tea. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32370/iced-tea-iii/",
@@ -417,7 +405,7 @@
     "cook": "",
     "ready in": "2 hrs 10 mins",
     "calories": "49",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3020989.jpg"
+    "summary": "Cool, refreshing, and abundant summer drink. Serve in a tall glass over ice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/231758/homemade-tomato-juice-cocktail/",
@@ -429,7 +417,7 @@
     "cook": "",
     "ready in": "1 hr 10 mins",
     "calories": "41",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2278256.jpg"
+    "summary": "Delicious tomato juice for a fraction of the cost of store-purchased. Adjust lemon, salt, and sugar to taste. Almost 7 cups of juice for about $1.00! I prefer the natural tomato paste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/211772/homemade-apple-cider/",
@@ -441,7 +429,7 @@
     "cook": "3 hrs 20 mins",
     "ready in": "7 hrs 35 mins",
     "calories": "83",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/1113438.jpg"
+    "summary": "Homemade apple cider. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/21663/chai-latte/",
@@ -453,7 +441,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "76",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1061271.jpg"
+    "summary": "It's more about choosing a good brand than a recipe.  But here's the authentic way you would find it at an Indian restaurant. You can steam the milk first if you have an espresso machine or a milk steamer. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238537/perfect-vanilla-tea/",
@@ -465,7 +453,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "41",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3601817.jpg"
+    "summary": "This is a delicious blend of plain tea, wonderful vanilla, and spices to create the perfect mug for late night, morning, or really any time of day at all! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18395/russian-tea-ii/",
@@ -477,7 +465,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "91",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1189786.jpg"
+    "summary": "A great drink for a cold night. You can store this tea mix in a jar and give it as a gift! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/74643/hot-chai-latte/",
@@ -489,7 +477,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "111",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/140x140/00/28/19/281964.jpg"
+    "summary": "A delicious, warm, old-fashioned style Chai Tea. With yummy spices, and authentic flavors, it's bound to be a hit with the whole family! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/234967/adeni-tea/",
@@ -501,7 +489,7 @@
     "cook": "15 mins",
     "ready in": "25 mins",
     "calories": "179",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1424859.jpg"
+    "summary": "This recipe come from Aden, Yemen. Its great for a weekend brunch or breakfast. Sweet, rich, authentic, fragrant, and magical hot drink. Great for the winter. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/242396/matcha-frappe/",
@@ -513,7 +501,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "187",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2626381.jpg"
+    "summary": "Delicious green tea powder blended into a creamy drink that's better than Starbucks Green Tea Frappuccino®. I use DoMatcha as it is the best quality around; it is expensive, however, and a little goes a long way. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/105253/arnold-palmer-passion/",
@@ -525,7 +513,7 @@
     "cook": "",
     "ready in": "1 hr",
     "calories": "99",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/249931.jpg"
+    "summary": "A new twist on an old favorite, with a beautiful presentation. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/180799/arnold-palmer/",
@@ -537,7 +525,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "34",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2292013.jpg"
+    "summary": "Named after the golfer, it is said to be his favorite beverage. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/217166/lemon-mint-iced-tea/",
@@ -549,7 +537,7 @@
     "cook": "5 mins",
     "ready in": "40 mins",
     "calories": "90",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F828404.jpg"
+    "summary": "An easy and delicious iced tea enhanced with the refreshing flavors of lemon and mint. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/187297/genmai-cha/",
@@ -561,7 +549,7 @@
     "cook": "10 mins",
     "ready in": "11 mins",
     "calories": "24",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/140x140/4338862.jpg"
+    "summary": "Once upon a time, tea was expensive. This became a way of stretching money and still tastes great. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/231608/banana-juice/",
@@ -573,7 +561,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "320",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/99/43/994339.jpg"
+    "summary": "My husband taught me this recipe. It's yummy. Add a scoop of vanilla ice cream if you like (not to the blender, just on top). "
   },
   {
     "url": "https://www.allrecipes.com/recipe/9458/spiced-tea-mix/",
@@ -585,7 +573,7 @@
     "cook": "",
     "ready in": "",
     "calories": "116",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/887553.jpg"
+    "summary": "This is a delicious dry spiced tea mix which can be packed in jars and given as gifts. It can also be prepared sugar free by using sugar free orange flavored drink mix and sugar free iced tea mix. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/146148/cucumber-cooler/",
@@ -597,7 +585,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "365",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7032956.jpg"
+    "summary": "I was desperate to come up with some cucumber recipes after my garden mass produced the veggie.  I find this is a refreshing treat, especially after mowing the yard. Serve over ice. Garnish with mint, as your taste dictates. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/234746/throat-coat-tea/",
@@ -609,7 +597,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "37",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4509565.jpg"
+    "summary": "We have all had those days when we have a cold and can't kick its butt. Where our throat is achy and it hurts to swallow. This is a recipe I have developed in the last couple of days. I think I now have the perfect balance of home-remedy qualities and flavor. The honey coats your throat and helps to sooth it. The citrus actually reduces the swelling and adds a great deal of flavor. For all of you who are suffering with a sore throat, get well soon. I hope you like it. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/58712/kuwaiti-traditional-tea/",
@@ -621,7 +609,7 @@
     "cook": "8 mins",
     "ready in": "10 mins",
     "calories": "26",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/33568.jpg"
+    "summary": "This is the typical tea you will find in regular housed in Kuwait. Its deliciously aromatic and the spices give it a rich taste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244820/delicious-green-juice/",
@@ -633,7 +621,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "690",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4517189.jpg"
+    "summary": "An easy, delicious green juice. You can substitute kale for spinach. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/93553/fresh-cranberry-spiced-tea/",
@@ -645,7 +633,7 @@
     "cook": "30 mins",
     "ready in": "8 hrs 40 mins",
     "calories": "144",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/132418.jpg"
+    "summary": "A lovely clear red, hot beverage for holiday parties, an afternoon break, for dinner or bedtime as it contains no caffeine.  I have been making this for decades and keep it in the fridge all winter. One of my most requested recipes! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/104897/springtime-citrus-cooler/",
@@ -657,7 +645,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "28",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/837257.jpg"
+    "summary": "A springtime and summer favorite in our house, this citrus flavored drink refreshes nicely and serves as a great alternative to tea or water at a brunch. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257496/tropical-stevia-iced-green-tea/",
@@ -669,7 +657,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "15",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4518998.jpg"
+    "summary": "Green tea with a sweet twist! This iced tropical tea is sweetened with organic stevia and is the perfect combination of energy and refreshment. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/239480/hot-caramel-apple-cider/",
@@ -681,7 +669,7 @@
     "cook": "10 mins",
     "ready in": "20 mins",
     "calories": "318",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/1567926.jpg"
+    "summary": "Warm up a cold day with a mug of hot apple cider topped with a hint of caramel. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246035/herbal-tea/",
@@ -693,7 +681,7 @@
     "cook": "2 mins",
     "ready in": "7 mins",
     "calories": "19",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8530493.jpg"
+    "summary": "This recipe makes a nice tea on a cold day. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18952/montana-tonic/",
@@ -705,7 +693,7 @@
     "cook": "",
     "ready in": "30 mins",
     "calories": "26",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6834731.jpg"
+    "summary": "A refreshing cooler on a hot day! If possible, use sun brewed tea. When raspberries are in season, squeeze 2 pints of raspberries and discard the pulp and seeds. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/232448/heavenly-honeydew-juice/",
@@ -717,7 +705,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "159",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2008368.jpg"
+    "summary": "We had some amazing honeydew juice at a Mexican restaurant and immediately tried to recreate it. We think this is even better than the original! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32469/lem-tea-whammy/",
@@ -729,7 +717,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "76",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8119436.jpg"
+    "summary": "This also has been called several other names, this is just what I like to call it. Serve over ice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/256458/easy-authentic-masala-chai/",
@@ -741,7 +729,7 @@
     "cook": "16 mins",
     "ready in": "21 mins",
     "calories": "99",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4397837.jpg"
+    "summary": "This is a great way to make masala chai from scratch in just a few minutes! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258234/spinach-strawberry-agua-fresca/",
@@ -753,7 +741,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "32",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4519837.jpg"
+    "summary": "This agua fresca (Mexican fruit water) is not only refreshing but also very healthy. Serve cold and over ice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247053/thai-iced-tea-cha-yen/",
@@ -765,7 +753,7 @@
     "cook": "15 mins",
     "ready in": "20 mins",
     "calories": "159",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/3552261.jpg"
+    "summary": "A drink that is starting to gain popularity. Almost like a latte but made with tea. My husband loves this. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236465/peach-orange-iced-tea/",
@@ -777,7 +765,7 @@
     "cook": "",
     "ready in": "1 hr 10 mins",
     "calories": "15",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1999183.jpg"
+    "summary": "This is a peach- and orange-flavored iced tea, great on a hot summer day. A nectarine can be substituted for the peach. A mandarin orange can be substituted for the clementine. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/86426/almond-tea/",
@@ -789,7 +777,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "103",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/876507.jpg"
+    "summary": "This beverage is a wonderful Summer treat that pleases all!  Great for parties or just to have on hand. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238316/tropical-teaser-smoothie/",
@@ -801,7 +789,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "230",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3576767.jpg"
+    "summary": "This non-dairy smoothie was created on a cold snowy day so that I could imagine that I was on a tropical beach somewhere. Lime juice and coconut extract give it a colada taste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/256678/caribbean-sorrel-tea/",
@@ -813,7 +801,7 @@
     "cook": "5 mins",
     "ready in": "8 hrs 10 mins",
     "calories": "177",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4573955.jpg"
+    "summary": "Get dried sorrel flowers from Asian, African, or Caribbean stores. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/272512/pog-juice/",
@@ -825,7 +813,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "141",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6476824.jpg"
+    "summary": "If you've eaten breakfast at Walt Disney® World or visited Hawaii, then you've probably had P.O.G juice. It's an amazingly refreshing blend of passion fruit juice, orange juice, and guava nectar. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228353/orangeade/",
@@ -837,7 +825,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "169",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/874219.jpg"
+    "summary": "A refreshing change from lemonade. If you don't care for pulp in your drink, feel free to strain the juice before you add it to the water. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/222513/chai-tea-latte/",
@@ -849,7 +837,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "145",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1061271.jpg"
+    "summary": "This is really similar to the brand Oregon® Chai. Simply delicious either hot or iced! This will save you more money than buying the chai. In India, each family has their own way of making it, so you should experiment to find your favorite blend. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/230400/hot-spiced-tea-for-the-holidays/",
@@ -861,7 +849,7 @@
     "cook": "10 mins",
     "ready in": "20 mins",
     "calories": "87",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1043646.jpg"
+    "summary": "This is an old family favorite, handed down from my great-grandmother. The holidays officially begin with Christmas carols and my favorite hot spiced tea! Definitely a seasonal comfort beverage for me! I prefer to use fresh juices with pulp. The flavors are different. Canned pineapple in light syrup is best. Set the pineapple chunks aside for the rest of your holiday baking. Store leftovers in refrigerator and reheat as needed. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246093/lemon-verbena-mint-detox-tea/",
@@ -873,7 +861,7 @@
     "cook": "3 mins",
     "ready in": "8 mins",
     "calories": "25",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/3336706.jpg"
+    "summary": "This is a simple detox tea. Lemon verbena is delicious! I came across it while I was picking up my summer herb plants last spring. I had never heard of it before but learned it is good for cooking and tea. Little did I know this little herb has some amazing detox and medicinal benefits. I love lemon but hate what the acid does to my teeth. With lemon verbena you get the flavor of lemon without the acid. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/237861/mint-garden-tea-concentrate/",
@@ -885,7 +873,7 @@
     "cook": "25 mins",
     "ready in": "30 mins",
     "calories": "66",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/2225575.jpg"
+    "summary": "This delicious iced tea is quick, easy, and hits the spot on a hot day! Mix 1 part thawed tea concentrate with 3 parts water to serve. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229352/lavender-mint-tea/",
@@ -897,7 +885,7 @@
     "cook": "15 mins",
     "ready in": "20 mins",
     "calories": "4",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2008303.jpg"
+    "summary": "This mood-boosting tea is delicious hot or iced. And fresh lavender and mint from the garden make it even more special! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/254739/dreamsicle-iced-tea-latte/",
@@ -909,7 +897,7 @@
     "cook": "10 mins",
     "ready in": "25 mins",
     "calories": "557",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4984153.jpg"
+    "summary": "A sweet orange-flavored iced tea beverage made with vanilla-almond syrup. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257392/cucumber-tea-spritzer/",
@@ -921,7 +909,7 @@
     "cook": "5 mins",
     "ready in": "20 mins",
     "calories": "83",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4486002.jpg"
+    "summary": "A great summer drink or just a nice refreshing mocktail - cucumber water is healthy too! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/256384/lime-honey-soda/",
@@ -933,7 +921,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "160",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4461038.jpg"
+    "summary": "My favorite drink on hot days. Well, it's hot most of the time of the year in Bangkok! Add chopped fresh fruit if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247052/spiced-thai-iced-tea/",
@@ -945,7 +933,7 @@
     "cook": "5 mins",
     "ready in": "2 hrs 10 mins",
     "calories": "251",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3577176.jpg"
+    "summary": "Similar to the Thai iced tea served in Thai restaurants made with red rooibos or orange black tea. Garnish with fresh mint leaves. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/239811/honey-lemon-ginger-tea/",
@@ -957,7 +945,7 @@
     "cook": "20 mins",
     "ready in": "30 mins",
     "calories": "104",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/600x600/1565212.jpg"
+    "summary": "I visited a coffee shop in Hartford on a cold winter day and ordered their honey lemon ginger tea. It was tart, sweet, full of flavor, and warmed me from head to toe. The proprietor was nice enough to give me a rough description of her recipe. After a few tries at home, I came up with this close version. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/275609/london-fog-latte/",
@@ -969,7 +957,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "130",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7048030.jpg"
+    "summary": "Earl Grey tea is steeped with lavender and blended with hot milk and honey for this drink known as a London fog latte. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244158/pam-juice/",
@@ -981,7 +969,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "208",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4037203.jpg"
+    "summary": "Great when used as part of a healthy cleanse. Use with clean green juice as a delicious beverage option. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/270336/easy-ginger-water/",
@@ -993,7 +981,7 @@
     "cook": "5 mins",
     "ready in": "30 mins",
     "calories": "28",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7059422.jpg"
+    "summary": "This is a super-easy and slightly sweetened ginger-infused water that can be served hot or iced. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233251/berry-saft/",
@@ -1005,7 +993,7 @@
     "cook": "20 mins",
     "ready in": "1 hr",
     "calories": "45",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6826248.jpg"
+    "summary": "A Scandinavian recipe for a delicious berry drink, translated for me by a friend. Good for any kind of berry. When ready to drink, add small amount of saft to a glass of water, to taste. Add more sugar as needed; stir well. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279335/homemade-brown-sugar-bubble-tea/",
@@ -1016,7 +1004,7 @@
     "cook": "30 mins",
     "ready in": "1 hr 5 mins",
     "calories": "248",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/7829437.jpg"
+    "summary": "I drank bubble tea every day when I visited Taiwan, and decided to bring back some tapioca pearls (boba) to make my own at home. This is a versatile recipe: you can vary the type of tea and milk you use, and sweeten it to taste. Brew tea to your preferred strength, though it's a good idea to use strong tea because you're going to dilute it with milk and ice. You'll need a wide straw to drink up the boba, or use a long spoon to fish them out! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280655/rhubarb-iced-tea/",
@@ -1028,7 +1016,7 @@
     "cook": "35 mins",
     "ready in": "1 hr 15 mins",
     "calories": "56",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8239993.jpg"
+    "summary": "Homemade iced tea infused with rhubarb for a sour kick and beautiful color. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/278511/onion-tea-home-remedy-for-cough/",
@@ -1040,7 +1028,7 @@
     "cook": "1 hr",
     "ready in": "1 hr 10 mins",
     "calories": "51",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7907250.jpg"
+    "summary": "My German mom swears that drinking onion tea (Zwiebeltee) is the best way to get rid of a bad cough. In Germany, she sweetens it with brown \"Kandis,\" a specific kind of rock sugar, but I use honey here. It is important that you use organic onions for this home remedy as you are cooking them with their peels. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/231603/cherry-ginger-infused-tea/",
@@ -1052,7 +1040,7 @@
     "cook": "5 mins",
     "ready in": "2 hrs 15 mins",
     "calories": "68",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1029997.jpg"
+    "summary": "This fruity tea is a fantastic beverage for hot days and soothing to an upset stomach any other time. Slightly sweetened fruit juice and tea is a healthy alternative to artificially-flavored powdered drinks. Try it with seltzer water instead of tea! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258236/agua-fresca-with-watermelon-and-pom-tea/",
@@ -1064,7 +1052,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "195",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6849070.jpg"
+    "summary": "A traditional watermelon agua fresca blended with POM® pomegranate peach passion white tea. Absolutely perfect on a summer day. Serve over ice and garnish with a mint sprig or peach slice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235830/hot-carmel-apple-juice/",
@@ -1076,7 +1064,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "222",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/07/81/1078185.jpg"
+    "summary": "A great warm fall drink. Great replacement for a winter's hot cocoa! My children love it. I came up with it when I wanted something warm and sweet but didn't want the caffeine. Like hot apple pie in a mug! Top with whipped cream. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228911/sweet-potato-carrot-spiced-life-juice/",
@@ -1088,7 +1076,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "318",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7905462.jpg"
+    "summary": "This spicy, fresh-pressed juice will give you the energy you need for the holidays! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/143442/railroad-style-chai/",
@@ -1100,7 +1088,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "96",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/02/02/38/2023824.jpg"
+    "summary": "Indian Railroad-style Chai: this is the real stuff served out of trays and passed through the windows at railroad stops all over India. If you can find mamri tea pearls from India, use 1/4 cup of that in place of the tea bags. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/269777/sparkling-blood-orange-juice/",
@@ -1112,7 +1100,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "216",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7930106.jpg"
+    "summary": "A gorgeous, ruby-red drink that's elegant and good for you. Store in the refrigerator until it is time to serve. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/255082/prickly-pear-tonic-and-lime/",
@@ -1124,7 +1112,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "1",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6803991.jpg"
+    "summary": "Wonderfully refreshing drink after a long run or in the morning to rehydrate. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/223497/watermelon-summertime-slush/",
@@ -1136,7 +1124,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "48",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/16/08/1160837.jpg"
+    "summary": "A crisp and refreshing summertime treat! This drink is a great afternoon pick-me-up. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279599/super-immunity-boost-juice/",
@@ -1148,7 +1136,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "282",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7855122.jpg"
+    "summary": "Orange, ginger, and turmeric, well-known immunity powerhouses, combine to make this tasty and healthy juice that is loaded with Vitamin C, antioxidants, and anti-inflammatory properties. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/264551/karkadeh-egyptian-hibiscus-iced-tea/",
@@ -1160,7 +1148,7 @@
     "cook": "",
     "ready in": "4 hrs 5 mins",
     "calories": "16",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5382779.jpg"
+    "summary": "This traditional Egyptian hibiscus tea is made with loose dried hibiscus flowers, which are left to steep in the tea as it cools so the tea is quite strong. Tea bags are not suitable. We drink this tea rather sweet to break fast during the month of Ramadan. Make sure to sweeten the tea while still warm so that the sugar dissolves easily and then serve chilled. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32548/morning-afternoon-night-iced-tea/",
@@ -1172,7 +1160,7 @@
     "cook": "",
     "ready in": "5 hrs",
     "calories": "95",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/617183.jpg"
+    "summary": "This is the perfect pick-me-up for a hot day, when you first wake up, or if you're staying up late. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228009/cranberry-orange-iced-tea/",
@@ -1184,7 +1172,7 @@
     "cook": "",
     "ready in": "",
     "calories": "30",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/98/43/984344.jpg"
+    "summary": "When the temperature rises, stay cool with this cranberry and citrus iced tea. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/241958/delicious-matcha-green-tea-frappuccino/",
@@ -1196,7 +1184,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "325",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/02/24/51/2245114.jpg"
+    "summary": "A delicious treat just like the one from Starbucks®, except a lot healthier. You can use any type of milk in this recipe. For a thicker, smoother Frappuccino®, add xanthan gum. I hope you like it just as much as I do! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/176941/green-tea-berry-delight/",
@@ -1208,7 +1196,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "59",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/129091.jpg"
+    "summary": "This refreshing treat is as healthy as it is beautiful!  It's packed with antioxidants and a great alternative to that calorie laden latte! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/20628/iced-tea-i/",
@@ -1220,7 +1208,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5495128.jpg"
+    "summary": "Like real iced tea, but do you hate boiling the water and then waiting for the tea to cool? Try making it with hot tap water. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/215057/best-watermelon-slushie/",
@@ -1232,7 +1220,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "53",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F957648.jpg"
+    "summary": "This is a healthy, delicious, refreshing treat for a hot day. Replace the honey with blue agave sweetener if you wish. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/22233/coffee-nudge/",
@@ -1244,7 +1232,7 @@
     "cook": "10 mins",
     "ready in": "11 mins",
     "calories": "308",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1123110.jpg"
+    "summary": "So good on a blustery day! Warms you from the inside out. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/259585/ginger-detox-tea/",
@@ -1256,7 +1244,7 @@
     "cook": "8 mins",
     "ready in": "10 mins",
     "calories": "41",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4562659.jpg"
+    "summary": "This tea is quick and easy. Ginger is known for its calming properties and lemon for its cleansing. Regardless, it tastes great! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/231607/honeydew-juice/",
@@ -1268,7 +1256,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "132",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2008368.jpg"
+    "summary": "A refreshing summer drink. Easier than a piece of cake! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/263878/low-carb-paleo-and-dairy-free-coconut-dirty-chai-latte-for-two/",
@@ -1280,7 +1268,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "257",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5324084.jpg"
+    "summary": "Love Chai tea but not the carbs or the dairy in it? Try this wonderful Paleo and low-carb version with coconut milk, lightly sweetened with honey and shredded coconut. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/202691/brown-sugar-and-honey-limeade/",
@@ -1292,7 +1280,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "90",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6526483.jpg"
+    "summary": "Slightly sweet, slightly tart treat. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/62192/homemade-strawberry-nectar/",
@@ -1304,7 +1292,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "32",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/62/14/621444.jpg"
+    "summary": "They don't sell Strawberry Nectar in my town, so I make my own. The apple juice is for sweetness. Be careful: not all brands have a good aftertaste even frozen. Fresh juiced apple is better. Thawed frozen strawberries may be used when fresh is not available. Be sure to use unsweetened ones. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/218977/fresh-homemade-apple-juice/",
@@ -1316,7 +1304,7 @@
     "cook": "30 mins",
     "ready in": "1 hr 10 mins",
     "calories": "82",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/703288.jpg"
+    "summary": "My mother had a creative way of using the apple cores and peels leftover from making apple pie: to make homemade apple juice. Store-bought apple juice is tasty, but it has a strong, distinct flavor with almost a hint of bitterness. To those with sensitive palates, it can be a little strong at times. Homemade juice, however, tastes surprisingly different as it is lighter and pleasantly sweet without the kick. Besides using a juicer, this is a super-easy way of making apple juice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246036/cocoa-tea-mix-recipe/",
@@ -1328,7 +1316,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "103",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3311210.jpg"
+    "summary": "Not everyone will be a fan of this earthy, sweet drink. Depends what tea you use really. I use Earl Grey Black Tea, but you can use any tea you love. Try out this unique drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229062/v9-juice/",
@@ -1340,7 +1328,7 @@
     "cook": "15 mins",
     "ready in": "9 hrs 45 mins",
     "calories": "63",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2616893.jpg"
+    "summary": "A tasty veggie beverage. You can also use it for a great soup base. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245306/homemade-peach-tea/",
@@ -1352,7 +1340,7 @@
     "cook": "10 mins",
     "ready in": "50 mins",
     "calories": "130",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7005265.jpg"
+    "summary": "This delicious peach iced tea tastes eerily similar to a famous Italian chain restaurant's peach tea. Serve tea over ice and garnish with peach slices, if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/237880/campfire-smores-frappuccino/",
@@ -1364,7 +1352,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "200",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/19/43/1194318.jpg"
+    "summary": "Who doesn't love a s'more? This campfire Frappuccino® is a s'more drink with a shot of espresso, perfect for a refreshing summer treat. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228372/affogato-with-cold-brewed-coffee/",
@@ -1376,7 +1364,7 @@
     "cook": "",
     "ready in": "12 hrs 5 mins",
     "calories": "109",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4067575.jpg"
+    "summary": "This was the best tasting iced coffee I've ever had. Since the flavors are extracted without heat, the results are a smoother, less acidic, less bitter product. You can use the coffee concentrate straight on ice cream or gelato for a classic Italian treat – affogato. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/237151/ultimate-cold-relief-home-remedy-tea/",
@@ -1388,7 +1376,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "79",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2006529.jpg"
+    "summary": "If you feel it coming on drink lots of this. It can't hurt, and seems to have some effect clearing nasal passages. You may hate it at first, but by the end of the first cup you may want to make more. Breath the steam in deeply. Drink it as much or as often as possible while fighting off your cold. You can substitute balsamic vinegar for the apple cider vinegar "
   },
   {
     "url": "https://www.allrecipes.com/recipe/149842/hawaiian-iced-tea/",
@@ -1400,7 +1388,7 @@
     "cook": "",
     "ready in": "1 hr 45 mins",
     "calories": "152",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/73/88/738877.jpg"
+    "summary": "I first tasted this tea in a popular Italian restaurant in my college hometown of Kailua. I have been craving it ever since, and have experimented with a few proportions. Add more tea leaves for a stronger tea, but do not steep longer or the tea will end up tasting bitter. (If it does, add a pinch of baking soda.) Always make something to your liking! This is also great to serve at showers. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257623/honeydew-juice-with-chocolate-syrup/",
@@ -1412,19 +1400,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "288",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6811618.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/110138/mississippi-iced-tea/",
-    "name": "Mississippi Iced Tea",
-    "rating": "3.25",
-    "ingredients": "8  ice cubes, 2 ½ fluid ounces amaretto liqueur (such as Disaronno®), ½ fluid ounce rum, ½ fluid ounce triple sec, 2 fluid ounces cola-flavored carbonated beverage, 2 fluid ounces energy drink (such as Monster Energy)",
-    "directions": "1. Fill a large glass with ice. Pour in the amaretto, rum, and triple sec. Stir, and pour in the cola beverage and energy drink at the same time to fill the glass.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "209",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/970838.jpg"
+    "summary": "This is the best! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/110570/peach-tea/",
@@ -1436,7 +1412,7 @@
     "cook": "15 mins",
     "ready in": "20 mins",
     "calories": "5",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7005265.jpg"
+    "summary": "This is a very light peach tea, great for a summer day. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245828/starbucks-style-green-tea-frappuccino/",
@@ -1448,7 +1424,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "272",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/3248668.jpg"
+    "summary": "This is a recipe for Starbucks® famous frozen matcha drink made to match texture, but less sweet and more flavorful. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/261436/baileys-almande-iced-coffee/",
@@ -1460,7 +1436,7 @@
     "cook": "",
     "ready in": "",
     "calories": "267",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4613866.jpg"
+    "summary": "Give your Iced Coffee an extra kick with cinnamon syrup and light-tasting dairy free Baileys Almande. Talk about delicious! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245356/simple-bubble-tea/",
@@ -1472,7 +1448,7 @@
     "cook": "5 mins",
     "ready in": "1 hr 10 mins",
     "calories": "217",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6260020.jpg"
+    "summary": "Popular Asian tea drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/33981/lemon-almond-tea/",
@@ -1484,7 +1460,7 @@
     "cook": "15 mins",
     "ready in": "30 mins",
     "calories": "143",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/876507.jpg"
+    "summary": "This tea is very refreshing on hot summer days. You can adjust it by decreasing the sugar, or increasing the almond. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32408/citrus-blueberry-slush/",
@@ -1496,7 +1472,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "105",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1166957.jpg"
+    "summary": "This recipe is super easy to make. Frozen orange juice and fresh blueberries are blended with ice to create a refreshing slush. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/33982/tanning-bed-drink/",
@@ -1508,7 +1484,7 @@
     "cook": "",
     "ready in": "1 min",
     "calories": "101",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/679175.jpg"
+    "summary": "A great drink made with coconut rum and pineapple juice, and garnished with a cherry. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/158655/dreamy-nighttime-drink/",
@@ -1520,7 +1496,7 @@
     "cook": "5 mins",
     "ready in": "5 mins",
     "calories": "152",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/1014076.jpg"
+    "summary": "This warm milk flavored with honey, vanilla, and cinnamon will put you right to bed. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/240329/thanksgiving-refreshment/",
@@ -1532,7 +1508,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "138",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1766759.jpg"
+    "summary": "Sparkling juice beverage. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/260028/starbucks-mocha-frappuccino-replica/",
@@ -1544,7 +1520,7 @@
     "cook": "",
     "ready in": "1 day",
     "calories": "227",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4557977.jpg"
+    "summary": "I created this recipe myself. I wanted something that tasted like the brand-name stuff but without the steep cost! I kept the recipe simple only using coffee, milk, and sugar like the brand name does. Concentrate stays good in the refrigerator for a month. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/52377/cool-rhubarb-iced-tea/",
@@ -1556,7 +1532,7 @@
     "cook": "4 hrs",
     "ready in": "12 hrs 15 mins",
     "calories": "104",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8239993.jpg"
+    "summary": "This recipe actually started out as ice cubes for my son to chew on while teething, but I threw a few in my ice tea and it was great! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/93907/masala-spicy-tea/",
@@ -1568,7 +1544,7 @@
     "cook": "2 mins",
     "ready in": "10 mins",
     "calories": "174",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/763059.jpg"
+    "summary": "Deliciously fragrant, sweet and tasty Eastern tea. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/282191/baileys-hot-coffee/",
@@ -1579,7 +1555,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "221",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4613880.jpg"
+    "summary": "Brew up a cup of your favorite coffee and then make it extra special with a splash of Baileys Original Irish Cream. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/84186/orange-fizz/",
@@ -1591,7 +1567,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "140",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/700880.jpg"
+    "summary": "Make boring orange juice tangy and fizzy with this delicious blend! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32680/chai-tea/",
@@ -1603,7 +1579,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "28",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5103463.jpg"
+    "summary": "This exotic tea uses cardamom, cinnamon and pepper for flavor. Stir in milk to taste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/9389/russian-tea-i/",
@@ -1615,7 +1591,7 @@
     "cook": "",
     "ready in": "",
     "calories": "188",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2832542.jpg"
+    "summary": "This is a fragrant hot beverage tailor-made for the holidays. The scent of cloves and cinnamon will perfume your home. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/281816/dairy-free-pumpkin-cream-cold-brew/",
@@ -1627,7 +1603,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "45",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/8660288.jpg"
+    "summary": "Our non-dairy take on the famous pumpkin cream cold brew! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/237729/coconut-oil-coffee/",
@@ -1639,7 +1615,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "224",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x140/3769488.jpg"
+    "summary": "Perhaps Oliver Wendell Holmes was sipping coconut oil coffee when he said, 'The morning cup of coffee has an exhilaration about it which the cheering influence of the afternoon or evening cup of tea cannot be expected to reproduce.' This blend of coconut oil and unsalted, grass-fed organic butter in your coffee is definitely something to write about! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/62558/coffee-shake/",
@@ -1651,7 +1627,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "173",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/631819.jpg"
+    "summary": "This is a blended-coffee treat much like an iced cappuccino you might buy at a restaurant.  You can make it non-dairy by using soy milk. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/222535/thai-iced-tea/",
@@ -1663,7 +1639,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "97",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/880334.jpg"
+    "summary": "You can always find this creamy, bitter, super-sweet energizing drink at your favorite Thai restaurants. But now you can enjoy it at home as well! Perfect for backyard BBQs. Serve with a straw! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/137332/abbeys-white-chocolate-latte/",
@@ -1675,7 +1651,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "270",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/600x600/3114894.jpg"
+    "summary": "I created this recipe for my little sister, Abbey, who's a latte fanatic. She was blown away, and drained it to the last drop! This makes one VERY large, indulgent latte, and could probably serve two. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/139119/brown-sugar-caramel-latte/",
@@ -1687,7 +1663,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "184",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/845345.jpg"
+    "summary": "Sometimes coffee is a dessert in itself.  This is one of my favorite morning treats to make a Monday seem less intimidating.  You'll need a battery-powered milk frother or it's just not the same. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244477/refreshing-banana-drink/",
@@ -1699,7 +1675,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "158",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/2393000.jpg"
+    "summary": "This is delicious on a hot day. Also, it satisfies the thirst for a milkshake with ice cream! Using almond milk, combined with the cinnamon and banana, creates a very flavorful, sweet treat using natural flavoring. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18925/cappuccino-in-a-jar/",
@@ -1711,7 +1687,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "81",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/18/97/1189782.jpg"
+    "summary": "Cappuccino mix that can be placed in a jar. It makes a great gift to go along with cookies in a jar! It could also be used in a fundraiser. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/39391/very-popular-bubble-tea/",
@@ -1723,7 +1699,7 @@
     "cook": "20 mins",
     "ready in": "1 hr 30 mins",
     "calories": "280",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/14195.jpg"
+    "summary": "Bubble tea is very popular, especially to Asians, but now, more and more people from different backgrounds like the taste of it.  I'm no expert at this, but I do know how to make it.  It's simple but some of the ingredients may be a little tough to find.  Just be patient and look for them in Chinese grocery stores.  It is worth the trouble! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18958/peach-drink/",
@@ -1735,7 +1711,7 @@
     "cook": "",
     "ready in": "1 min",
     "calories": "175",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/7525649.jpg"
+    "summary": "A wonderful peach flavored drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32516/mocha-coffee-mix/",
@@ -1747,7 +1723,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "116",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/184778.jpg"
+    "summary": "Wonderful to have on hand, or put into pretty containers and give as gifts. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/143378/gordons-berry-breakfast-drink/",
@@ -1759,7 +1735,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "120",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/441865.jpg"
+    "summary": "I like to serve this drink in my cobalt blue glasses. It's tasty and colorful! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246154/fruit-flavored-water/",
@@ -1771,7 +1747,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "6",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3284679.jpg"
+    "summary": "Tired of plain old boring water? Here's a cool and fruity twist on it! Mix up your fruits for a tasty surprise! Citrus fruit and berries work best. If you want more flavor, add more fruits, and if you want less flavor, use less fruit. You can squeeze the juice out to color the water or just put whole slices and berries in. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233013/chocolate-y-iced-mocha/",
@@ -1783,7 +1759,7 @@
     "cook": "1 min",
     "ready in": "6 mins",
     "calories": "105",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1018758.jpg"
+    "summary": "My favorite morning drink that isn't a diet disaster. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/20492/quick-start-breakfast-drink/",
@@ -1795,7 +1771,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "263",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/204455.jpg"
+    "summary": "This is good for breakfast or anytime of the day! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247478/mint-simple-syrup/",
@@ -1807,7 +1783,7 @@
     "cook": "6 mins",
     "ready in": "41 mins",
     "calories": "98",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4878096.jpg"
+    "summary": "Fresh mint leaves are steeped with sugar and water to create a minty fresh sweet syrup to add a refreshing lift to cocktails, mocktails, pastry glazes, and frozen desserts. Store in the refrigerator for up to 1 month. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/230053/candy-cane-drinks/",
@@ -1819,7 +1795,7 @@
     "cook": "",
     "ready in": "1 hr 10 mins",
     "calories": "370",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1077507.jpg"
+    "summary": "A holiday drink everyone seems to enjoy! I always am asked for the recipe! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/166133/peruvian-chicha-morada-drink/",
@@ -1831,7 +1807,7 @@
     "cook": "50 mins",
     "ready in": "5 hrs",
     "calories": "253",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/258060.jpg"
+    "summary": "Sweet, cool, purple fruit juice made from purple corn! Indigenous to the Inca Natives of Peru in South America, it has a yummy, refreshing flavor. It's definitely worth the time it takes to prepare it!  You'll get rave reviews from friends who try it. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/146967/flavored-latte/",
@@ -1843,7 +1819,7 @@
     "cook": "1 min",
     "ready in": "5 mins",
     "calories": "261",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/776874.jpg"
+    "summary": "Use this basic recipe to make your favorite flavored latte with a home espresso machine. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233721/cold-brewed-coffee/",
@@ -1855,7 +1831,7 @@
     "cook": "",
     "ready in": "18 hrs 10 mins",
     "calories": "8",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1033456.jpg"
+    "summary": "Coffee brewed slowly in cold water is less acidic than hot brewed. You can use this concentrate straight over ice or microwave half a mug coffee and then add a half cup of boiling water for quick hot coffee. Develop your own ratio of coffee to water for your custom brew. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235461/cinnamon-dolce-latte-syrup/",
@@ -1867,7 +1843,7 @@
     "cook": "5 mins",
     "ready in": "1 hr 15 mins",
     "calories": "108",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/06/80/1068094.jpg"
+    "summary": "This homemade cinnamon dolce syrup is rich and delicious. Use this to make a latte or add to apple juice or cider for the perfect fall drink! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/27027/gingerbread-coffee/",
@@ -1879,7 +1855,7 @@
     "cook": "10 mins",
     "ready in": "30 mins",
     "calories": "199",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/964346.jpg"
+    "summary": "This drink was inspired by a gingerbread latte I had at a local coffee shop. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/143269/frozen-caramel-latte/",
@@ -1891,7 +1867,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "293",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/632952.jpg"
+    "summary": "This frothy, blended espresso drink will wake you up and make you happy any time of day. Sweetened with caramel sauce and topped with whipped cream, this is one delicious frozen latte. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/56726/billys-favorite-gingerbread-spiced-coffee-syrup/",
@@ -1903,7 +1879,7 @@
     "cook": "30 mins",
     "ready in": "52 mins",
     "calories": "56",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/140x140/00/04/03/40390.jpg"
+    "summary": "This is a delightful spicy syrup that you can use to spice up coffee, tea, apple cider, you name it, it's all good! Add a tablespoon to your favorite beverage, or use it in whipped cream, or brush it on cakes. Drizzle it on yogurt, oatmeal, or pancakes - the possibilities are endless! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/163344/rated-g-mexican-coffee/",
@@ -1915,7 +1891,7 @@
     "cook": "10 mins",
     "ready in": "20 mins",
     "calories": "103",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/628529.jpg"
+    "summary": "My best friend's husband gave me this recipe. When he was young, his uncle who owned a restaurant in Mexico City made this special drink for him. It has been a favorite in our house for many years. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/20699/exotic-fruit-drink/",
@@ -1927,7 +1903,7 @@
     "cook": "2 hrs",
     "ready in": "2 hrs 5 mins",
     "calories": "70",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/970789.jpg"
+    "summary": "This contains three different fruit juices that everyone will love! Use your imagination and come up with different combinations! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257494/strawberry-watermelon-agua-fresca/",
@@ -1939,7 +1915,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "183",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4486134.jpg"
+    "summary": "This refreshing blend of strawberries and watermelon is sweetened with organic stevia and finished with sparkling water and ice. A perfect drink for a hot summer day. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/70908/drink-mix-jelly/",
@@ -1951,7 +1927,7 @@
     "cook": "",
     "ready in": "",
     "calories": "83",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/323974.jpg"
+    "summary": "Strawberry jelly made with powdered drink mix. An inexpensive and delicious spread. Try using different flavors of fruit and drink mix too. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279548/dalgona-coffee-whipped-coffee/",
@@ -1963,7 +1939,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "255",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8012953.jpg"
+    "summary": "The trending South Korean coffee drink that has gone viral on social media during the Coronavirus epidemic. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258691/frozen-caramel-coffee/",
@@ -1975,7 +1951,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "266",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6710378.jpg"
+    "summary": "Who knew caramel syrup, milk, and Gevalia® Cold Brew Concentrate could blend together with ice to make such a delicious summer or anytime beverage? "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229319/teddy-bear-juice/",
@@ -1987,7 +1963,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "82",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/970345.jpg"
+    "summary": "A drink to help soothe sick little ones. Only add honey for children over 1 year old. My daughter calls this 'Teddy Bear' juice because of our honey bear. Great for a sore throat and for people who don't enjoy hot tea. I let my daughter drink as much of this as she wants when she is ill, especially when she has no appetite. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/259088/summertime-mango-drink/",
@@ -1999,7 +1975,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "115",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4539415.jpg"
+    "summary": "One of my favorite drinks of the summer. It's really easy and takes only 5 minutes or less to prepare. My husband cannot get enough of it. If you want to serve 6 to 8 people, just double the ingredients. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247477/lavender-simple-syrup/",
@@ -2011,7 +1987,7 @@
     "cook": "6 mins",
     "ready in": "41 mins",
     "calories": "97",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3628010.jpg"
+    "summary": "Fresh lavender blossoms are steeped with sugar and water to create a sweet and aromatic floral syrup to flavor cocktails, lemonade, cakes, and sorbets. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258695/skinny-chocolate-mocha-shake/",
@@ -2023,7 +1999,7 @@
     "cook": "",
     "ready in": "2 hrs 5 mins",
     "calories": "123",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4536153.jpg"
+    "summary": "This is so delicious that the only thing missing here are the calories! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18962/pineapple-punch-drink/",
@@ -2035,7 +2011,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "147",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4945798.jpg"
+    "summary": "Cool and tasty - best of all easy! A definite winner. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247475/rosemary-simple-syrup/",
@@ -2047,7 +2023,7 @@
     "cook": "6 mins",
     "ready in": "41 mins",
     "calories": "98",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3628017.jpg"
+    "summary": "Like the essence of a Mediterranean summer distilled into a sweet herbal syrup. Stir it into lemonade, flavor a cocktail, glaze a cake, or churn it into a sorbet. So refreshing. Store in the refrigerator for up to 1 month. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/200645/iced-coffee-syrup/",
@@ -2059,7 +2035,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "321",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8180623.jpg"
+    "summary": "An ice cold coffee beverage that is perfect as a pick me up when you don't want hot coffee, or a super sweet soda.  It is very easily modified to suit your tastes, depending on how strong you like your coffee. To make a drink, combine 2-3 tablespoons of the syrup with 8 oz of cold milk and serve over ice. As an extra special treat, add a scoop of ice cream, or a shot of Irish Cream! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/213212/spiced-orange-cider-mix/",
@@ -2071,7 +2047,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "78",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/338662.jpg"
+    "summary": "Nothing is more soothing than a hot cup of spiced orange cider on a cold winter's night. I've enjoyed this recipe for years. Bring this mix to work, as it's a sure-fire drink your co-workers will L-O-V-E. It's also a cute, easy, inexpensive holiday gift that's fun for the kiddos (looks like sand art). Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/24970/brandy-simple-syrup/",
@@ -2083,7 +2059,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "40",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1128171.jpg"
+    "summary": "Simple Syrup is brushed on cakes for added moisture and flavor. This one can be flavored with brandy or rum. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258688/coconut-cardamom-iced-coffee/",
@@ -2095,7 +2071,7 @@
     "cook": "3 mins",
     "ready in": "10 mins",
     "calories": "287",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4528650.jpg"
+    "summary": "This exotic and indulgent blend of flavors will make you think you're on a tropical island! A delicious way to perk up your coffee! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/241249/chai-tea-concentrate/",
@@ -2107,7 +2083,7 @@
     "cook": "10 mins",
     "ready in": "1 hr 15 mins",
     "calories": "58",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/2050425.jpg"
+    "summary": "Convenient (and relatively inexpensive) way to have chai 'lattes' at home. The cardamom can be a bit expensive; try looking in the bulk section of a health food store. If you need to buy a jar of it, don't worry - it will make several batches! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246117/watermelon-lime-agua-fresca/",
@@ -2119,7 +2095,7 @@
     "cook": "",
     "ready in": "1 hr 15 mins",
     "calories": "64",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5305297.jpg"
+    "summary": "A very refreshing drink. You may also use cantaloupe or honeydew melon. These taste like the juices served in authentic Mexican restaurants. Serve in tall glasses over ice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/254470/chocolate-peanut-butter-iced-coffee/",
@@ -2131,7 +2107,7 @@
     "cook": "",
     "ready in": "1 hr 5 mins",
     "calories": "284",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3858794.jpg"
+    "summary": "Super easy iced coffee that can be made with items you most likely have. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/239240/creamy-green-drink/",
@@ -2143,7 +2119,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "222",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1936806.jpg"
+    "summary": "Very healthy and tastes like a banana smoothie. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/218329/cool-and-refreshing-cantaloupe-drink/",
@@ -2155,7 +2131,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "114",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/668797.jpg"
+    "summary": "This is a very refreshing drink my mother made for me a lot when I was a child. It may seem a little strange, but if you like cantaloupe, try it! Great on a hot summer day! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258690/iced-horchata-coffee/",
@@ -2167,7 +2143,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "311",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4528652.jpg"
+    "summary": "Iced Gevalia® Cold Brew Coffee gets a flair of Mexico with hints of almond and cinnamon. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/146971/white-chocolate-mocha/",
@@ -2179,7 +2155,7 @@
     "cook": "1 min",
     "ready in": "5 mins",
     "calories": "269",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8134166.jpg"
+    "summary": "This is a white chocolate version of a classic mocha. No reason to head to the cafe--stay in and use your home espresso machine to brew up this delicious espresso drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/275577/affogato/",
@@ -2191,7 +2167,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "159",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F964124.jpg"
+    "summary": "Crafting the perfect affogato is more than meets the eye. In fact, there's more science to the dessert than most would care to acknowledge. Using gelato boosts the incredible flavor, and gives a velvety, silky smoothness ice cream just doesn't have. This is because gelato has a lower fat content, less air, and is served at a different temperature than ice cream. Translation: if you use ice cream you'll end up with something less than perfect as the hot espresso will cause the ice cream to melt faster. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/96696/hot-and-sweet-ginger-drink/",
@@ -2203,7 +2179,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "229",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/274455.jpg"
+    "summary": "This old Chinese recipe is deceptively simple but addictive. Great substitute for hot spiced apple cider during the holidays. Warms the soul on a cold winter's evening! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258687/vanilla-blueberry-blended-coffee/",
@@ -2215,7 +2191,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "177",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4532334.jpg"
+    "summary": "Gevalia® Cold Brew Concentrate and blueberries blend together to form a delicious drink that's great anytime! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247474/basil-simple-syrup/",
@@ -2227,7 +2203,7 @@
     "cook": "6 mins",
     "ready in": "41 mins",
     "calories": "98",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3628018.jpg"
+    "summary": "Fresh basil leaves are steeped in sugar and water to create a sweet herbal syrup to flavor summer's most refreshing cocktails, mocktails, lemonades, and frozen treats. Store in the refrigerator for up to 1 month. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/214915/vanilla-honey-simple-syrup/",
@@ -2239,7 +2215,7 @@
     "cook": "1 min",
     "ready in": "11 mins",
     "calories": "161",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/64/06/640605.jpg"
+    "summary": "Delicious and easy to make! You want to have a morning snack like pancakes but the syrup has A LOT of sugar? Well, this has only honey! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235534/pumpkin-spice-syrup/",
@@ -2251,7 +2227,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "93",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1617282.jpg"
+    "summary": "This is a super easy-to-make syrup that combines the best flavors of pumpkin pie into a syrup wonderful for pancakes, especially pumpkin pancakes! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/17566/mexican-coffee/",
@@ -2263,7 +2239,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "123",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/712434.jpg"
+    "summary": "Mexican coffee is almost the same as Irish coffee, except it uses Mexican liqueurs. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235879/campfire-smores-latte/",
@@ -2275,7 +2251,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "232",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/2278932.jpg"
+    "summary": "Who wouldn't want to drink an espresso-infused s'more? "
   },
   {
     "url": "https://www.allrecipes.com/recipe/254709/whole30-cinnamon-coffee/",
@@ -2287,7 +2263,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "12",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3762807.jpg"
+    "summary": "The only way I can drink black coffee! A little bit of cinnamon goes a long way. If you're making a larger number of servings, just add a dash more cinnamon per serving to your normal amount of grounds. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/241789/orange-zinger/",
@@ -2299,7 +2275,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "188",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4624804.jpg"
+    "summary": "Loaded with vitamins, this is the perfect drink for when you're feeling a little under the weather. The ginger adds a nice, unexpected bite; you can easily adjust ginger quantity to fit your own tastes. This drink is great chilled or served over a few ice cubes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247326/iced-mocha-frappe/",
@@ -2311,7 +2287,7 @@
     "cook": "",
     "ready in": "3 hrs 8 mins",
     "calories": "353",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/3862859.jpg"
+    "summary": "A great-tasting drink! Similar to the mocha frappe at McDonald's®! You can drizzle chocolate syrup on top of the whipped cream if you'd like it to look prettier. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/264230/iced-almond-milk-nutella-latte/",
@@ -2323,7 +2299,7 @@
     "cook": "",
     "ready in": "35 mins",
     "calories": "181",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5373095.jpg"
+    "summary": "Traditional mocha latte with almond milk and a Nutella® twist! Adjust the amount of Nutella® according to how sweet you like your latte. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244510/apple-cider-vinegar-tea/",
@@ -2335,7 +2311,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "83",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2385957.jpg"
+    "summary": "A good detox to start your morning. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/255355/banana-milk-coffee/",
@@ -2347,7 +2323,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "133",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3955713.jpg"
+    "summary": "Adding creamy smooth banana milk to your morning cold brew makes it taste rich and delicious. Talk about an eye-opening good-for-you breakfast in a cup! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/109002/orange-pineapple-drink/",
@@ -2359,7 +2335,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "181",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/206157.jpg"
+    "summary": "A drink for all ages, quick and easy to make! Made of sherbet, orange juice, and pineapple juice, and treat on a hot summers day! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/232447/mayan-mocha-powder/",
@@ -2371,7 +2347,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "122",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/1023495.jpg"
+    "summary": "Years ago I worked in a little coffee shop. We had a powdered cocoa mix with spices that was called Mexican Spiced Cocoa. On the can were directions for mixing it with espresso to get Mayan Mocha. I fell IN LOVE with that drink and have been searching for a replacement ever since. The coffee shop inside Hastings has a similar drink, but won't sell the mix to me for home use. So I researched a little, tested a little, and came up with this. To serve, stir 1/4 cup mix with 1 cup hot water and stir. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258693/caramel-coconut-iced-coffee/",
@@ -2383,7 +2359,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "701",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4534262.jpg"
+    "summary": "A sweet treat iced cold brew coffee is a flavorful perk-up any time of day. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258694/iced-mexican-mocha/",
@@ -2395,7 +2371,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "130",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4538598.jpg"
+    "summary": "A spicy twist on a classic iced mocha. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228005/ultimate-iced-coffee/",
@@ -2407,7 +2383,7 @@
     "cook": "",
     "ready in": "",
     "calories": "18",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/985033.jpg"
+    "summary": "Cold-brewed coffee poured over coffee ice cubes makes the best iced coffee. It takes a bit of planning, but its full, rich flavor makes the wait worthwhile. The ideal coffee for this cold drink is a blend of mid-roasted beans with moderate acid. Using a dark roast and beans high in acid produces a sharper, more bitter result. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257862/light-cranberry-coconut-refresher/",
@@ -2419,7 +2395,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "54",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4508609.jpg"
+    "summary": "A refreshing thirst quencher that's not loaded with calories and sugar and has just the right balance of sweet-tart. This is the perfect beverage for anybody watching their calories but still looking for full flavor. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244313/turmeric-ginger-c-boost-life-juice/",
@@ -2431,7 +2407,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "163",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/4484931.jpg"
+    "summary": "The medicinal properties of this spice have been slowly revealing themselves over the centuries. Long known for its anti-inflammatory properties, recent research has revealed that turmeric is a natural wonder, proving beneficial in the treatment of many different health conditions. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258422/iced-soy-milk-matcha-tea/",
@@ -2443,7 +2419,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "116",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/2245114.jpg"
+    "summary": "This simple, dairy-free iced green tea latte will surprise you with flavor! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236750/chocolate-chai-coffee-mix/",
@@ -2455,7 +2431,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "42",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/2050506.jpg"
+    "summary": "I was craving Starbucks® chocolate chai tea latte when I made this. It is not a copycat recipe, simply tasty and easy. International Delight® 'Sweet Cream' is fabulous in this, if you like sweet coffee. Cardamom gives it the slight licorice taste; if you omit it, that's fine too. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/232176/fireside-coffee/",
@@ -2467,7 +2443,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "78",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1003999.jpg"
+    "summary": "Warm and soothing hot drink that is a relaxing companion. Great for camping, hiking, or just to unwind the stress of your day. You can use decaf instant coffee if preferred. To use, mix 2 to 3 heaping tablespoons of mix in a mug of hot water. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32695/fire-side-coffee/",
@@ -2479,7 +2455,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "24",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/506096.jpg"
+    "summary": "A wonderful drink to enjoy after a long day of skiing, sledding, or skating. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279735/pumpkin-spice-whipped-coffee/",
@@ -2491,7 +2467,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "215",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7946104.jpg"
+    "summary": "Whipped coffee is the latest trend in coffees. With so much time on my hands, now that we are on lockdown due to the Coronavirus, I decided to take this coffee drink to another level by flavoring it with pumpkin.  I loved it! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/272488/14-hands-frose/",
@@ -2503,7 +2479,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "123",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6531141.jpg"
+    "summary": "It's frozen. It's rosé. Need we say more? "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229575/tembleque-latte/",
@@ -2515,7 +2491,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "215",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3580501.jpg"
+    "summary": "For all my Puerto Rican relatives and friends, this recipe will tantalize your taste buds and give you the wonderful flavor and creaminess of tembleque in a pinch. Coconut infused coffee and cinnamon delights when mixed with steamed milk. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/92405/chocolate-caramel-latte-syrup/",
@@ -2527,7 +2503,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "260",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/141630.jpg"
+    "summary": "Foolproof chocolate caramel syrup makes a wonderful exciting latte!  Better than you know who! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/255410/skinny-white-chocolate-caramel-iced-coffee/",
@@ -2539,7 +2515,7 @@
     "cook": "",
     "ready in": "3 hrs 5 mins",
     "calories": "24",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/3936805.jpg"
+    "summary": "Filled with flavor. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/230350/coffee-slush/",
@@ -2551,7 +2527,7 @@
     "cook": "",
     "ready in": "4 hrs 10 mins",
     "calories": "212",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/96/46/964610.jpg"
+    "summary": "This make-ahead frozen beverage made with coffee and half and half is perfect for teas and showers. Simple yet delicious! Save coffee from the day before in the fridge. Everyone will want your recipe! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247303/very-berry-tea-smoothie/",
@@ -2563,7 +2539,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "298",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3587061.jpg"
+    "summary": "Summer's best berries meet up with banana, pineapple, mint, and black tea in this light and colorful smoothie. A splash of lemon juice adds just the right brightness to the mix. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279872/whipped-peanut-butter-iced-coffee/",
@@ -2575,7 +2551,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "199",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8137565.jpg"
+    "summary": "I'm obsessed with whipped coffee. With the lockdown in place due to the Coronavirus and so much time on my hands, I have been trying different ways to flavor this coffee. I sit and sip on this while playing games with hubby and letting time go by slowly. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247476/lemon-verbena-simple-syrup/",
@@ -2587,7 +2563,7 @@
     "cook": "6 mins",
     "ready in": "41 mins",
     "calories": "98",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/3628013.jpg"
+    "summary": "An intensely fragrant syrup that combines citrus, floral, and woody notes into a flavor-booster for cocktails, mocktails, and sorbets. Your kitchen is going to smell amazing. Store in the refrigerator for up to 1 month. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280074/cold-brew-and-tonic/",
@@ -2599,7 +2575,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "82",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8281700.jpg"
+    "summary": "A refreshing drink during the day. Sometimes in the evening I'll have another one but replace the coffee with gin! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/264818/brown-sugar-coconut-latte/",
@@ -2611,7 +2587,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "464",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3570060.jpg"
+    "summary": "This latte has coconut, coconut, and more coconut! For coconut lovers. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/267249/brown-sugar-latte/",
@@ -2623,7 +2599,7 @@
     "cook": "5 mins",
     "ready in": "7 mins",
     "calories": "164",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7631953.jpg"
+    "summary": "This brown sugar latte will make you keep wanting to come back for more. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/281738/peanut-butter-cream-cold-brew/",
@@ -2635,7 +2611,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "306",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8525146.jpg"
+    "summary": "I recently came up with a copycat pumpkin cream cold brew. I liked it so much I tried making it with a different flavor. This worked out deliciously. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/281746/pumpkin-cream-cold-brew/",
@@ -2647,7 +2623,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "223",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8518335.jpg"
+    "summary": "Every fall I eagerly await this iced coffee from that famous coffee shop. What I don't like is that it can be pricey. So I decided to make my own pumpkin cream to be able to enjoy it year round. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32582/frozen-almond/",
@@ -2659,7 +2635,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "396",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/947355.jpg"
+    "summary": "This is a cold frosty sweet dream of a drink...for adults only! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273740/skinny-peanut-butter-iced-coffee/",
@@ -2671,7 +2647,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "62",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8604356.jpg"
+    "summary": "Just throw the 4 items into a blender with ice and you'll wind up with a great-tasting skinny iced coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/146973/mixed-mocha/",
@@ -2683,7 +2659,7 @@
     "cook": "1 min",
     "ready in": "5 mins",
     "calories": "321",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3411458.jpg"
+    "summary": "Have your classic mocha and white chocolate too! This recipe mixes white and regular chocolate to create a creamy, chocolaty treat for the coffee-drinker who loves chocolate too much to choose. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/216561/123-mocha-2-go/",
@@ -2695,7 +2671,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "60",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/655069.jpg"
+    "summary": "Save money by not getting Mocha out -- and have this powder ready to go at home for a delicious coffee drink. Also great as jar gifts for Christmas! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238283/sesame-seed-juice/",
@@ -2707,7 +2683,7 @@
     "cook": "5 mins",
     "ready in": "1 hr 15 mins",
     "calories": "129",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/3080201.jpg"
+    "summary": "A toasted tasty juice, this is a traditional beverage of Puerto Rico. It's so refreshing and a different idea. For an iced cool beverage, add crushed ice and serve immediately. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258685/island-spice-cold-brew/",
@@ -2719,7 +2695,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "141",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4532893.jpg"
+    "summary": "You can taste the spices in the cool breezes of the South Seas in every sip. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/272450/cold-brewed-coffee/",
@@ -2731,7 +2707,7 @@
     "cook": "5 mins",
     "ready in": "12 hrs 20 mins",
     "calories": "95",
-    "imageUrl": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1033249144001/c86132e8-3826-419b-8dbc-4ed1f6d16ccf/d3a55fe1-e86f-4cff-b19a-763dcd827bd5/1280x720/match/image.jpg"
+    "summary": "Save some money and make iced coffee at home. Serve with a simple syrup and creamer in a Ball Mason jar for added enjoyment! This is a concentrated coffee mixture. It is recommended to dilute with water 50/50. Add creamer to taste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/206612/spiced-coconut-coffee/",
@@ -2743,7 +2719,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "185",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4558186.jpg"
+    "summary": "Don't let the ingredients scare you off. This coffee has a bit of a kick, but it's just right for warming up on those cold winter days. It's easily made in a french press or a regular drip coffee maker. The cinnamon stick can be used more than once. Top with whipped cream and sprinkle with ground cinnamon if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/265512/tan-and-sweet-keto-coffee/",
@@ -2755,7 +2731,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "580",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6401325.jpg"
+    "summary": "This high-fat, low-carb coffee is a great way to get your fats, boost your brain power, and fuel you for hours. Plus, this tasty cuppa joe will take you back to your prior to keto life without introducing all of the extra carbs you once consumed. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/267371/carnation-breakfast-peanut-butter-cup-smoothie/",
@@ -2767,7 +2743,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "273",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5654487.jpg"
+    "summary": "Packed with protein, this delicious smoothie reminiscent of the famous chocolate peanut butter\ncup is sure to keep you full until lunchtime or beyond. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244314/almond-milk-frappuccino/",
@@ -2779,7 +2755,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "120",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3117034.jpg"
+    "summary": "A light frozen coffee drink that is easily adaptable. I have substituted Starbucks® Via™ ready-made for the espresso shots and I sometimes add a handful of chocolate chips to the blender. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/282669/whipped-hot-chocolate-coffee/",
@@ -2790,7 +2766,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "371",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8815722.jpg"
+    "summary": "Sure to warm you up. Good for breakfast or a midday pick-me-upper. This coffee topped with whipped hot chocolate is so decadent that you can serve it in place of dessert. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/261249/orange-carrot-ginger-juice/",
@@ -2802,7 +2778,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "159",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7810425.jpg"
+    "summary": "Boost your immune system with an orange-carrot-ginger juice packed with healthy citrus and carrots. This juice has tons of flavor, a zing of tartness, and is full of nourishment. The perfect juice to spring-clean your diet! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/262288/keto-breakfast-coffee/",
@@ -2814,7 +2790,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "208",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4970791.jpg"
+    "summary": "Protein, medium-chain fatty acids, caffeine with a frothy head. Pure keto goodness. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/268964/creamy-maple-coffee-punch/",
@@ -2826,7 +2802,7 @@
     "cook": "5 mins",
     "ready in": "8 hrs 20 mins",
     "calories": "284",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6798901.jpg"
+    "summary": "Iced coffee with a hint of maple sounds different, huh? Well, the taste of this creamy maple coffee punch will bring lots of oohs and aahs (and without all the sugar of traditional iced coffee). "
   },
   {
     "url": "https://www.allrecipes.com/recipe/239713/cranberry-syrup/",
@@ -2838,7 +2814,7 @@
     "cook": "20 mins",
     "ready in": "25 mins",
     "calories": "68",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4222579.jpg"
+    "summary": "Super simple syrup recipe that the kids will love. Serve over ice cream, pancakes, waffles or whatever else you could think of. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/270687/hot-nutty-irish-coffee/",
@@ -2850,7 +2826,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "251",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6427239.jpg"
+    "summary": "This is a great after-dinner coffee. I like to add a mixture of cinnamon and sugar to the rim before I make them. We sometimes use green sugar. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244810/paleo-friendly-chocolate-mint-syrup/",
@@ -2862,7 +2838,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "203",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/2581784.jpg"
+    "summary": "I mix this with a shot of espresso, coconut milk, and ice for a paleo-friendly iced coffee. Store in an airtight container in the refrigerator for up to 2 weeks. Store in the freezer for later use. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32553/cold-duck-punch/",
@@ -2874,7 +2850,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "74",
-    "imageUrl": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/1033249144001/5efa40a9-6b4a-44a3-9ef6-312cba493cd3/5b2c9233-f1af-45e4-a60d-69b19fd34df4/1280x720/match/image.jpg"
+    "summary": "Makes a nice Christmas season punch. Keep cold with ice cubes or a festive ice ring. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279979/vegan-banana-whipped-iced-coffee/",
@@ -2886,7 +2862,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "241",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8206875.jpg"
+    "summary": "One of the latest raves are whipped coffees. We are on lockdown because of the Coronavirus so I spend a lot of my time playing games and flavoring these whipped coffees. Here is my latest creation. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/278676/vegan-mocha-latte/",
@@ -2898,7 +2874,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "229",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/7773936.jpg"
+    "summary": "A delicious vegan mocha latte made in just a few minutes. Any type of nut milk or soy milk can be used in this recipe. If you're not vegan, try using full-fat milk for a richer and creamier version. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279793/dalgona-cocktail/",
@@ -2910,7 +2886,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "439",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7947023.jpg"
+    "summary": "If you haven't heard of the latest trend in the coffee world, it's dalgona coffee, and you can take it up a level by morphing it into a cocktail. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/264147/simple-molten-iced-chocolate-latte/",
@@ -2922,7 +2898,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "216",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5543296.jpg"
+    "summary": "Iced easy latte. Top with whipped cream and chocolate sprinkles if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/222036/3-minute-mochaccino/",
@@ -2934,7 +2910,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "218",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/854181.jpg"
+    "summary": "The perfect blend of coffee and chocolate - a woman's best friends. This delectable treat is a quick, indulgent fix for all your chocolate and coffee cravings. Play with the ingredient ratios to personalize your beverage. Below is the mix I like best. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/264231/cold-brew-and-almond-milk-latte/",
@@ -2946,7 +2922,7 @@
     "cook": "",
     "ready in": "18 hrs 5 mins",
     "calories": "76",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5368629.jpg"
+    "summary": "Why pay for expensive iced lattes at coffeehouses when you can make them more affordably in your own home whenever you want? "
   },
   {
     "url": "https://www.allrecipes.com/recipe/146963/vanilla-latte/",
@@ -2958,7 +2934,7 @@
     "cook": "1 min",
     "ready in": "6 mins",
     "calories": "261",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/45585.jpg"
+    "summary": "This is an easy espresso drink to make with your home espresso machine--steamed milk and a shot of espresso with vanilla flavoring. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/258802/farmers-market-turmeric-tea/",
@@ -2970,7 +2946,7 @@
     "cook": "15 mins",
     "ready in": "20 mins",
     "calories": "14",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4534402.jpg"
+    "summary": "If you can't find fresh turmeric root I don't see why you can't use ginger root. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/260029/easy-blended-mocha/",
@@ -2982,7 +2958,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "374",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8010876.jpg"
+    "summary": "The delicious and simplest blended mocha I ever made before! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238022/frozen-irish-cream/",
@@ -2994,7 +2970,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "331",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4504866.jpg"
+    "summary": "A quick and easy treat! This yummy frozen coffee drink is for adults only. I discovered this by accident after making original Irish cream on St. Patrick's Day! Top with whipped cream and chocolate syrup if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/232449/cafe-dulce-de-leche/",
@@ -3006,19 +2982,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "42",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/2179862.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/270062/caipira-coffee/",
-    "name": "Caipira Coffee",
-    "rating": "4.5",
-    "ingredients": "½ cup brewed coffee, 1 (1.5 fluid ounce) jigger cachaça (Brazilian rum), 3 tablespoons sweetened condensed milk",
-    "directions": "1. Mix coffee, cachaça, and condensed milk together vigorously. Serve cold, but without ice.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "280",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6287676.jpg"
+    "summary": "The first time I drank this kind of coffee was at my husband's grandfather's house. Grandpa Felix made several different flavored coffees. This Mexican style coffee is a sweet, creamy caramel-coffee drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/246116/tamarind-agua-fresca/",
@@ -3030,7 +2994,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "85",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3378553.jpg"
+    "summary": "This is another favorite agua fresca drink of mine. The tamarind has a sweet and sour kind of taste to it. You can find tamarind concentrate in most Mexican or Asian markets. Serve immediately or chill until ready to serve. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/217210/homemade-grenadine/",
@@ -3042,7 +3006,7 @@
     "cook": "10 mins",
     "ready in": "11 mins",
     "calories": "71",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4574288.jpg"
+    "summary": "It's extremely easy to make homemade grenadine. It's a two-ingredient operation. Your cocktails will thank you. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/244846/blueberry-limeade/",
@@ -3054,7 +3018,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "72",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3391012.jpg"
+    "summary": "Refreshing blueberry limeade is prepared with fresh blueberries, lime juice, and sugar. Serve cold over ice. Stir well before serving. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/219292/hot-coffee-masala/",
@@ -3066,7 +3030,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "31",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F791946.jpg"
+    "summary": "The hot drink to drink during cold time! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18485/flavored-cappuccino-mix/",
@@ -3078,7 +3042,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "70",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/626964.jpg"
+    "summary": "Great mix - the powdered milk, sugar and creamer can be separated from the coffee and placed in a jar for a gift. Use any flavor of powdered non-dairy creamer to further flavor your cappuccino mix. Vary the amount of coffee granules to your taste. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/262046/russian-tea-no-mixes/",
@@ -3090,7 +3054,7 @@
     "cook": "10 mins",
     "ready in": "35 mins",
     "calories": "129",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5034458.jpg"
+    "summary": "Russian tea is a great wintertime beverage my mom always made. Love it at Christmas...always makes the house smell good! Great hot or cold! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/204423/caribbean-health-drink/",
@@ -3102,7 +3066,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "178",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/664095.jpg"
+    "summary": "Full of vitamins and minerals. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/146970/mocha/",
@@ -3114,7 +3078,7 @@
     "cook": "1 min",
     "ready in": "5 mins",
     "calories": "266",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6423849.jpg"
+    "summary": "This is a chocolate and coffee-lover's favorite! Using a home espresso machine, mix espresso, chocolate, and steamed milk--then top with whipped cream. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/150065/coffee-mcavee/",
@@ -3126,7 +3090,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "453",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/4503766.jpg"
+    "summary": "A wonderful coffee drink that will keep you toasty on the winter evenings!  Can also be a great dessert! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236292/strawberry-guava-spritzer/",
@@ -3138,7 +3102,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "183",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/6843957.jpg"
+    "summary": "This an endlessly variable recipe. Try different kinds of juice concentrate or different carbonated beverages according to your taste. Use more or less club soda depending on the the level of sweetness you want. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/239043/a-healthier-mochaccino/",
@@ -3150,7 +3114,7 @@
     "cook": "",
     "ready in": "6 hrs 15 mins",
     "calories": "370",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4514000.jpg"
+    "summary": "Have this every day for breakfast! It keeps you feeling full, and satisfies just about every craving! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233677/strawberry-mint-chia-fresca/",
@@ -3162,7 +3126,7 @@
     "cook": "",
     "ready in": "45 mins",
     "calories": "82",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3348431.jpg"
+    "summary": "Refreshing, healthy, and energizing drink containing coconut water for electrolytes and mint for a cool taste. Chia seeds are high in omega-3 fatty acids and antioxidants. Inspired by Mexican Chia Fresca and my love for mojitos! The juice can be drunk without waiting the 30 minutes, but the seeds might stick to the glass more. A juicer can be used to juice the strawberries and mint. Doing so will give more mint flavor and may require using less mint to begin with. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233142/spiced-hot-cocoa-mix/",
@@ -3174,7 +3138,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "128",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1060330.jpg"
+    "summary": "A great hot, chocolaty drink for wintertime using chocolate pudding mix, cinnamon, and more. Great for gift giving. Mix 1/4 cup mix with 1 cup of boiling water. Top off with whipped topping and sprinkle with cinnamon. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/282528/pumpkin-spice-iced-coffee/",
@@ -3185,7 +3149,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "48",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8161132.jpg"
+    "summary": "This iced pumpkin coffee is a perfect fall refresher. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/266181/pumpkin-frappe/",
@@ -3197,7 +3161,7 @@
     "cook": "",
     "ready in": "8 hrs 5 mins",
     "calories": "61",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4530166.jpg"
+    "summary": "Truvia® and unsweetened almond milk make this frappe drink low in calories. Top with fat-free whipped topping (such as Cool Whip®) if desired. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273514/white-chocolate-raspberry-latte/",
@@ -3209,7 +3173,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "273",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3531730.jpg"
+    "summary": "This latte is made with sugar-free syrup and soy milk for a low in calories delicious latte (but you need to omit the chocolate chips). "
   },
   {
     "url": "https://www.allrecipes.com/recipe/260026/frugal-summer-coffee/",
@@ -3221,7 +3185,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "143",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4556045.jpg"
+    "summary": "Tired of paying so much money for iced coffees, I invented my own version that I keep on hand in the refrigerator for summer mornings when I want coffee but not HOT coffee. Store the the refrigerator. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245265/gingerbread-latte-syrup/",
@@ -3233,7 +3197,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "63",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2895412.jpg"
+    "summary": "This gingerbread latte syrup is super quick to make and has great authentic gingerbread flavor. To serve, add 2 to 3 tablespoons of the gingerbread syrup to 8 ounces of hot milk mixed with 2 ounces of hot espresso. Store in the fridge in an airtight container. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/263879/paleo-and-keto-almond-butter-mocha-for-two/",
@@ -3245,7 +3209,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "115",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8136060.jpg"
+    "summary": "This low-carb rich and decadent almond butter mocha will keep you fueled all day! It is ideal for keto and Paleo diets. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236479/coconut-maple-coffee/",
@@ -3257,7 +3221,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "166",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1935770.jpg"
+    "summary": "Quick and delicious! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/234326/super-veggie-juice-with-a-kick/",
@@ -3269,7 +3233,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "122",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2030931.jpg"
+    "summary": "A healthy and flavorful fresh juice to help you load up on those servings of veggies that may otherwise be difficult to consume. Add some ginger for a little kick. It's better if they're all chilled before juicing or shake the juice in a cocktail shaker with some ice just to chill, then strain the ice out before drinking. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229721/cafe-mocha-in-a-jar/",
@@ -3281,7 +3245,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "92",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/970160.jpg"
+    "summary": "A great balance of chocolate and coffee. Add 1 tablespoon mix to 6 ounces hot water for a warming treat! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/232228/vegetable-and-fruit-juice/",
@@ -3293,7 +3257,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "157",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/1793443.jpg"
+    "summary": "This is so delicious and addictive! It is also very healthy. It tastes very fresh with the lime and ginger kick at the end of the drink. If you want to save the pulp, juice the carrots and tomatoes in the beginning and then remove the pulp to save for soup. You can add broth and onions and garlic to the pulp and it makes a very tasty soup in minutes! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/281066/delicious-homemade-iced-coffee/",
@@ -3305,7 +3269,7 @@
     "cook": "",
     "ready in": "40 mins",
     "calories": "172",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8432885.jpg"
+    "summary": "I based this homemade iced coffee on Starbucks® bottled Frappuccino®. My husband and I love it and our fridge is never without a pitcher of this super easy, frugal alternative to the expensive stuff. Even though winter's coming and we live in Pennsylvania's Lake Erie snowbelt, we drink this year-round as an alternative to soda and other soft drinks. This particular recipe lends itself to endless variations limited only by your imagination! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/260025/iced-coffee-perfection/",
@@ -3317,7 +3281,7 @@
     "cook": "",
     "ready in": "8 hrs 10 mins",
     "calories": "17",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4553304.jpg"
+    "summary": "I have been using this method called 'cold brewing' during the hot summer months for years. I have not seen a recipe for it on this site so I figure it's time to let the secret out. Requires no coffee pot or fancy equipment either, gotta love simplicity at it's best.\n\n This makes the perfect cup of iced coffee. The heating of the beans is removed from this process, therefore it also removes the acidity from the coffee. Perfect for sensitive stomachs like mine! Enjoy. Stays fresh for about a week in the fridge. Add ice, simple syrup, or chocolate syrup for sweetness and a touch of cream and you will wonder (like I did) why I haven't heard of this miracle before! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/234302/cucumber-orange-carrot-juice/",
@@ -3329,7 +3293,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "89",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/1126628.jpg"
+    "summary": "This is a delicious juice my husband and I make for breakfast or an after-meal dessert when guests are over. It's not only delicious, but will perk up any bad day with a boost of vitamins and nutrients that you may otherwise skip out on. I hope you try it, and enjoy! \n\nRecipe makes 2 tall glasses or 4 smaller glasses of juice. \n\nYou need a blender. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279418/whipped-coffee-iced-latte/",
@@ -3341,7 +3305,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "176",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7851144.jpg"
+    "summary": "For a quick iced latte, try whipping instant coffee granules and water until foamy. Then pour over cold milk for this delicious and refreshing coffee drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/234849/quick-pumpkin-spice-latte/",
@@ -3353,7 +3317,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "184",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1057033.jpg"
+    "summary": "This is a great recipe for the holidays; it tastes great and it feels like fall when you drink it. It is similar to the Starbucks® Pumpkin Spice Latte, but I personally like this better. Top with whipped cream and pumpkin pie spice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236291/viennexican-coffee/",
@@ -3365,7 +3329,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "102",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1903280.jpg"
+    "summary": "I created this coffee drink out of a craving for a little kick to my coffee. Based on my love of hot chai, I began to feel that North Americans have a distinct lack of health-giving herbs and spices in our native cuisine. Hopefully a delicious hot cup of Viennexican can assist.\n\n Thinking of the spiciness of Viennese coffees and of the chocolate and fruit flavors of South American beverages, I believe the combination makes a beautiful result for the taste buds and the system as a whole! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245645/pumpkin-spice-latte-coffee-syrup/",
@@ -3377,7 +3341,7 @@
     "cook": "10 mins",
     "ready in": "20 mins",
     "calories": "67",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4022623.jpg"
+    "summary": "This is my experimentation on recreating the pumpkin spice syrup Starbucks® serves in the fall. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/270644/salted-caramel-egg-coffee/",
@@ -3389,7 +3353,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "196",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6392236.jpg"
+    "summary": "Minimalist, rich, frothy, and creamy coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/233014/iced-cappuccino-low-carb-alternative/",
@@ -3401,7 +3365,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "176",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3591998.jpg"
+    "summary": "A delicious low-carb and sugar-free alternative to the traditional calorie- and sugar-laden coffee drinks. A basic recipe that is easily modified to suit personal tastes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238155/refreshing-tangy-cucumber-juice/",
@@ -3413,7 +3377,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "34",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2414679.jpg"
+    "summary": "This summertime beauty and health drink is one of my favorite drinks in summer. Drink chilled to get refreshingly cool in the summer. It prevents dehydration in the body. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/268430/biscoff-latte/",
@@ -3425,7 +3389,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "206",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8304207.jpg"
+    "summary": "A latte made with Biscoff® cookie butter and cinnamon. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/234317/watermelon-cooler/",
@@ -3437,7 +3401,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "51",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5687432.jpg"
+    "summary": "Refreshing and healthy! Works best served with big straws! Feel free to leave some big chunks. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/269089/nutty-irish-coffee/",
@@ -3449,19 +3413,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "341",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6427239.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/229720/iced-mocha-cola/",
-    "name": "Iced Mocha Cola",
-    "rating": "4",
-    "ingredients": "ice, or as needed, 1 tablespoon instant coffee granules, 1 (12 fluid ounce) can or bottle cola-flavored carbonated beverage, or as needed., 1 ½ fluid ounces half-and-half",
-    "directions": "1. Fill a tall glass with ice. Add instant coffee granules. Slowly pour cola into the glass. Gently stir half-and-half into the cola to integrate.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "217",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/965241.jpg"
+    "summary": "Hazelnut liqueur takes this elegant Irish coffee to fragrant new levels of nuttiness. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/240772/azucenas-homemade-mocha/",
@@ -3473,7 +3425,7 @@
     "cook": "2 mins",
     "ready in": "7 mins",
     "calories": "104",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4517330.jpg"
+    "summary": "This is my lower-calorie alternative to the chain mochas. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/18931/orange-cream-drink/",
@@ -3485,7 +3437,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "263",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/631758.jpg"
+    "summary": "This is a great easy recipe which could be a delicious refresher or a breakfast meal! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/203328/hong-kong-mango-drink/",
@@ -3497,7 +3449,7 @@
     "cook": "10 mins",
     "ready in": "50 mins",
     "calories": "315",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/651404.jpg"
+    "summary": "A refreshing mango drink with a twist to it. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257736/mojito-coffee/",
@@ -3509,7 +3461,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "36",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4540698.jpg"
+    "summary": "Lift your senses to the rhythms of the Caribbean! Be enchanted by the feast of flavors, where the intensity of fresh mint meets intense aromas of roasting with the brilliance of the ice cubes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257914/taro-boba-tea/",
@@ -3521,7 +3473,7 @@
     "cook": "34 mins",
     "ready in": "56 mins",
     "calories": "257",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3795714.jpg"
+    "summary": "A cool, delicious drink for a summer day that includes tapioca pearls. \nFamilies will love this! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236373/v-great-juice/",
@@ -3533,7 +3485,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "288",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1100379.jpg"
+    "summary": "This is the first juice I made, and I hit it out of the ballpark by just using what I had on hand. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/265875/iced-lemon-coffee/",
@@ -3545,7 +3497,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "23",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7997450.jpg"
+    "summary": "I'm not sure when I had my first iced lemon coffee, but I remember thinking it was genius! The citrus flavors make it even more refreshing and summery. So start slicing up some lemons and make this simple drink instead. It's keto-friendly, low carb, and paleo. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228280/watermelon-juice/",
@@ -3557,7 +3509,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "35",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3313341.jpg"
+    "summary": "A quick and delicious drink that goes well on any day. You can even make ice pops out of this drink as a snack. Try lemon-lime soda in place of water for another variation. You can also add ice cubes if you want it colder and somewhat slushy. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/127890/pumpkin-spiced-latte/",
@@ -3569,7 +3521,7 @@
     "cook": "3 mins",
     "ready in": "18 mins",
     "calories": "158",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/5960796.jpg"
+    "summary": "My husband is obsessed with Starbucks® Pumpkin Spice Lattes! I created this recipe so we wouldn't have to go broke. I've made these countless times for everyone who visits. I think I've actually become famous for these within our very-extended family. No espresso machine is needed. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236374/peach-and-mint-juice/",
@@ -3581,7 +3533,7 @@
     "cook": "",
     "ready in": "8 hrs 10 mins",
     "calories": "37",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/01/12/66/1126625.jpg"
+    "summary": "I found out about this from a friend from the Humane Society where I volunteer, just had to share it! If you don't want to wait all night, try using a juicer. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32670/instant-cappuccino/",
@@ -3593,7 +3545,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "103",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/00/87/68/876849.jpg"
+    "summary": "I like to package this in cellophane bags and stamp a header for gift-giving. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/228004/hot-mocha/",
@@ -3605,7 +3557,7 @@
     "cook": "",
     "ready in": "",
     "calories": "59",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3547872.jpg"
+    "summary": "This warming drink, a treat for coffee and chocolate lovers alike, combines the two under a layer of creamy foamed milk. Skim milk foams easily and makes a deceptively lean, yet rich topping. Enjoy it in the morning, as an afternoon break, and as a lean, luscious, liquid dessert. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/256896/chocolate-oatmeal-shake/",
@@ -3617,7 +3569,7 @@
     "cook": "",
     "ready in": "3 mins",
     "calories": "297",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4461301.jpg"
+    "summary": "Looking for a breakfast shake with the great benefits of oats? Try the Carnation Breakfast Essentials® Chocolate Oatmeal Shake. This reader-submitted recipe is a satisfying and nutritious start to your day. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247302/mighty-melon-green-tea-smoothie/",
@@ -3629,7 +3581,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "247",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3587058.jpg"
+    "summary": "Cantaloupe, pear, and pineapple team up with green tea and mint for a light and lovely smoothie. Yogurt adds protein to make it a delicious meal replacement. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238530/easy-breezy-coconut-and-banana-drink/",
@@ -3641,7 +3593,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "396",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1367564.jpg"
+    "summary": "Full of omega-3, fiber, and protein, this is a very tasty and filling way of getting your nutrition. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/277739/cold-brew-mojito/",
@@ -3653,7 +3605,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "57",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7829367.jpg"
+    "summary": "This iced coffee mojito is the best I have ever tasted without milk. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/282106/spiked-and-spiced-dalgona-coffee/",
@@ -3665,7 +3617,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "326",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/8762886.jpg"
+    "summary": "This mixes heavenly dalgona coffee (the South Korean cold whipped coffee drink that went viral during quarantine) with a hot pumpkin spice latte and added a shot of Kahlua® for a little extra cheer. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32538/mocha-cola/",
@@ -3677,7 +3629,7 @@
     "cook": "",
     "ready in": "1 min",
     "calories": "240",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/809277.jpg"
+    "summary": "A cocktail made with coffee liqueur and cola - very simple and sweet. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245644/peppermint-coffee-syrup/",
@@ -3689,7 +3641,7 @@
     "cook": "10 mins",
     "ready in": "20 mins",
     "calories": "26",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4296373.jpg"
+    "summary": "Great syrup for flavoring coffees and all other hot drinks such as lattes, hot chocolate, and tea. Great for your budget. No more buying costly flavored syrups from coffee houses. Give as a gift anytime of the year for the coffee lover. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229724/orange-mocha/",
@@ -3701,7 +3653,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "92",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/939576.jpg"
+    "summary": "A tangy and sweet orange mocha. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229378/easy-pumpkin-spice-latte/",
@@ -3713,7 +3665,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "88",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3603338.jpg"
+    "summary": "Who needs store-bought when you have a kitchen? With a baby and a dog, I don't have time for pumpkin puree, just need something to kick start my morning and put me in a good mood. I'm sure you'll share the feeling after you try this super-ample, super-fast, and super-cheap treat! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/83029/pumpkin-spice-latte/",
@@ -3725,7 +3677,7 @@
     "cook": "5 mins",
     "ready in": "7 mins",
     "calories": "244",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7776063.jpg"
+    "summary": "My take on our corner coffee shop's seasonal pumpkin latte. I loved it so much I HAD to do something!  You can use canned 'pumpkin pie mix' if you like, since it contains the pumpkin pie spice ingredients already. Top with nutmeg or cinnamon if you like.  Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/232262/mocha-coffee-cooler/",
@@ -3737,7 +3689,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "399",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1004140.jpg"
+    "summary": "This is so wonderful on a hot summer day (or any time of  year, for that matter). You can have your favorite coffee taste in a refreshing cooler. And it's easy to change a little bit to accommodate your favorite flavors, like by using flavored coffee creamers, or different types of coffee. I like it because, unlike other recipes, it's dairy-free. It may have some unusual ingredients, but trust me, they're necessary to make it all bond together and have the great cooler texture. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/229576/quick-gingerbread-latte/",
@@ -3749,7 +3701,7 @@
     "cook": "2 mins",
     "ready in": "7 mins",
     "calories": "138",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4518990.jpg"
+    "summary": "A quick, warm, and cozy coffee drink spiced just nice for the cold winter months or anytime. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/143321/orange-chocolate-breakfast-drink/",
@@ -3761,7 +3713,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "306",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/772096.jpg"
+    "summary": "This drink is a great-tasting breakfast treat that only takes about 10 minutes to make. Why not try a breakfast drink with chocolate? Drink up and enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/230881/turkish-coffee/",
@@ -3773,7 +3725,7 @@
     "cook": "5 mins",
     "ready in": "5 mins",
     "calories": "48",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6352044.jpg"
+    "summary": "My mom was mad because none of the Turkish coffee recipes she could find online were close to the way she used to make it. This is her way of making Turkish coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/216441/pumpkin-spice-coffee/",
@@ -3785,7 +3737,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "25",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1400657.jpg"
+    "summary": "Why spend extra money on seasonal flavored coffee when you can easily make your own? "
   },
   {
     "url": "https://www.allrecipes.com/recipe/172240/rabri-barley-yogurt-drink/",
@@ -3797,7 +3749,7 @@
     "cook": "1 hr 10 mins",
     "ready in": "3 hrs 20 mins",
     "calories": "144",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/514424.jpg"
+    "summary": "A hearty barley and yogurt drink from north India. Great for diets. Add water or milk if its too thick. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/23526/hot-chocolate-mix-i/",
@@ -3809,7 +3761,7 @@
     "cook": "2 mins",
     "ready in": "12 mins",
     "calories": "66",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1091494.jpg"
+    "summary": "It's easy to make your own creamy hot chocolate mix, and this can be used in other recipes that call for hot chocolate mix. You just mix together cocoa, sugar, powdered creamer and powdered milk. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236221/green-drink-with-aloe-vera-juice/",
@@ -3821,7 +3773,7 @@
     "cook": "",
     "ready in": "20 mins",
     "calories": "537",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1919571.jpg"
+    "summary": "This is a quick replacement meal! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/180577/pumpkin-latte-mix/",
@@ -3833,7 +3785,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "74",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4557958.jpg"
+    "summary": "Pumpkin and vanilla flavored creamers combine with instant coffee for a tasty latte mix that makes a great gift. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/238025/frozen-vanilla-chai-tea/",
@@ -3845,7 +3797,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "183",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1169123.jpg"
+    "summary": "A good, super-easy treat for a chai tea fan. Serve immediately or store in the freezer (will change texture). "
   },
   {
     "url": "https://www.allrecipes.com/recipe/27105/homemade-hot-chocolate-mix/",
@@ -3857,7 +3809,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "39",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5848106.jpg"
+    "summary": "Great gifts for co-workers and friends. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/32292/hot-cocoa-mix-in-a-jar/",
@@ -3869,7 +3821,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "231",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/1869704.jpg"
+    "summary": "We take this to Holiday parties and on camping trips. Dress up the jar, and it makes a great  Holiday gift. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/212673/horchata-de-arroz-rice-drink/",
@@ -3881,7 +3833,7 @@
     "cook": "",
     "ready in": "12 hrs 15 mins",
     "calories": "396",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/315318.jpg"
+    "summary": "Refreshing rice drink with a hint of cinnamon. This version does not need to be boiled. Make a slush,if desired, by adding crushed ice. Enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/256467/salted-caramel-pumpkin-latte/",
@@ -3893,7 +3845,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "137",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4460796.jpg"
+    "summary": "Pumpkin latte with a hint of salt and caramel, make this a favorite fall treat.  Made with Stevia In The Raw for less sugar and calories! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/235281/rainy-portland-warm-rum-drink/",
@@ -3905,7 +3857,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "338",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5109659.jpg"
+    "summary": "An easy, warm rum and milk drink for a lazy, rainy day. This recipe invites customization to taste. Use more or less of any ingredient. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/254558/refreshing-oatmeal-drink-agua-de-avena/",
@@ -3917,7 +3869,7 @@
     "cook": "",
     "ready in": "1 hr 10 mins",
     "calories": "91",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/720x405/3799785.jpg"
+    "summary": "This is a refreshing drink from Mexico that is very similar to horchata but healthier and easier to make! Serve cold. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245540/diy-finnish-lonkero-aka-long-drink/",
@@ -3929,7 +3881,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "145",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5584427.jpg"
+    "summary": "My family recently went on a vacation to Finland. In addition to enjoying the food and scenery, many of us fell in love with the lonkero, or long drink. This is a strictly Finnish drink made by combining cheap gin with citrus. The most common flavor is grapefruit, which is reproduced here. Lonkero is not sold in the US so I decided to try to copy it by referring to web sites from other tourists who tried to copy it and reading the ingredients on the company's web site. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/42796/thai-coffee/",
@@ -3941,7 +3893,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "64",
-    "imageUrl": "http://images.media-allrecipes.com/userphotos/250x250/716133.jpg"
+    "summary": "Thai coffee, as is served in Thai restaurants. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/254863/honeydew-punch/",
@@ -3952,7 +3904,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "177",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/3649908.jpg"
+    "summary": "This is for the juicing community. \nThis is a light and sweet juice that has its share of protein as well.\n I gave it this name because the surface foam, before you stir it, looks just like traditional party punch with the green and orange swirl. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/260241/honey-chai-tea-latte/",
@@ -3963,7 +3915,7 @@
     "cook": "",
     "ready in": "20 mins",
     "calories": "97",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4557514.jpg"
+    "summary": "No need to head to the local coffee shop for your next chai tea latte – we've got the perfect solution with our homemade, sweet & spicy Honey Chai Tea Latte. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/257442/strawberry-watermelon-summer-drink/",
@@ -3974,7 +3926,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "264",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4486134.jpg"
+    "summary": "A cool refreshing watermelon strawberry summer drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/261248/orange-carrot-juice/",
@@ -3985,7 +3937,7 @@
     "cook": "",
     "ready in": "20 mins",
     "calories": "113",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/968239.jpg"
+    "summary": "Orange-carrot juice. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/261229/apple-carrot-juice/",
@@ -3996,7 +3948,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "311",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4576320.jpg"
+    "summary": "Apple and orange are added to this carrot juice which makes for a healthy, tasty beverage. If you add flaxseed oil, you'll add some omega-3 fatty acids to your morning drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236797/liquid-green-platinum-drink/",
@@ -4007,7 +3959,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "223",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1108905.jpg"
+    "summary": "This green drink is mighty! This wonderful energizer is perfect for the morning pick-me-up and even better after a good workout. Don't let the ingredients and color fool you, this drink is absolutely delicious! Pour into a tall glass and enjoy! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/260562/cranberry-rosemary-prosecco-float/",
@@ -4018,7 +3970,7 @@
     "cook": "6 mins",
     "ready in": "1 hr 6 mins",
     "calories": "474",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5965081.jpg"
+    "summary": "This makes such a festive cocktail to kick off your Thanksgiving cocktail hour! This recipe is for one, but line up flutes for all your guests and it's easy to make as many as you need. Make the rosemary simple syrup up to a week in advance. The rest of the cocktail is together in minutes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/240613/darlenes-awesome-hot-chocolate-mix/",
@@ -4029,7 +3981,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "261",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F774913.jpg"
+    "summary": "I learned hot to make this in college -- so that is what, 43 years ago? Something like that. Prepackaged dry hot chocolate mix such as you get in the grocery store is way, way expensive. And 43 years ago I don't believe Swiss Miss® existed as a product anyway. This recipe is much less expensive per serving; makes an enormous amount of mix and makes a great Christmas gift. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/262163/moms-russian-tea/",
@@ -4040,7 +3992,7 @@
     "cook": "40 mins",
     "ready in": "45 mins",
     "calories": "129",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1988612.jpg"
+    "summary": "Nothing powdered or instant here. Just pure natural flavors to sip on a cold winter day. Smells great while it's brewing too. Vitamin C never tasted so good! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/236290/easy-gingerbread-syrup/",
@@ -4051,7 +4003,7 @@
     "cook": "1 hr 45 mins",
     "ready in": "1 hr 55 mins",
     "calories": "118",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2895412.jpg"
+    "summary": "This simple, flavorful recipe is great as a sweetener in your favorite hot beverages and smoothies or as a topping on oatmeal, pancakes, pork, or fruit salad (apples, pears, peaches). It has a very heartwarming flavor, perfect for a cold day. Inspired by Billy's Favorite Gingerbread Spiced Coffee Syrup. I found this preparation method to be a lot easier. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/241248/lemon-spice-wellness-tea/",
@@ -4062,7 +4014,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "55",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2575952.jpg"
+    "summary": "This is a classic throw-in-what-you've-got tea that will kick a cold where it hurts: in the throat. \nIt is made with whole ingredients and no sugar - a sure sign you're on your way to wellness. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/242002/kale-and-cucumber-greens-juice-drink-with-pulp/",
@@ -4073,7 +4025,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "95",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5286168.jpg"
+    "summary": "A quick version of the 'green monster' juice drink made with a regular blender (to keep the pulp) and no-sugar-added peaches instead of apples. Using peaches ensures an accurate carb count (especially needed for diabetics). Keeping the pulp increases the nutritional values in this great early-morning drink for people who have trouble eating all their veggies. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/245564/cranberry-simple-syrup/",
@@ -4084,7 +4036,7 @@
     "cook": "15 mins",
     "ready in": "30 mins",
     "calories": "55",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7145061.jpg"
+    "summary": "This syrup is sweet and tart, and is a festive addition to holiday cocktails! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/268499/skinny-white-chocolate-coconut-latte/",
@@ -4095,7 +4047,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "100",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3555615.jpg"
+    "summary": "Any type of milk, dairy or non-dairy, can be used and you will still have a delicious coffee drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/269627/lebanese-white-coffee/",
@@ -4106,7 +4058,7 @@
     "cook": "2 mins",
     "ready in": "7 mins",
     "calories": "15",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6100016.jpg"
+    "summary": "The non-coffee, after-meal drink. White coffee isn't coffee at all. It is a simple mixture of  hot water, orange blossom water, and flavored honey. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/247304/peachy-mango-cucumber-tea-smoothie/",
@@ -4117,7 +4069,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "156",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3587072.jpg"
+    "summary": "Peach and mango give this smoothie its delicate color, while cucumber lightens up the texture. A touch of yogurt and ginger gives it a palate-pleasing finish. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/269626/rose-water-white-coffee/",
@@ -4128,18 +4080,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "8",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6100023.jpg"
-  },
-  {
-    "url": "https://www.allrecipes.com/recipe/270061/spanish-coffee/",
-    "name": "Spanish Coffee",
-    "ingredients": "1 ½ teaspoons superfine sugar, 1 fluid ounce 151-proof rum, ¾ fluid ounce triple sec (such as Bols®), 2 ½ fluid ounces coffee-flavored liqueur (such as Kahlua®), ½ cup freshly brewed coffee",
-    "directions": "1. Pour sugar into a shallow dish. Wet the rim of the glass and dip in sugar to coat. Add rum and triple sec. Use a long match or lighter to carefully ignite the mixture. Turn glass slowly until sugar begins to caramelize. Pour in coffee liqueur to put out the flame. Top with hot coffee.",
-    "prep": "5 mins",
-    "cook": "",
-    "ready in": "5 mins",
-    "calories": "437",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4348517.jpg"
+    "summary": "Lebanese white coffee isn't coffee at all. It is hot water, rose water, and a touch of crystallized sugar. This is a beautiful after-meal drink for anyone who doesn't like coffee or for who may have over indulged. Try this over ice for a refreshing drink on a hot day. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/270997/loomi-tea/",
@@ -4150,7 +4091,7 @@
     "cook": "10 mins",
     "ready in": "15 mins",
     "calories": "38",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6427212.jpg"
+    "summary": "Refreshing sour tea I found in Dubai. Great for settling upset tummies, too. Serve hot or cold. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/270067/anti-inflammatory-spiced-orange-juice/",
@@ -4161,7 +4102,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "150",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/894274.jpg"
+    "summary": "A very tasty drink made with orange juice and a variety of spices that my doctor suggested to reduce inflammation. \nMy doctor has suggested that I ingest the anti-inflammatory spices several times a day. Well I don't know about the rest of you, but I just cannot eat that many times a day, so I have come up with this drink to have between meals. I mainly have it between breakfast and lunch. You can change the amounts to your taste. Get well, everybody! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/270193/karak-chai/",
@@ -4172,7 +4113,7 @@
     "cook": "15 mins",
     "ready in": "20 mins",
     "calories": "223",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/6275795.jpg"
+    "summary": "I found this tea on a recent trip to the UAE but have learned that it is popular all over the Middle East. Roughly translated, karak chai means 'strong tea'. It differs from Masala chai by using fewer spices, slightly stronger tea, evaporated milk, and lump sugar. I make up a big batch in the morning and drink it throughout the day. It's nice chilled or reheated. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279928/banana-dalgona-iced-coffee/",
@@ -4183,7 +4124,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "146",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8206875.jpg"
+    "summary": "A banana-filled take on the trendy dalgona coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279173/chocolate-protein-iced-coffee/",
@@ -4194,7 +4135,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "302",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7793786.jpg"
+    "summary": "Made with coffee ice cubes, this smoothie is packed with protein from soy milk, spinach, and protein powder. The frozen banana adds creaminess. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/278894/vegan-skinny-caramel-macchiato/",
@@ -4205,7 +4146,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "115",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7754954.jpg"
+    "summary": "Making this layered drink is super easy in the Ninja Coffee Bar® or just heat and froth your milk of choice and pour over a strong cup of coffee. Aside from being delicious, it's vegan and skinny! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279982/instant-pot-iced-tea/",
@@ -4216,7 +4157,7 @@
     "cook": "15 mins",
     "ready in": "40 mins",
     "calories": "100",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8046885.jpg"
+    "summary": "Take iced tea to another level by making it in your Instant Pot®. The beauty is that the simple syrup is made at the same time the tea is also made. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/278932/thai-sweet-iced-tea/",
@@ -4227,7 +4168,7 @@
     "cook": "5 mins",
     "ready in": "2 hrs 25 mins",
     "calories": "230",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1131057.jpg"
+    "summary": "A delicious Thai iced tea for a refreshing afternoon. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280070/lemon-ginger-iced-tea/",
@@ -4238,7 +4179,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "5",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8079083.jpg"
+    "summary": "This Arnold Palmer has just a little kick to it because of the ginger. But it's so good! It's not intended to be a syrupy, sweet tea, so don't load it with sugar. Keep the taste of the ginger as the focal point. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/278890/white-chocolate-peanut-butter-latte/",
@@ -4249,7 +4190,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "269",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/7755605.jpg"
+    "summary": "White chocolate, peanut butter, and coffee - what more can you ask for in a drink? Plus it can be done on the stove top or in a Ninja Coffee Bar®. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/279930/homemade-strawberry-jam-limeade/",
@@ -4260,7 +4201,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "105",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/6552860.jpg"
+    "summary": "If you want strawberry limeade but don't have fresh or frozen strawberries on hand, substitute with homemade strawberry freezer jam. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280251/ginger-syrup/",
@@ -4271,7 +4212,7 @@
     "cook": "10 mins",
     "ready in": "35 mins",
     "calories": "25",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/1866565.jpg"
+    "summary": "Add some spice to your syrup using this easy variation. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280219/authentic-thai-iced-tea/",
@@ -4282,7 +4223,7 @@
     "cook": "10 mins",
     "ready in": "3 hrs 45 mins",
     "calories": "373",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8082790.jpg"
+    "summary": "This is the perfect Thai iced tea recipe! Find Thai tea leaves at any Asian market. It's so easy to make this refreshing drink...be careful, you may become critical of your favorite Thai restaurant's concoction because you can do it better. Some Thai tea mixes have food coloring in them to make them bright orange and some are labeled as \"Thai tea powder\", so making it from scratch gives you the best flavor. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280663/instant-pot-strawberry-iced-tea/",
@@ -4293,7 +4234,7 @@
     "cook": "30 mins",
     "ready in": "40 mins",
     "calories": "40",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8235204.jpg"
+    "summary": "There is nothing more refreshing than a tall glass of iced tea after baking in the hot sun while doing yard work. This recipe allows me to toss it all in before heading outside and it is ready for me when I return. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280337/white-chocolate-butterscotch-mocha/",
@@ -4304,7 +4245,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "242",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8134166.jpg"
+    "summary": "I developed this tasty mocha using my Ninja® Coffee Bar. If you don't have a Ninja® Coffee Bar, it is easily made by adding ingredients to steaming hot coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280248/ginger-peach-bellini/",
@@ -4315,7 +4256,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "222",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8180241.jpg"
+    "summary": "Take the edge off with a sweet peach cocktail bursting with ginger. This \nso-simple syrup has just the right amount of spice from fresh ginger and whole black peppercorns. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/280794/turmeric-iced-coffee-latte/",
@@ -4326,7 +4267,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "87",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/8275839.jpg"
+    "summary": "This anti-inflammatory iced coffee is spiced with turmeric, ginger, and cinnamon. It can be sweetened with your choice sweetener or not sweetened and left as a spiced iced coffee. I prefer Silk® Coconut Milk Beverage and I like to sweeten it with stevia. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/264151/rose-hip-iced-tea/",
@@ -4337,7 +4278,7 @@
     "cook": "8 mins",
     "ready in": "1 hr 13 mins",
     "calories": "25",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/5343681.jpg"
+    "summary": "Rose hips make a refreshingly delicious iced tea and are naturally high in vitamin C and antioxidants. You can use dried rose hips as stated here, or simply use four rose hip tea bags in place of the 4 tablespoons rose hips. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/281361/coffee-syrup/",
@@ -4348,7 +4289,7 @@
     "cook": "20 mins",
     "ready in": "55 mins",
     "calories": "196",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/125x70/705465.jpg"
+    "summary": "I love coffee. \n\nNot just hot coffee, but cold and frozen coffee drinks, coffee candy, coffee baked goods, my coffee rub,  I can go on and on. It is the deep, earthy smell and the taste of good coffee that makes me smile. This coffee syrup is so simple to make and very versatile. Use good-quality ground coffee and not instant coffee for best results. Once made, store the syrup in the fridge for up to 2 weeks and use to flavor milk, baked goods, in cocktails, or over pancakes. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/265488/tart-rose-and-ginger-tea/",
@@ -4359,7 +4300,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "101",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/5453571.jpg"
+    "summary": "All fresh and natural ingredients! I dry rose petals to use when my bush isn't in blossom, but fresh petals are always preferable. I make this tea to help reduce inflammation and pain I have from endometriosis, and it really helps me a lot! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/282558/green-juice/",
@@ -4370,7 +4311,7 @@
     "cook": "10 mins",
     "ready in": "20 mins",
     "calories": "126",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4517189.jpg"
+    "summary": "My favorite green juice. Healthy and easy to make. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/283054/copycat-sweet-iced-tea/",
@@ -4381,7 +4322,7 @@
     "cook": "",
     "ready in": "15 mins",
     "calories": "145",
-    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5250651.jpg"
+    "summary": "Ultra-refreshing tea just like Chick fil-A® makes! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/283073/midwinter-greens-tonic/",
@@ -4392,7 +4333,7 @@
     "cook": "",
     "ready in": "1 hr 20 mins",
     "calories": "77",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4483401.jpg"
+    "summary": "Prefer to drink your greens? Try them in this easy blender tonic with apple, honey, ginger, and lemon--no juicer required! For more fiber, skip the straining. Garnish with celery and lemon curls. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/283111/grandmas-apple-tea/",
@@ -4403,7 +4344,7 @@
     "cook": "",
     "ready in": "10 mins",
     "calories": "76",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2385957.jpg"
+    "summary": "In Russia, the apple season begins on St. Ilia's day, August 2. Here is the sweet, hot apple tea drink my grandma still makes for chilly autumn evenings. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/283114/sweet-apple-cider-vinegar-tea/",
@@ -4414,7 +4355,7 @@
     "cook": "5 mins",
     "ready in": "15 mins",
     "calories": "65",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/2385957.jpg"
+    "summary": "An organic concoction that tastes very similar to a hot apple cider drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/283318/vietnamese-egg-coffee/",
@@ -4425,7 +4366,7 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "175",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/250x250/14158.jpg"
+    "summary": "Whipping an egg yolk into sweetened condensed milk will give you a meringue-like, silky, smooth fluff. Top your coffee or iced coffee with this topping and you will have a Vietnamese specialty coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273516/white-chocolate-coffee/",
@@ -4436,7 +4377,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "35",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4548401.jpg"
+    "summary": "I made this beautifully layered coffee drink in my Ninja Coffee Bar®. You can also achieve the same effect by slowly pouring the froth over the coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273517/skinny-white-chocolate-coconut-iced-coffee/",
@@ -4447,7 +4388,7 @@
     "cook": "",
     "ready in": "2 hrs 5 mins",
     "calories": "63",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/4548401.jpg"
+    "summary": "All the decadent flavors of white chocolate and coconut in a low-calorie iced coffee. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273515/white-chocolate-cappuccino/",
@@ -4458,7 +4399,7 @@
     "cook": "3 mins",
     "ready in": "5 mins",
     "calories": "243",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3534553.jpg"
+    "summary": "Four ingredients and you will be rewarded with this tasty coffee drink. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273737/skinny-white-chocolate-peanut-butter-latte/",
@@ -4469,7 +4410,7 @@
     "cook": "5 mins",
     "ready in": "10 mins",
     "calories": "113",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/3581028.jpg"
+    "summary": "All the great flavors of white chocolate and peanut butter without all the calories! "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273595/tepache/",
@@ -4480,7 +4421,7 @@
     "cook": "",
     "ready in": "2 days",
     "calories": "156",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/560x315/6635429.jpg"
+    "summary": "Tepache is a lightly fermented spicy pineapple drink you can make at home. It is traditionally a street food item from Mexico. "
   },
   {
     "url": "https://www.allrecipes.com/recipe/273738/skinny-pumpkin-spice-iced-coffee/",
@@ -4491,6 +4432,6 @@
     "cook": "",
     "ready in": "5 mins",
     "calories": "86",
-    "imageUrl": "https://images.media-allrecipes.com/userphotos/4529943.jpg"
+    "summary": "All the flavors of fall in this refreshing low-calorie iced coffee. "
   }
 ]

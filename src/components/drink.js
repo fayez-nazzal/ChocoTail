@@ -1,10 +1,12 @@
-import React from "react"
-import PropTypes from "prop-types"
-import styled from "styled-components"
+import React, { useState } from "react"
+import styled, { keyframes } from "styled-components"
 import LinkIcon from "../images/link.svg"
 import StarFill from "../images/star-fill.svg"
 import useDrinkImage from "../hooks/useDrinkImage"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { bounceIn } from "react-animations"
+
+const bounceInAnimation = keyframes`${bounceIn}`
 
 const Container = styled.span`
   position: relative;
@@ -77,15 +79,71 @@ const RatingContainer = styled.div`
   }
 `
 
+const TextDiv = styled.span`
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 10%;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: white;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: ${props => (props.lines ? props.lines : 2)};
+  -webkit-box-orient: vertical;
+  animation: ${bounceInAnimation} 0.4s;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+    line-height: 18px;
+  }
+`
+
+const AlphaOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #433d3c;
+  opacity: ${props => (props.shown ? "0.6" : "0")};
+  transition: opacity 0.6s;
+`
+
 const Drink = props => {
+  const [overlayShown, setOverlayShown] = useState(false)
   const drinkImage = useDrinkImage(props.name)
   const image = getImage(drinkImage)
 
   if (!drinkImage) return null
 
+  const showOverlay = e => {
+    setOverlayShown(true)
+    e.preventDefault()
+  }
+
+  const hideOverlay = e => {
+    setOverlayShown(false)
+    e.preventDefault()
+  }
+
   return (
-    <Container {...props}>
+    <Container
+      {...props}
+      onMouseEnter={showOverlay}
+      onMouseLeave={hideOverlay}
+      onTouchStart={showOverlay}
+      onTouchEnd={hideOverlay}
+      onTouchCancel={hideOverlay}
+    >
       <GatsbyImage image={image} alt={props.name} />
+      <AlphaOverlay shown={overlayShown} />
+      {overlayShown && <TextDiv lines={props.lines}>{props.summary}</TextDiv>}
       <RatingContainer>
         {parseInt(props.rating ? props.rating : 0)}
         <StarFill className="star" />
@@ -100,18 +158,6 @@ const Drink = props => {
       </Info>
     </Container>
   )
-}
-
-Drink.propTypes = {
-  name: PropTypes.string.isRequired,
-  calories: PropTypes.string.isRequired,
-  prep: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
-  bigFont: PropTypes.bool,
-  bigStar: PropTypes.bool,
-  className: PropTypes.string,
 }
 
 export default Drink

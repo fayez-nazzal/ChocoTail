@@ -11,10 +11,10 @@ const useFilteredDrinks = (calories, searchQuery, excludes) => {
         nodes {
           id
           name
+          summary
           ingredients
           directions
           url
-          imageUrl
           prep
           rating
           calories

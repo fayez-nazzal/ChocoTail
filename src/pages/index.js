@@ -249,10 +249,22 @@ const IndexPage = props => {
         <ShowGrid>
           {[...Array(6).keys()].map(index => (
             <Drink
+              key={index} // we can use index as a key here, list is always the same
               {...props.data.allDrinkDataJson.nodes.find(drink =>
                 drink.directions.includes(`top${index + 1}`)
               )}
               auto
+              lines={
+                index < 2 &&
+                viewportMedia &&
+                (viewportMedia.sm
+                  ? 3
+                  : viewportMedia.lg || (index === 0 && viewportMedia.md)
+                  ? 4
+                  : viewportMedia.xlg || viewportMedia.xxlg
+                  ? 5
+                  : 2)
+              }
               bigFont={index === 0}
               className={`top${index + 1}`}
             />
@@ -281,10 +293,10 @@ export const query = graphql`
       nodes {
         id
         name
+        summary
         ingredients
         directions
         url
-        imageUrl
         prep
         rating
         calories
