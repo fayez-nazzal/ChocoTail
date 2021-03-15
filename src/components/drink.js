@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 import LinkIcon from "../images/link.svg"
 import StarFill from "../images/star-fill.svg"
+import useDrinkImage from "../hooks/useDrinkImage"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const Container = styled.span`
   position: relative;
@@ -10,6 +12,17 @@ const Container = styled.span`
   width: ${props => (props.size === "md" ? "194px" : "auto")};
   height: ${props => (props.size === "md" ? "174px" : "auto")};
   margin-top: 6px;
+
+  .gatsby-image-wrapper {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%
+    max-width: 100%;
+    max-height: 100%;
+    disblay: block;
+    border-radius: 12px;
+  }
 `
 
 const Info = styled.div`
@@ -46,17 +59,6 @@ const Info = styled.div`
   }
 `
 
-const Img = styled.img`
-    width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height: 100%
-    max-width: 100%;
-    max-height: 100%;
-    disblay: block;
-    border-radius: 12px;
-`
-
 const RatingContainer = styled.div`
   display: flex;
   background-color: #c0c0c092;
@@ -76,9 +78,14 @@ const RatingContainer = styled.div`
 `
 
 const Drink = props => {
+  const drinkImage = useDrinkImage(props.name)
+  const image = getImage(drinkImage)
+
+  if (!drinkImage) return null
+
   return (
     <Container {...props}>
-      <Img src={props.imageUrl} alt={props.name} />
+      <GatsbyImage image={image} alt={props.name} />
       <RatingContainer>
         {parseInt(props.rating ? props.rating : 0)}
         <StarFill className="star" />

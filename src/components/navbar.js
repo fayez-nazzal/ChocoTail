@@ -94,6 +94,7 @@ const Navbar = props => {
         <StyledLink to="/" main smShow>
           <StaticImage
             src="../images/logo.png"
+            loading="eager"
             alt="logo"
             placeholder="none"
             quality={100}
