@@ -194,18 +194,23 @@ const IndexPage = props => {
   }, [viewportMedia])
 
   useEffect(() => {
+    let timeouts = []
     if (activeImages.length === 1) {
-      setTimeout(() => {
+      timeouts[0] = setTimeout(() => {
         setHeadlineText("Begin your Good Morning.")
-        setTimeout(() => {
+        timeouts[1] = setTimeout(() => {
           setHeadlineText("Cold, hot, whatever you prefer.")
           setActiveImages([...activeImages, 2])
-          setTimeout(() => {
+          timeouts[2] = setTimeout(() => {
             setHeadlineText("Smooth out your day, every day.")
             setActiveImages([...activeImages, 3])
           }, 8000)
         }, 6000)
       }, 300)
+    }
+
+    return () => {
+      for (let timeout of timeouts) clearTimeout(timeout)
     }
   }, [activeImages])
 
@@ -247,26 +252,26 @@ const IndexPage = props => {
           handleExploreClicked={handleExploreClicked}
         />
         <ShowGrid>
-          {[...Array(6).keys()].map(index => (
+          {[...Array(6).keys()].map(num => (
             <Drink
-              key={index} // we can use index as a key here, list is always the same
+              key={num}
               {...props.data.allDrinkDataJson.nodes.find(drink =>
-                drink.directions.includes(`top${index + 1}`)
+                drink.directions.includes(`top${num + 1}`)
               )}
               auto
               lines={
-                index < 2 &&
+                num < 2 &&
                 viewportMedia &&
                 (viewportMedia.sm
                   ? 3
-                  : viewportMedia.lg || (index === 0 && viewportMedia.md)
+                  : viewportMedia.lg || (num === 0 && viewportMedia.md)
                   ? 4
                   : viewportMedia.xlg || viewportMedia.xxlg
                   ? 5
                   : 2)
               }
-              bigFont={index === 0}
-              className={`top${index + 1}`}
+              bigFont={num === 0}
+              className={`top${num + 1}`}
             />
           ))}
         </ShowGrid>

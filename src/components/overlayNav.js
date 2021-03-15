@@ -23,27 +23,30 @@ const Nav = styled.nav`
   user-select: none;
 `
 
-const StyledLink = styled(Link)`
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-  color: white;
+const LinkContainer = styled(Link)`
+  animation: ${bounceInAnimation} 0.6s;
   margin: 16px auto;
   padding: 8px 16px;
+  border-radius: 16px;
+  user-select: none;
+
+  .link {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+    font-size: 36px;
+  }
+
   background-color: ${props =>
     props.samePage ? "rgb(247, 241, 235, 0.4)" : "rgb(117, 87, 63, 0.4)"};
 
   &:active {
     background-color: rgb(247, 241, 235, 0.6) !important;
   }
-
-  border-radius: 16px;
-  font-size: 36px;
-  user-select: none;
-  animation: ${bounceInAnimation} 0.6s;
 `
 
 const SpacerDiv = styled.div`
-  padding: 68px;
+  padding: 50px;
 `
 
 const Navbar = props => {
@@ -68,9 +71,11 @@ const Navbar = props => {
     <Nav {...props}>
       {props.opened &&
         navItems.map(item => (
-          <StyledLink to={item.to} samePage={item.to === props.page}>
-            {item.name}
-          </StyledLink>
+          <LinkContainer samePage={item.to === props.page}>
+            <Link className="link" to={item.to}>
+              {item.name}
+            </Link>
+          </LinkContainer>
         ))}
       <SpacerDiv />
     </Nav>

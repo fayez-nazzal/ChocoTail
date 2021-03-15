@@ -34,24 +34,30 @@ const Nav = styled.nav`
   user-select: none;
 `
 
-const StyledLink = styled(Link)`
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-  color: black;
-  margin: ${props => (props.main ? "auto auto auto 8px" : "auto 16px")};
-  font-size: 25px;
+const LinkContainer = styled.div`
+  margin: ${props => (props.logo ? "auto auto auto 8px" : "auto 16px")};
+
+  .link {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: black;
+    font-size: 25px;
+  }
 
   @media only screen and (max-width: 600px) {
-    display: ${props => (props.smShow ? "inline-block" : "none")};
+    display: ${props => (props.logo ? "inline-block" : "none")};
   }
 `
 
-const SideButton = styled(SideButtonIcon)`
+const SideButtonContainer = styled.div`
   margin: auto 2px;
   width: 36px;
   height: 36px;
-  fill: ${props => (props.overlayOpened ? "white" : "black")};
-  transition: fill 0.24s;
+
+  .side-button {
+    fill: ${props => (props.overlayOpened ? "white" : "black")};
+    transition: fill 0.24s;
+  }
 
   @media only screen and (min-width: 601px) {
     display: none;
@@ -91,23 +97,30 @@ const Navbar = props => {
     <Container>
       <ColorBackground offset={offset} homePage={props.homePage} />
       <Nav homePage={props.homePage}>
-        <StyledLink to="/" main smShow>
-          <StaticImage
-            src="../images/logo.png"
-            loading="eager"
-            alt="logo"
-            placeholder="none"
-            quality={100}
-          />
-        </StyledLink>
+        <LinkContainer logo>
+          <Link className="link" to="/">
+            <StaticImage
+              src="../images/logo.png"
+              loading="eager"
+              alt="logo"
+              placeholder="none"
+              quality={100}
+            />
+          </Link>
+        </LinkContainer>
         {navItems.map(item => (
-          <StyledLink to={item.to}>{item.name}</StyledLink>
+          <LinkContainer key={item.name}>
+            <Link className="link" to={item.to}>
+              {item.name}
+            </Link>
+          </LinkContainer>
         ))}
-        <SideButton
-          role="button"
-          overlayOpened={props.overlayOpened}
+        <SideButtonContainer
           onClick={props.handleSideButtonClick}
-        />
+          overlayOpened={props.overlayOpened}
+        >
+          <SideButtonIcon className="side-button" role="button" />
+        </SideButtonContainer>
       </Nav>
     </Container>
   )

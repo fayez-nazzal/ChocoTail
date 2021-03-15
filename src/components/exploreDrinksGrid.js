@@ -102,9 +102,10 @@ const DrinksGrid = props => {
           </NoDrinks>
         )}
       </Grid>
-      <Flex wrap justifyContent="center">
+      <Flex wraps justifyContent="center">
         {[...Array(Math.ceil(drinks.length / countPerPage)).keys()].map(num => (
           <CustomButton
+            key={num}
             margin="8px 4px"
             padding="8px"
             borderRadius="4px"

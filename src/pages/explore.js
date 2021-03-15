@@ -234,7 +234,7 @@ const Explore = props => {
               hoverColor="#7b4c2a"
               onMouseEnter={() => keepScrolling(-1.6)}
               onMouseLeave={stopScrolling}
-              onTouchStart={(() => keepScrolling(-2), true)}
+              onTouchStart={() => keepScrolling(-2, true)}
               onTouchEnd={stopScrolling}
             >
               {"<"}

@@ -5,5 +5,5 @@ export default styled.div`
   overflow: hidden;
   justify-content: ${props => props.justifyContent};
   align-items: center;
-  flex-wrap: ${props => (props.wrap ? "wrap" : "nowrap")};
+  flex-wrap: ${props => (props.wraps ? "wrap" : "nowrap")};
 `
