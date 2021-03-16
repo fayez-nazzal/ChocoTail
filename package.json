@@ -7,6 +7,7 @@
   "dependencies": {
     "disable-scroll": "^0.6.0",
     "fontsource-nunito": "^4.0.0",
+    "fuse.js": "^6.4.6",
     "gatsby": "^3.0.1",
     "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-manifest": "^3.0.0",

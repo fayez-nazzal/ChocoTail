@@ -1,5 +1,5 @@
-import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import Flex from "./Flex"
 import sample from "lodash.sample"
 import CustomButton from "./CustomButton"

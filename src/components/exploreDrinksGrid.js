@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useLayoutEffect } from "react"
 import Drink from "./Drink"
-import shuffle from "lodash.shuffle"
-import useFilteredDrinks from "../hooks/useFilteredDrinks"
 import styled, { keyframes } from "styled-components"
 import Flex from "./Flex"
 import CustomButton from "./CustomButton"
@@ -11,20 +9,7 @@ import { bounceInUp } from "react-animations"
 const DrinksGrid = props => {
   const viewportMedia = useMedia()
   const [countPerPage, setCountPerPage] = useState(20)
-  const caloriesLimits = props.calories && {
-    from: parseInt(props.calories.split("-")[0]),
-    to: parseInt(props.calories.split("-")[1]),
-  }
-
-  const drinks = shuffle(
-    useFilteredDrinks(caloriesLimits, props.searchQuery, props.exclude)
-  )
-
   const [currentPage, setCurrentPage] = useState(0)
-
-  useEffect(() => {
-    setCurrentPage(0)
-  }, [props.searchQuery])
 
   useLayoutEffect(() => {
     if (viewportMedia) {
@@ -34,22 +19,20 @@ const DrinksGrid = props => {
     }
   }, [viewportMedia])
 
-  const viewDrinks = drinks
-    .sort((a, b) =>
-      a.name.toLowerCase().includes(props.searchQuery.toLowerCase()) &&
-      !b.name.toLowerCase().includes(props.searchQuery.toLowerCase())
-        ? -1
-        : 0
-    )
+  useEffect(() => {
+    setCurrentPage(0)
+  }, [props.drinks])
+
+  const viewDrinks = props.drinks
     .slice(
       currentPage * countPerPage,
       currentPage * countPerPage + countPerPage
     )
-    .sort((a, b) => getCompareMap(a, b)[props.sortBy])
+    .sort((a, b) => getCompareRxpression(a, b)[props.sortBy])
 
   return (
     <>
-      <Grid key={props.searchQuery}>
+      <Grid key={props.drinks.length}>
         {viewDrinks.length ? (
           viewDrinks.map(drink => <Drink key={drink.id} {...drink} />)
         ) : (
@@ -62,19 +45,21 @@ const DrinksGrid = props => {
         )}
       </Grid>
       <Flex wraps justifyContent="center">
-        {[...Array(Math.ceil(drinks.length / countPerPage)).keys()].map(num => (
-          <CustomButton
-            key={num}
-            margin="8px 4px"
-            padding="8px"
-            borderRadius="4px"
-            color={num === currentPage ? "#a0a4a8" : "#af8e69"}
-            hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
-            onClick={() => setCurrentPage(num)}
-          >
-            {num + 1}
-          </CustomButton>
-        ))}
+        {[...Array(Math.ceil(props.drinks.length / countPerPage)).keys()].map(
+          num => (
+            <CustomButton
+              key={num}
+              margin="8px 4px"
+              padding="8px"
+              borderRadius="4px"
+              color={num === currentPage ? "#a0a4a8" : "#af8e69"}
+              hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
+              onClick={() => setCurrentPage(num)}
+            >
+              {num + 1}
+            </CustomButton>
+          )
+        )}
       </Flex>
     </>
   )
@@ -118,7 +103,7 @@ const NoDrinks = styled.div`
   text-align: center;
 `
 
-const getCompareMap = (a, b) => ({
+const getCompareRxpression = (a, b) => ({
   "star-asc": a.rating - b.rating,
   "star-desc": b.rating - a.rating,
   "kcal-asc": a.calories - b.calories,

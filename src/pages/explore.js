@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from "react"
 import styled from "styled-components"
 import Layout from "../components/Layout"
+import useFilteredDrinks from "../hooks/useFilteredDrinks"
 import { graphql } from "gatsby"
 import SearchIcon from "../images/search.svg"
 import DrinksGrid from "../components/ExploreDrinksGrid"
@@ -10,6 +11,7 @@ import TagsFlex from "../components/TagsFlex"
 import StyledButton from "../components/CustomButton"
 import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
+import Fuse from "fuse.js"
 
 const Explore = props => {
   const {
@@ -23,11 +25,31 @@ const Explore = props => {
   const searchInputRef = useRef(null)
   const viewportMedia = useMedia()
   const [searchInput, setSearchInput] = useState("")
-  const [searchQuery, setSearchQuery] = useState("")
   const [calories, setCalories] = useState("")
   const [sortBy, setSortBy] = useState("")
   const [exclude, setExclude] = useState("")
   const [excludeOptionsState, setExcludeOptionsState] = useState(excludeOptions)
+
+  const caloriesLimits = calories && {
+    from: parseInt(calories.split("-")[0]),
+    to: parseInt(calories.split("-")[1]),
+  }
+  const drinks = useFilteredDrinks(caloriesLimits, exclude)
+  const [searchData, setSearchData] = useState(drinks)
+
+  const searchDrink = useCallback(
+    query => {
+      const fuse = new Fuse(drinks, {
+        shouldSort: true,
+        keys: ["name", "summary", "ingredients", "directions"],
+      })
+
+      const fuseSearchData = fuse.search(query)
+
+      setSearchData(fuseSearchData.map(item => item.item))
+    },
+    [drinks]
+  )
 
   useEffect(() => {
     scrollX(4)
@@ -39,8 +61,8 @@ const Explore = props => {
 
   const onTagClicked = useCallback(tag => {
     setSearchInput(tag)
-    setSearchQuery(tag)
-  }, [])
+    searchDrink(tag)
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const scrollX = x => {
     tagsRef.current.scroll({
@@ -77,7 +99,7 @@ const Explore = props => {
   }
 
   const handleSubmit = () => {
-    setSearchQuery(searchInput)
+    searchDrink(searchInput)
 
     if (searchInputRef.current) searchInputRef.current.blur()
   }
@@ -159,12 +181,7 @@ const Explore = props => {
           />
         </CustomDiv>
         <DrinksContainer>
-          <DrinksGrid
-            calories={calories}
-            exclude={exclude}
-            sortBy={sortBy}
-            searchQuery={searchQuery}
-          />
+          <DrinksGrid sortBy={sortBy} drinks={searchData} />
         </DrinksContainer>
       </Container>
     </Layout>
