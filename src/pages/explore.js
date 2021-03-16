@@ -1,137 +1,15 @@
 import React, { useState, useRef, useEffect, useCallback } from "react"
 import styled from "styled-components"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import SearchIcon from "../images/search.svg"
-import DrinksGrid from "../components/exploreDrinksGrid"
+import DrinksGrid from "../components/ExploreDrinksGrid"
 import Select, { components } from "react-select"
-import Flex from "../components/flex"
-import TagsFlex from "../components/tagsFlex"
-import StyledButton from "../components/customButton"
-import CustomButton from "../components/customButton"
+import Flex from "../components/Flex"
+import TagsFlex from "../components/TagsFlex"
+import StyledButton from "../components/CustomButton"
+import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
-
-const { ValueContainer } = components
-
-const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: minmax(150px, 160px) auto;
-  grid-template-areas:
-    ". se se se se se se f f f ."
-    ". d  d  d  d  d  d  d d d .";
-
-  // extra small screen devices
-  @media only screen and (max-width: 600px) {
-    grid-template-rows: minmax(150px, 160px) minmax(150px, 160px) auto;
-
-    grid-template-areas:
-      ". se se se se se se se se se ."
-      ". f  f  f  f  f  f  f  f  f ."
-      ". d  d  d  d  d  d  d d d .";
-  }
-  margin-top: 16px;
-  grid-gap: 16px;
-`
-
-const SearchInputContainer = styled.form`
-  display: flex;
-
-  input,
-  .search-icon {
-    border: 1px solid #7b4c2a;
-    padding: 4px;
-  }
-
-  input {
-    height: 32px;
-    width: 100%;
-    font-size: 24px;
-    margin: 0;
-    border-left: none;
-    border-radius: 0 8px 8px 0 !important;
-    font-weight: 300;
-  }
-
-  input:focus {
-    outline: none;
-  }
-
-  .search-icon {
-    height: 32px;
-    fill: #7b4c2a;
-    background-color: white;
-    border-right: none;
-    border-radius: 8px 0 0 8px;
-  }
-
-  .search-icon:hover {
-    fill: black;
-    background-color: rgb(123, 76, 42, 0.1);
-  }
-`
-
-const CustomDiv = styled.div`
-  margin: ${props => props.margin};
-  font-size: ${props => props.fontSize};
-  padding: ${props => props.padding};
-  background-color: ${props => props.backgroundColor};
-  border-radius: 8px;
-  grid-area: ${props => props.gridArea};
-  color: ${props => props.color};
-`
-
-const DrinksContainer = styled.div`
-  grid-area: d;
-`
-
-const StyledSelect = styled(Select)`
-  margin-top: 8px;
-  user-select: none;
-
-  .filter-select__control {
-    border-color: #7b4c2a !important;
-    box-shadow: none !important;
-  }
-
-  .filter-select__control--menu-is-open {
-    box-shadow: 0 0 0 1px #7b4c2a !important;
-  }
-
-  .filter-select__control:hover {
-    border-color: #7b4c2a !important;
-  }
-
-  .filter-select__option--is-focused,
-  .filter-select__option:hover {
-    background-color: #cbaa8560;
-  }
-`
-
-const StyledValueContainer = styled(ValueContainer)`
-  &:hover {
-    border-color: red;
-  }
-`
-
-const CustomValueContainer = ({ children, ...props }) => {
-  return (
-    <>
-      <CustomDiv color="grey" fontSize="16px" margin="0 0 0 8px">
-        {props.selectProps.innerProps.placeholder}
-      </CustomDiv>
-      <StyledValueContainer {...props}>
-        {React.Children.map(children, child => child)}
-      </StyledValueContainer>
-    </>
-  )
-}
-
-const selectCommonProps = {
-  components: { ValueContainer: CustomValueContainer },
-  placeholder: "",
-  classNamePrefix: "filter-select",
-}
 
 const Explore = props => {
   const {
@@ -294,6 +172,128 @@ const Explore = props => {
 }
 
 export default Explore
+
+const { ValueContainer } = components
+
+const Container = styled.div`
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: minmax(150px, 160px) auto;
+  grid-template-areas:
+    ". se se se se se se f f f ."
+    ". d  d  d  d  d  d  d d d .";
+
+  // extra small screen devices
+  @media only screen and (max-width: 600px) {
+    grid-template-rows: minmax(150px, 160px) minmax(150px, 160px) auto;
+
+    grid-template-areas:
+      ". se se se se se se se se se ."
+      ". f  f  f  f  f  f  f  f  f ."
+      ". d  d  d  d  d  d  d d d .";
+  }
+  margin-top: 16px;
+  grid-gap: 16px;
+`
+
+const SearchInputContainer = styled.form`
+  display: flex;
+
+  input,
+  .search-icon {
+    border: 1px solid #7b4c2a;
+    padding: 4px;
+  }
+
+  input {
+    height: 32px;
+    width: 100%;
+    font-size: 24px;
+    margin: 0;
+    border-left: none;
+    border-radius: 0 8px 8px 0 !important;
+    font-weight: 300;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .search-icon {
+    height: 32px;
+    fill: #7b4c2a;
+    background-color: white;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .search-icon:hover {
+    fill: black;
+    background-color: rgb(123, 76, 42, 0.1);
+  }
+`
+
+const CustomDiv = styled.div`
+  margin: ${props => props.margin};
+  font-size: ${props => props.fontSize};
+  padding: ${props => props.padding};
+  background-color: ${props => props.backgroundColor};
+  border-radius: 8px;
+  grid-area: ${props => props.gridArea};
+  color: ${props => props.color};
+`
+
+const DrinksContainer = styled.div`
+  grid-area: d;
+`
+
+const StyledSelect = styled(Select)`
+  margin-top: 8px;
+  user-select: none;
+
+  .filter-select__control {
+    border-color: #7b4c2a !important;
+    box-shadow: none !important;
+  }
+
+  .filter-select__control--menu-is-open {
+    box-shadow: 0 0 0 1px #7b4c2a !important;
+  }
+
+  .filter-select__control:hover {
+    border-color: #7b4c2a !important;
+  }
+
+  .filter-select__option--is-focused,
+  .filter-select__option:hover {
+    background-color: #cbaa8560;
+  }
+`
+
+const StyledValueContainer = styled(ValueContainer)`
+  &:hover {
+    border-color: red;
+  }
+`
+
+const CustomValueContainer = ({ children, ...props }) => {
+  return (
+    <>
+      <CustomDiv color="grey" fontSize="16px" margin="0 0 0 8px">
+        {props.selectProps.innerProps.placeholder}
+      </CustomDiv>
+      <StyledValueContainer {...props}>
+        {React.Children.map(children, child => child)}
+      </StyledValueContainer>
+    </>
+  )
+}
+
+const selectCommonProps = {
+  components: { ValueContainer: CustomValueContainer },
+  placeholder: "",
+  classNamePrefix: "filter-select",
+}
 
 export const query = graphql`
   {

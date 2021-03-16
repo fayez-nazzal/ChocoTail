@@ -1,24 +1,8 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import Flex from "./flex"
+import Flex from "./Flex"
 import sample from "lodash.sample"
-import CustomButton from "./customButton"
-
-const randomColor = () => {
-  return sample([
-    "#2a9d8f",
-    "#e9c46a",
-    "#f4a261",
-    "#e76f51",
-    "#0077b6",
-    "#90e0ef",
-    "#99d98c",
-    "#ff006e",
-    "#fb5607",
-    "#ffbe0b",
-    "#8338ec",
-  ])
-}
+import CustomButton from "./CustomButton"
 
 const TagsFlex = (props, ref) => {
   const {
@@ -56,3 +40,19 @@ const TagsFlex = (props, ref) => {
 }
 
 export default React.memo(React.forwardRef(TagsFlex))
+
+const randomColor = () => {
+  return sample([
+    "#2a9d8f",
+    "#e9c46a",
+    "#f4a261",
+    "#e76f51",
+    "#0077b6",
+    "#90e0ef",
+    "#99d98c",
+    "#ff006e",
+    "#fb5607",
+    "#ffbe0b",
+    "#8338ec",
+  ])
+}

@@ -1,57 +1,12 @@
 import React, { useState, useEffect, useLayoutEffect } from "react"
-import Drink from "./drink"
+import Drink from "./Drink"
 import shuffle from "lodash.shuffle"
 import useFilteredDrinks from "../hooks/useFilteredDrinks"
 import styled, { keyframes } from "styled-components"
-import Flex from "./flex"
-import CustomButton from "./customButton"
+import Flex from "./Flex"
+import CustomButton from "./CustomButton"
 import useMedia from "../hooks/useMedia"
 import { bounceInUp } from "react-animations"
-
-const bounceInAnimation = keyframes`${bounceInUp}`
-
-const Grid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 174px);
-  margin-bottom: 8px;
-  grid-gap: 8px;
-  animation: ${bounceInAnimation} 0.52s;
-
-  // for iMac Retina, MacBook, MacBook Pro
-  @media only screen and (min-width: 2000px) {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-  // for HIDPI and up desktop & laptop screens
-  @media only screen and (min-width: 1920px) {
-    grid-template-rows: repeat(5, minmax(200px, 240px));
-  }
-
-  // extra small screen devices
-  @media only screen and (max-width: 600px) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, minmax(150px, 160px));
-  }
-`
-
-const NoDrinks = styled.div`
-  margin-top: 32px;
-  grid-column: 1 / 4;
-  grid-row: 1 / 6;
-  font-size: 36px;
-  line-height: 36px;
-  text-align: center;
-`
-
-const getCompareMap = (a, b) => ({
-  "star-asc": a.rating - b.rating,
-  "star-desc": b.rating - a.rating,
-  "kcal-asc": a.calories - b.calories,
-  "kcal-desc": b.calories - a.calories,
-  "prep-asc": a.prep - b.prep,
-  "prep-desc": b.prep - a.prep,
-})
 
 const DrinksGrid = props => {
   const viewportMedia = useMedia()
@@ -126,3 +81,48 @@ const DrinksGrid = props => {
 }
 
 export default React.memo(DrinksGrid)
+
+const bounceInAnimation = keyframes`${bounceInUp}`
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 174px);
+  margin-bottom: 8px;
+  grid-gap: 8px;
+  animation: ${bounceInAnimation} 0.52s;
+
+  // for iMac Retina, MacBook, MacBook Pro
+  @media only screen and (min-width: 2000px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  // for HIDPI and up desktop & laptop screens
+  @media only screen and (min-width: 1920px) {
+    grid-template-rows: repeat(5, minmax(200px, 240px));
+  }
+
+  // extra small screen devices
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, minmax(150px, 160px));
+  }
+`
+
+const NoDrinks = styled.div`
+  margin-top: 32px;
+  grid-column: 1 / 4;
+  grid-row: 1 / 6;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+`
+
+const getCompareMap = (a, b) => ({
+  "star-asc": a.rating - b.rating,
+  "star-desc": b.rating - a.rating,
+  "kcal-asc": a.calories - b.calories,
+  "kcal-desc": b.calories - a.calories,
+  "prep-asc": a.prep - b.prep,
+  "prep-desc": b.prep - a.prep,
+})

@@ -63,13 +63,13 @@
     { "value": "", "label": "none" }
   ],
   "excludeOptions": [
+    { "value": null, "label": "none" },
     { "value": "sugar", "label": "sugar" },
     { "value": "coffee", "label": "coffee" },
     { "value": "cider", "label": "cider" },
     { "value": "chocolate", "label": "chocolate" },
     { "value": "cocoa", "label": "cocoa" },
     { "value": "juice", "label": "juice" },
-    { "value": "tea", "label": "tea" },
-    { "value": null, "label": "none" }
+    { "value": "tea", "label": "tea" }
   ]
 }

@@ -2,6 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
+const Footer = () => {
+  return (
+    <StyledFooter>
+      {/* dark theme toggle */}
+      {/*social buttons */}
+      <FooterLink to="/contact">Contact</FooterLink>
+      <FooterLink to="/sitemap">Sitemap</FooterLink>
+    </StyledFooter>
+  )
+}
+
+export default Footer
+
 const StyledFooter = styled.footer`
   background-color: #937755;
   max-width: 100%;
@@ -18,16 +31,3 @@ const FooterLink = styled(Link)`
   text-decoration: none;
   margin: 0 10px;
 `
-
-const Footer = () => {
-  return (
-    <StyledFooter>
-      {/* dark theme toggle */}
-      {/*social buttons */}
-      <FooterLink to="/contact">Contact</FooterLink>
-      <FooterLink to="/sitemap">Sitemap</FooterLink>
-    </StyledFooter>
-  )
-}
-
-export default Footer

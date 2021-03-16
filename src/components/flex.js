@@ -3,7 +3,7 @@ import styled from "styled-components"
 export default styled.div`
   display: flex;
   overflow: hidden;
-  justify-content: ${props => props.justifyContent};
+  justify-content: ${({ justifyContent }) => justifyContent || "initial"};
   align-items: center;
-  flex-wrap: ${props => (props.wraps ? "wrap" : "nowrap")};
+  flex-wrap: ${({ wraps }) => (wraps ? "wrap" : "nowrap")};
 `

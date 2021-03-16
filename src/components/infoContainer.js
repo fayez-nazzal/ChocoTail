@@ -1,7 +1,31 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
 import { fadeIn } from "react-animations"
-import CustomButton from "../components/customButton"
+import CustomButton from "./CustomButton"
+
+const InfoContainer = props => {
+  if (!props.headlineText) return null
+
+  return (
+    <Container>
+      <StyledH1>{props.headlineText}</StyledH1>
+      <StyledP>Explore a vast list of refreshing drinks</StyledP>
+      <CustomButton
+        borderRadius="30px"
+        padding="12px 32px"
+        fojntSize="20px"
+        color="#f5d4a2"
+        hoverColor="#7a4c2a"
+        margin="16px 0 0 20px"
+        onClick={props.handleExploreClicked}
+      >
+        Explore Now
+      </CustomButton>
+    </Container>
+  )
+}
+
+export default InfoContainer
 
 const scaleXAnimation = keyframes`
   0% {
@@ -99,27 +123,3 @@ const StyledH1 = styled.h1`
     font-size: 28px;
   }
 `
-
-const InfoContainer = props => {
-  if (!props.headlineText) return null
-
-  return (
-    <Container>
-      <StyledH1>{props.headlineText}</StyledH1>
-      <StyledP>Explore a vast list of refreshing drinks</StyledP>
-      <CustomButton
-        borderRadius="30px"
-        padding="12px 32px"
-        fojntSize="20px"
-        color="#f5d4a2"
-        hoverColor="#7a4c2a"
-        margin="16px 0 0 20px"
-        onClick={props.handleExploreClicked}
-      >
-        Explore Now
-      </CustomButton>
-    </Container>
-  )
-}
-
-export default InfoContainer

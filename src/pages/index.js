@@ -1,13 +1,143 @@
-import * as React from "react"
+import React from "react"
 import { useState, useLayoutEffect, useEffect, useRef } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-import Layout from "../components/layout"
-import Drink from "../components/drink"
+import Layout from "../components/Layout"
+import Drink from "../components/Drink"
 import useMedia from "../hooks/useMedia"
-import InfoContainer from "../components/infoContainer"
-const shuffle = require("lodash.shuffle")
+import InfoContainer from "../components/InfoContainer"
+import shuffle from "lodash.shuffle"
+
+const IndexPage = props => {
+  const viewportMedia = useMedia()
+  const mostRatedDrinks = useRef(
+    shuffle(
+      props.data.allDrinkDataJson.nodes.filter(({ rating }) => rating === "5")
+    )
+  )
+  const [mostRatedDrinksCount, setMostRatedDrinksCount] = useState(5)
+  const [headlineText, setHeadlineText] = useState("")
+  const [activeImages, setActiveImages] = useState([1])
+
+  useLayoutEffect(() => {
+    if (viewportMedia) {
+      const newMostRatedDrinksCount =
+        viewportMedia.xs || viewportMedia.sm
+          ? 6
+          : viewportMedia.md
+          ? 12
+          : viewportMedia.lg
+          ? 10
+          : viewportMedia.xlg || viewportMedia.xxlg
+          ? 12
+          : 0
+      setMostRatedDrinksCount(newMostRatedDrinksCount)
+    }
+  }, [viewportMedia])
+
+  useEffect(() => {
+    let timeouts = []
+    timeouts.push(
+      setTimeout(() => {
+        setHeadlineText("Begin your Good Morning.")
+        timeouts.push(
+          setTimeout(() => {
+            setHeadlineText("Cold, hot, whatever you prefer.")
+            setActiveImages(prev => [...prev, 2])
+            timeouts.push(
+              setTimeout(() => {
+                setHeadlineText("Smooth out your day, every day.")
+                setActiveImages(prev => [...prev, 3])
+              }, 8000)
+            )
+          }, 6000)
+        )
+      }, 300)
+    )
+
+    return () => {
+      for (let timeout of timeouts) clearTimeout(timeout)
+    }
+  }, [])
+
+  const handleExploreClicked = () => {}
+
+  return (
+    <Layout location={props.location}>
+      <Container>
+        <ImagesWrapper>
+          <StaticImage
+            src="../images/tea.jpg"
+            className={`headline-image headline-image-active`}
+            alt="background"
+            quality={90}
+            placeholder="blurred"
+          />
+
+          <StaticImage
+            src="../images/healthyDrinks.jpeg"
+            className={`headline-image ${
+              activeImages.includes(2) && "headline-image-active"
+            }`}
+            alt="background"
+            quality={90}
+            placeholder="blurred"
+          />
+          <StaticImage
+            src="../images/coffee.jpg"
+            className={`headline-image ${
+              activeImages.includes(3) && "headline-image-active"
+            }`}
+            alt="background"
+            quality={90}
+            placeholder="blurred"
+          />
+        </ImagesWrapper>
+        <InfoContainer
+          headlineText={headlineText}
+          handleExploreClicked={handleExploreClicked}
+        />
+        <ShowGrid>
+          {[...Array(6).keys()].map(num => (
+            <Drink
+              key={num}
+              {...props.data.allDrinkDataJson.nodes.find(drink =>
+                drink.directions.includes(`top${num + 1}`)
+              )}
+              auto
+              lines={
+                num < 2 &&
+                viewportMedia &&
+                (viewportMedia.sm
+                  ? 3
+                  : viewportMedia.lg || (num === 0 && viewportMedia.md)
+                  ? 4
+                  : viewportMedia.xlg || viewportMedia.xxlg
+                  ? 5
+                  : 2)
+              }
+              bigFont={num === 0}
+              className={`top${num + 1}`}
+            />
+          ))}
+        </ShowGrid>
+        <MostRatedDiv>
+          <h2>Most Rated</h2>
+          <MostRatedGrid>
+            {mostRatedDrinks.current
+              .slice(0, mostRatedDrinksCount)
+              .map(drink => (
+                <Drink key={drink.id} {...drink} />
+              ))}
+          </MostRatedGrid>
+        </MostRatedDiv>
+      </Container>
+    </Layout>
+  )
+}
+
+export default IndexPage
 
 const Container = styled.div`
   wax-width: 100%;
@@ -165,136 +295,6 @@ const MostRatedGrid = styled.div`
     grid-auto-rows: minmax(50px, 150px);
   }
 `
-
-const IndexPage = props => {
-  const viewportMedia = useMedia()
-  const mostRatedDrinks = useRef(
-    shuffle(
-      props.data.allDrinkDataJson.nodes.filter(({ rating }) => rating === "5")
-    )
-  )
-  const [mostRatedDrinksCount, setMostRatedDrinksCount] = useState(5)
-  const [headlineText, setHeadlineText] = useState("")
-  const [activeImages, setActiveImages] = useState([1])
-
-  useLayoutEffect(() => {
-    if (viewportMedia) {
-      const newMostRatedDrinksCount =
-        viewportMedia.xs || viewportMedia.sm
-          ? 6
-          : viewportMedia.md
-          ? 12
-          : viewportMedia.lg
-          ? 10
-          : viewportMedia.xlg || viewportMedia.xxlg
-          ? 12
-          : 0
-      setMostRatedDrinksCount(newMostRatedDrinksCount)
-    }
-  }, [viewportMedia])
-
-  useEffect(() => {
-    let timeouts = []
-    timeouts.push(
-      setTimeout(() => {
-        setHeadlineText("Begin your Good Morning.")
-        timeouts.push(
-          setTimeout(() => {
-            setHeadlineText("Cold, hot, whatever you prefer.")
-            setActiveImages(prev => [...prev, 2])
-            timeouts.push(
-              setTimeout(() => {
-                setHeadlineText("Smooth out your day, every day.")
-                setActiveImages(prev => [...prev, 3])
-              }, 8000)
-            )
-          }, 6000)
-        )
-      }, 300)
-    )
-
-    return () => {
-      for (let timeout of timeouts) clearTimeout(timeout)
-    }
-  }, [])
-
-  const handleExploreClicked = () => {}
-
-  return (
-    <Layout location={props.location}>
-      <Container>
-        <ImagesWrapper>
-          <StaticImage
-            src="../images/tea.jpg"
-            className={`headline-image headline-image-active`}
-            alt="background"
-            quality={90}
-            placeholder="blurred"
-          />
-
-          <StaticImage
-            src="../images/healthyDrinks.jpeg"
-            className={`headline-image ${
-              activeImages.includes(2) && "headline-image-active"
-            }`}
-            alt="background"
-            quality={90}
-            placeholder="blurred"
-          />
-          <StaticImage
-            src="../images/coffee.jpg"
-            className={`headline-image ${
-              activeImages.includes(3) && "headline-image-active"
-            }`}
-            alt="background"
-            quality={90}
-            placeholder="blurred"
-          />
-        </ImagesWrapper>
-        <InfoContainer
-          headlineText={headlineText}
-          handleExploreClicked={handleExploreClicked}
-        />
-        <ShowGrid>
-          {[...Array(6).keys()].map(num => (
-            <Drink
-              key={num}
-              {...props.data.allDrinkDataJson.nodes.find(drink =>
-                drink.directions.includes(`top${num + 1}`)
-              )}
-              auto
-              lines={
-                num < 2 &&
-                viewportMedia &&
-                (viewportMedia.sm
-                  ? 3
-                  : viewportMedia.lg || (num === 0 && viewportMedia.md)
-                  ? 4
-                  : viewportMedia.xlg || viewportMedia.xxlg
-                  ? 5
-                  : 2)
-              }
-              bigFont={num === 0}
-              className={`top${num + 1}`}
-            />
-          ))}
-        </ShowGrid>
-        <MostRatedDiv>
-          <h2>Most Rated</h2>
-          <MostRatedGrid>
-            {mostRatedDrinks.current
-              .slice(0, mostRatedDrinksCount)
-              .map(drink => (
-                <Drink key={drink.id} {...drink} />
-              ))}
-          </MostRatedGrid>
-        </MostRatedDiv>
-      </Container>
-    </Layout>
-  )
-}
-
-export default IndexPage
 
 export const query = graphql`
   {

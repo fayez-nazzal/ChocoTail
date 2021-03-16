@@ -2,35 +2,6 @@ import React, { useState } from "react"
 import styled, { keyframes, css } from "styled-components"
 import { bounceIn } from "react-animations"
 
-const bounceInAnimation = keyframes`${bounceIn}`
-
-const StyledButton = styled.button`
-  margin: ${props => props.margin};
-  padding: ${props => props.padding};
-  font-size: ${props => props.fontSize};
-  background-color: ${props => (props.color ? props.color : "transparent")};
-  border: none;
-  border-radius: ${props => (props.borderRadius ? props.borderRadius : "none")};
-  cursor: pointer;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-
-  &:focus {
-    outline: none;
-  }
-
-  &:hover {
-    background-color: ${props => props.hoverColor};
-  }
-
-  ${props =>
-    props.bounceIn
-      ? css`
-          animation: 0.4s ${bounceInAnimation};
-        `
-      : ""};
-`
-
 const CustomButton = props => {
   const [animate, setAnimate] = useState(false)
 
@@ -53,3 +24,32 @@ const CustomButton = props => {
 }
 
 export default CustomButton
+
+const bounceInAnimation = keyframes`${bounceIn}`
+
+const StyledButton = styled.button`
+  margin: ${({ margin }) => margin || 0};
+  padding: ${({ padding }) => padding || 0};
+  font-size: ${({ fontSize }) => fontSize || "18px"};
+  background-color: ${({ color }) => color || "transparent"};
+  border: none;
+  border-radius: ${({ borderRadius }) => borderRadius || "none"};
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: ${({ hoverColor }) => hoverColor || "inherit"};
+  }
+
+  ${({ bounceIn }) =>
+    bounceIn
+      ? css`
+          animation: 0.4s ${bounceInAnimation};
+        `
+      : ""};
+`
