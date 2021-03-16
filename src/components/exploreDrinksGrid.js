@@ -2,10 +2,13 @@ import React, { useState, useEffect, useLayoutEffect } from "react"
 import Drink from "./drink"
 import shuffle from "lodash.shuffle"
 import useFilteredDrinks from "../hooks/useFilteredDrinks"
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components"
 import Flex from "./flex"
 import CustomButton from "./customButton"
 import useMedia from "../hooks/useMedia"
+import { bounceInUp } from "react-animations"
+
+const bounceInAnimation = keyframes`${bounceInUp}`
 
 const Grid = styled.div`
   display: grid;
@@ -13,6 +16,7 @@ const Grid = styled.div`
   grid-template-rows: repeat(5, 174px);
   margin-bottom: 8px;
   grid-gap: 8px;
+  animation: ${bounceInAnimation} 0.52s;
 
   // for iMac Retina, MacBook, MacBook Pro
   @media only screen and (min-width: 2000px) {
@@ -90,7 +94,7 @@ const DrinksGrid = props => {
 
   return (
     <>
-      <Grid>
+      <Grid key={props.searchQuery}>
         {viewDrinks.length ? (
           viewDrinks.map(drink => <Drink key={drink.id} {...drink} />)
         ) : (
