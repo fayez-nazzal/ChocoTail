@@ -37,6 +37,14 @@ const StyledButton = styled.button`
   cursor: pointer;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+  ${({ getsUp }) =>
+    getsUp &&
+    css`
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    `};
+  transition: bottom 0.3s;
 
   &:focus {
     outline: none;
@@ -44,6 +52,11 @@ const StyledButton = styled.button`
 
   &:hover {
     background-color: ${({ hoverColor }) => hoverColor || "inherit"};
+    ${({ getsUp }) =>
+      getsUp &&
+      css`
+        bottom: 2px;
+      `};
   }
 
   ${({ bounceIn }) =>

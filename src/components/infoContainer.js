@@ -2,6 +2,7 @@ import React from "react"
 import styled, { keyframes } from "styled-components"
 import { fadeIn } from "react-animations"
 import CustomButton from "./CustomButton"
+import { Link } from "gatsby"
 
 const InfoContainer = props => {
   if (!props.headlineText) return null
@@ -10,17 +11,20 @@ const InfoContainer = props => {
     <Container>
       <StyledH1>{props.headlineText}</StyledH1>
       <StyledP>Explore a vast list of refreshing drinks</StyledP>
-      <CustomButton
-        borderRadius="30px"
-        padding="12px 32px"
-        fojntSize="20px"
-        color="#f5d4a2"
-        hoverColor="#7a4c2a"
-        margin="16px 0 0 20px"
-        onClick={props.handleExploreClicked}
-      >
-        Explore Now
-      </CustomButton>
+      <ButtonContainer>
+        <CustomButton
+          borderRadius="15px"
+          padding="12px 32px"
+          fojntSize="20px"
+          hoverColor="#f5d4a2"
+          color="#7a4c2a"
+          margin="16px 0 8px 2px"
+          onClick={props.handleExploreClicked}
+          getsUp
+        >
+          <StyledLink to="explore">Explore now</StyledLink>
+        </CustomButton>
+      </ButtonContainer>
     </Container>
   )
 }
@@ -122,4 +126,16 @@ const StyledH1 = styled.h1`
     max-width: 100%;
     font-size: 28px;
   }
+`
+
+const ButtonContainer = styled.div`
+  position: relative;
+  width: 200px;
+  height: 70px;
+`
+
+const StyledLink = styled(Link)`
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 `
