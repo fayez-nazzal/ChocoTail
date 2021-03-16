@@ -69,6 +69,7 @@
     { "value": "chocolate", "label": "chocolate" },
     { "value": "cocoa", "label": "cocoa" },
     { "value": "juice", "label": "juice" },
-    { "value": "tea", "label": "tea" }
+    { "value": "tea", "label": "tea" },
+    { "value": null, "label": "none" }
   ]
 }

@@ -195,24 +195,28 @@ const IndexPage = props => {
 
   useEffect(() => {
     let timeouts = []
-    if (activeImages.length === 1) {
-      timeouts[0] = setTimeout(() => {
+    timeouts.push(
+      setTimeout(() => {
         setHeadlineText("Begin your Good Morning.")
-        timeouts[1] = setTimeout(() => {
-          setHeadlineText("Cold, hot, whatever you prefer.")
-          setActiveImages([...activeImages, 2])
-          timeouts[2] = setTimeout(() => {
-            setHeadlineText("Smooth out your day, every day.")
-            setActiveImages([...activeImages, 3])
-          }, 8000)
-        }, 6000)
+        timeouts.push(
+          setTimeout(() => {
+            setHeadlineText("Cold, hot, whatever you prefer.")
+            setActiveImages(prev => [...prev, 2])
+            timeouts.push(
+              setTimeout(() => {
+                setHeadlineText("Smooth out your day, every day.")
+                setActiveImages(prev => [...prev, 3])
+              }, 8000)
+            )
+          }, 6000)
+        )
       }, 300)
-    }
+    )
 
     return () => {
       for (let timeout of timeouts) clearTimeout(timeout)
     }
-  }, [activeImages])
+  }, [])
 
   const handleExploreClicked = () => {}
 
