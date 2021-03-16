@@ -3,9 +3,9 @@ import { createGlobalStyle } from "styled-components"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
 import OverlayNav from "./OverlayNav"
-import "fontsource-nunito"
-import "fontsource-nunito/400.css"
-import "fontsource-nunito/300.css"
+import "fontsource-lato"
+import "fontsource-lato/400.css"
+import "fontsource-lato/300.css"
 import disableScroll from "disable-scroll"
 import { Helmet } from "react-helmet"
 
@@ -45,7 +45,7 @@ export default Layout
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif !important;
   }
 
   body {

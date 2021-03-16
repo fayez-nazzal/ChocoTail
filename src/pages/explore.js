@@ -12,6 +12,7 @@ import StyledButton from "../components/CustomButton"
 import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
 import Fuse from "fuse.js"
+import { Helmet } from "react-helmet"
 
 const Explore = props => {
   const {
@@ -36,6 +37,7 @@ const Explore = props => {
   }
   const drinks = useFilteredDrinks(caloriesLimits, exclude)
   const [searchData, setSearchData] = useState(drinks)
+  const [animateSearch, setAnimateSearch] = useState(false)
 
   const searchDrink = useCallback(
     query => {
@@ -100,15 +102,26 @@ const Explore = props => {
 
   const handleSubmit = () => {
     searchDrink(searchInput)
+    setAnimateSearch(true)
+
+    setTimeout(() => {
+      setAnimateSearch(false)
+    }, 180)
 
     if (searchInputRef.current) searchInputRef.current.blur()
   }
 
   return (
     <Layout location={props.location}>
+      <Helmet>
+        <title>ChocoTail | Explore</title>
+      </Helmet>
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
-          <SearchInputContainer onSubmit={handleSubmit}>
+          <SearchInputContainer
+            onSubmit={handleSubmit}
+            animateSearch={animateSearch}
+          >
             <CustomButton
               type="submit"
               onClick={handleSubmit}
@@ -238,8 +251,9 @@ const SearchInputContainer = styled.form`
 
   .search-icon {
     height: 32px;
-    fill: #7b4c2a;
-    background-color: white;
+    fill: ${({ animateSearch }) => (animateSearch ? "black" : "#7b4c2a")};
+    background-color: ${({ animateSearch }) =>
+      animateSearch ? "rgb(123, 76, 42, 0.1)" : "white"};
     border-right: none;
     border-radius: 8px 0 0 8px;
   }

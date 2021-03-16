@@ -25,7 +25,7 @@ const Navbar = props => {
     <Nav {...props}>
       {props.opened &&
         navItems.map(item => (
-          <LinkContainer samePage={item.to === props.page}>
+          <LinkContainer key={item.name} samePage={item.to === props.page}>
             <Link className="link" to={item.to}>
               {item.name}
             </Link>
