@@ -140,7 +140,7 @@ const IndexPage = props => {
 export default IndexPage
 
 const Container = styled.div`
-  wax-width: 100%;
+  max-width: 100%;
 `
 
 const ImagesWrapper = styled.div`
@@ -245,9 +245,8 @@ const ShowGrid = styled.div`
 
 const MostRatedDiv = styled.div`
   margin: 8px;
-  wax-width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
-  user-drag: none;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;

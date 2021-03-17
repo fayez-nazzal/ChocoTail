@@ -5,8 +5,8 @@
       "to": "/explore"
     },
     {
-      "name": "Suggest",
-      "to": "/suggest"
+      "name": "suggester",
+      "to": "/suggester"
     },
     {
       "name": "About",

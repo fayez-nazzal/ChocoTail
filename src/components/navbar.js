@@ -116,12 +116,12 @@ const LinkContainer = styled.div`
 
 const SideButtonContainer = styled.div`
   margin: auto 2px;
-  width: 36px;
-  height: 36px;
 
   .side-button {
     fill: ${({ overlayOpened }) => (overlayOpened ? "white" : "black")};
     transition: fill 0.24s;
+    width: 36px;
+    height: 36px;
   }
 
   @media only screen and (min-width: 601px) {

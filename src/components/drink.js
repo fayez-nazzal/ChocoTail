@@ -8,10 +8,10 @@ import { bounceIn } from "react-animations"
 
 const Drink = props => {
   const [overlayShown, setOverlayShown] = useState(false)
-  const drinkImage = useDrinkImage(props.name)
-  const image = getImage(drinkImage)
 
-  if (!drinkImage) return null
+  const drinkImage = useDrinkImage(props.name)
+
+  const image = getImage(drinkImage)
 
   const showOverlay = e => {
     setOverlayShown(true)
@@ -32,7 +32,11 @@ const Drink = props => {
       onTouchEnd={hideOverlay}
       onTouchCancel={hideOverlay}
     >
-      <GatsbyImage image={image} alt={props.name} />
+      <GatsbyImage
+        loading={props.eager ? "eager" : "lazy"}
+        image={image}
+        alt={props.name}
+      />
       <AlphaOverlay shown={overlayShown} />
       {overlayShown && <TextDiv lines={props.lines}>{props.summary}</TextDiv>}
       <RatingContainer>
@@ -58,18 +62,20 @@ const bounceInAnimation = keyframes`${bounceIn}`
 const Container = styled.span`
   position: relative;
   display: inline-block;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   margin-top: 6px;
 
   .gatsby-image-wrapper {
     width: 100%;
     height: 100%;
     min-width: 100%;
-    min-height: 100%
+    min-height: 100%;
     max-width: 100%;
     max-height: 100%;
-    disblay: block;
+    display: block;
     border-radius: 12px;
   }
 `
@@ -133,7 +139,7 @@ const TextDiv = styled.span`
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 0 10%;
+  padding: 2px 10%;
   box-sizing: border-box;
   font-size: 22px;
   color: white;

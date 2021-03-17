@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from "react"
 import styled from "styled-components"
 import Layout from "../components/Layout"
-import useFilteredDrinks from "../hooks/useFilteredDrinks"
+import useDrinks from "../hooks/useDrinks"
 import { graphql } from "gatsby"
 import SearchIcon from "../images/search.svg"
 import DrinksGrid from "../components/ExploreDrinksGrid"
@@ -11,7 +11,6 @@ import TagsFlex from "../components/TagsFlex"
 import StyledButton from "../components/CustomButton"
 import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
-import Fuse from "fuse.js"
 import { Helmet } from "react-helmet"
 
 const Explore = props => {
@@ -26,6 +25,7 @@ const Explore = props => {
   const searchInputRef = useRef(null)
   const viewportMedia = useMedia()
   const [searchInput, setSearchInput] = useState("")
+  const [searchQuery, setSearchQuery] = useState("")
   const [calories, setCalories] = useState("")
   const [sortBy, setSortBy] = useState("")
   const [exclude, setExclude] = useState("")
@@ -35,23 +35,8 @@ const Explore = props => {
     from: parseInt(calories.split("-")[0]),
     to: parseInt(calories.split("-")[1]),
   }
-  const drinks = useFilteredDrinks(caloriesLimits, exclude)
-  const [searchData, setSearchData] = useState(drinks)
+  const drinks = useDrinks(searchQuery, caloriesLimits, exclude)
   const [animateSearch, setAnimateSearch] = useState(false)
-
-  const searchDrink = useCallback(
-    query => {
-      const fuse = new Fuse(drinks, {
-        shouldSort: true,
-        keys: ["name", "summary", "ingredients", "directions"],
-      })
-
-      const fuseSearchData = fuse.search(query)
-
-      setSearchData(fuseSearchData.map(item => item.item))
-    },
-    [drinks]
-  )
 
   useEffect(() => {
     scrollX(4)
@@ -63,8 +48,8 @@ const Explore = props => {
 
   const onTagClicked = useCallback(tag => {
     setSearchInput(tag)
-    searchDrink(tag)
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+    setSearchQuery(tag)
+  }, [])
 
   const scrollX = x => {
     tagsRef.current.scroll({
@@ -101,7 +86,7 @@ const Explore = props => {
   }
 
   const handleSubmit = () => {
-    searchDrink(searchInput)
+    setSearchQuery(searchInput)
     setAnimateSearch(true)
 
     setTimeout(() => {
@@ -190,11 +175,11 @@ const Explore = props => {
             innerProps={{ placeholder: "Exclude" }}
             options={excludeOptionsState}
             onInputChange={handleExcludeSelectChange}
-            onChange={exc => setExclude(exc.value)}
+            onChange={exc => setExclude(exc.value && exc.value.split(" "))}
           />
         </CustomDiv>
         <DrinksContainer>
-          <DrinksGrid sortBy={sortBy} drinks={searchData} />
+          <DrinksGrid sortBy={sortBy} drinks={drinks} />
         </DrinksContainer>
       </Container>
     </Layout>
