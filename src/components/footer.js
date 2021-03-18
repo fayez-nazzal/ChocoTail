@@ -8,6 +8,7 @@ const Footer = () => {
       {/* dark theme toggle */}
       {/*social buttons */}
       <FooterLink to="/contact">Contact</FooterLink>
+      <FooterLink to="/license">License</FooterLink>
       <FooterLink to="/sitemap">Sitemap</FooterLink>
     </StyledFooter>
   )
