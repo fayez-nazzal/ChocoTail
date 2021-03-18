@@ -7,7 +7,6 @@ import "fontsource-lato"
 import "fontsource-lato/400.css"
 import "fontsource-lato/300.css"
 import disableScroll from "disable-scroll"
-import { Helmet } from "react-helmet"
 
 const Layout = props => {
   const [overlayOpened, setOverlayOpened] = useState(false)
@@ -25,10 +24,6 @@ const Layout = props => {
   return (
     <>
       <GlobalStyle scrollDisabled={overlayOpened} />
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>ChocoTail</title>
-      </Helmet>
       <Navbar
         homePage={props.location.pathname === "/"}
         handleSideButtonClick={toggleOverlay}

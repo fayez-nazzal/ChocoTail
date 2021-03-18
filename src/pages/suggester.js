@@ -6,6 +6,7 @@ import CustomButton from "../components/CustomButton"
 import Drink from "../components/Drink"
 import useDrinks from "../hooks/useDrinks"
 import sample from "lodash.sample"
+import Head from "../components/Head"
 
 const SuggesterPage = props => {
   const [h1Text, setH1Text] = useState("")
@@ -49,11 +50,10 @@ const SuggesterPage = props => {
   }, [])
 
   useEffect(() => {
-    searchQuery === "hot" &&
+    searchQuery.includes("hot") &&
       setExcludes([
         "cold",
         "ice",
-        "syrup",
         "juice",
         "slushie",
         "fresca",
@@ -61,8 +61,10 @@ const SuggesterPage = props => {
         "jelly",
         "blush",
         "fizz",
+        "syrup",
+        "cooler",
       ])
-    searchQuery === "cold" && setExcludes(["hot", "warm"])
+    searchQuery.includes("cold") && setExcludes(["hot", "warm", "boil"])
     searchQuery.includes("fruit") &&
       setExcludes(prev => [...prev, "coffee", "cafe", "mocha", "choco"])
   }, [searchQuery])
@@ -101,7 +103,7 @@ const SuggesterPage = props => {
         })
         break
       case "no caffiene":
-        setExcludes(prev => [...prev, "coffee", "cafe", "tea", "caffiene"])
+        setExcludes(prev => [...prev, "coffee", "tea"])
         break
       case "natural":
         setSearchQuery(prev => prev + " fruit")
@@ -113,17 +115,22 @@ const SuggesterPage = props => {
 
   const suggestDrink = () => {
     setTimeout(() => {
-      setDrinkSample(sample(drinks))
+      setDrinkSample(
+        sample(drinks.filter(drink => drink.name != drinkSample.name))
+      )
     }, 200)
   }
 
   return (
     <Layout location={props.location}>
+      <Head title="Suggester" />
       <Container>
         <AnimatedText h1 text={h1Text} />
         <AnimatedText text={pText} />
         <ButtonsContainer hidden={!drinkTypeButtonsShown}>
-          <CustomizedButton onClick={() => onDrinkTypeButtonClicked("cold")}>
+          <CustomizedButton
+            onClick={() => onDrinkTypeButtonClicked("cold ice summer")}
+          >
             cold
           </CustomizedButton>
           <CustomizedButton onClick={() => onDrinkTypeButtonClicked("hot")}>
@@ -252,12 +259,8 @@ const Container = styled.div`
   height: 100vh;
   max-height: 100vh;
   width: 100%;
-  padding: 10%;
+  padding: 5%;
   box-sizing: border-box;
-
-  @media only screen and (max-width: 600px) {
-    padding: 5%;
-  }
 
   @media only screen and (max-width: 380px) and (max-height: 568px) {
     height: 420px;

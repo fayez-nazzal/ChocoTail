@@ -30,6 +30,7 @@ const useDrinks = (searchQuery, calories, excludes) => {
     if (searchQuery) {
       const fuse = new Fuse(drinks, {
         shouldSort: true,
+        findAllMatches: true,
         keys: ["name", "summary", "ingredients", "directions"],
       })
 
@@ -52,7 +53,6 @@ const useDrinks = (searchQuery, calories, excludes) => {
           excludes.some(element =>
             lower(drink.ingredients).includes(element)
           ) ||
-          excludes.some(element => lower(drink.directions).includes(element)) ||
           excludes.some(element => lower(drink.summary).includes(element))
         ))
   )

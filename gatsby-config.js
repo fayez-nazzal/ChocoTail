@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `ChocoTail`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A website to explore refreshing drinks.`,
+    author: `@fayez-nazzal`,
   },
   plugins: [
     `gatsby-transformer-json`,

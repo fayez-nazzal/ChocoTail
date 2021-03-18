@@ -8,6 +8,7 @@ import Drink from "../components/Drink"
 import useMedia from "../hooks/useMedia"
 import InfoContainer from "../components/InfoContainer"
 import shuffle from "lodash.shuffle"
+import Head from "../components/Head"
 
 const IndexPage = props => {
   const viewportMedia = useMedia()
@@ -65,6 +66,7 @@ const IndexPage = props => {
 
   return (
     <Layout location={props.location}>
+      <Head title="Home" />
       <Container>
         <ImagesWrapper>
           <StaticImage

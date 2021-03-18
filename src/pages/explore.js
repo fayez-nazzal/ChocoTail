@@ -11,7 +11,7 @@ import TagsFlex from "../components/TagsFlex"
 import StyledButton from "../components/CustomButton"
 import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
-import { Helmet } from "react-helmet"
+import Head from "../components/Head"
 
 const Explore = props => {
   const {
@@ -98,9 +98,7 @@ const Explore = props => {
 
   return (
     <Layout location={props.location}>
-      <Helmet>
-        <title>ChocoTail | Explore</title>
-      </Helmet>
+      <Head title="Explore"></Head>
       <Container>
         <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
           <SearchInputContainer
