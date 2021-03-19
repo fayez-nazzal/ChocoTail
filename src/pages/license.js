@@ -23,7 +23,7 @@ const license = ({ location }) => {
           alt="emoji"
           quality={90}
           className="emoji"
-          placeholder="blurred"
+          placeholder="tracedSVG"
           width={180}
           height={180}
         />

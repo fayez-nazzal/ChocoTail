@@ -1,7 +1,6 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
-import { fadeIn } from "react-animations"
-import CustomButton from "./CustomButton"
+import { fadeIn, bounceIn } from "react-animations"
 import { Link } from "gatsby"
 
 const InfoContainer = props => {
@@ -12,18 +11,7 @@ const InfoContainer = props => {
       <StyledH1>{props.headlineText}</StyledH1>
       <StyledP>Explore a vast list of refreshing drinks</StyledP>
       <ButtonContainer>
-        <CustomButton
-          borderRadius="15px"
-          padding="12px 32px"
-          fojntSize="20px"
-          hoverColor="#f5d4a2"
-          color="#7a4c2a"
-          margin="16px 0 8px 2px"
-          onClick={props.handleExploreClicked}
-          getsUp
-        >
-          <StyledLink to="explore">Explore now</StyledLink>
-        </CustomButton>
+        <StyledLink to="explore">Explore now</StyledLink>
       </ButtonContainer>
     </Container>
   )
@@ -46,6 +34,7 @@ const scaleXAnimation = keyframes`
   }
 `
 const fadeInAnimation = keyframes`${fadeIn}`
+const bounceInAnimation = keyframes`${bounceIn}`
 
 const Container = styled.div`
   position: absolute;
@@ -130,12 +119,26 @@ const StyledH1 = styled.h1`
 
 const ButtonContainer = styled.div`
   position: relative;
-  width: 200px;
+  width: 160px;
   height: 70px;
 `
 
 const StyledLink = styled(Link)`
   color: black;
+  display: block;
+  text-align: center;
+  margin: 16px 0 8px 2px;
+  padding: 12px;
   text-decoration: none;
   font-size: 20px;
+  border-radius: 15px;
+  background-color: #7a4c2a;
+
+  &:hover {
+    background-color: #f5d4a2;
+  }
+
+  &:active {
+    animation: 0.4s ${bounceInAnimation};
+  }
 `

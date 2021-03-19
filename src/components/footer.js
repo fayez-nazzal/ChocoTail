@@ -1,15 +1,41 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Flex from "./Flex"
+import SocialButton from "./SocialButton"
+import useMedia from "../hooks/useMedia"
 
 const Footer = () => {
+  const viewportMedia = useMedia()
+
   return (
-    <StyledFooter>
+    <StyledFooter
+      direction={
+        viewportMedia && (viewportMedia.xs || viewportMedia.sm)
+          ? "column"
+          : "row"
+      }
+    >
       {/* dark theme toggle */}
       {/*social buttons */}
-      <FooterLink to="/contact">Contact</FooterLink>
-      <FooterLink to="/license">License</FooterLink>
-      <FooterLink to="/sitemap">Sitemap</FooterLink>
+      <Flex margin="4px auto 0 16px">
+        <span>
+          Follow <GreySpan>@fayez-nazzal</GreySpan>
+        </span>
+        <VerticalLine />
+        <SocialButton type="github" />
+        <SocialButton type="twitter" />
+        <SocialButton type="facebook" />
+        <SocialButton type="instagram" />
+      </Flex>
+      <Flex margin="auto 0">
+        <StyledLink to="/license" margin="0 0 0 24px">
+          License
+        </StyledLink>
+        <StyledLink to="/sitemap" margin="0 8px 0 16px">
+          Sitemap
+        </StyledLink>
+      </Flex>
     </StyledFooter>
   )
 }
@@ -20,15 +46,36 @@ const StyledFooter = styled.footer`
   background-color: #937755;
   max-width: 100%;
   box-sizing: border-box;
-  margin-top: 8px;
-  padding: 10px 2px;
+  margin-top: 16px;
+  height: ${({ direction }) => (direction === "column" ? 80 : 48)}px;
   display: flex;
+  flex-direction: ${({ direction }) => direction || "row"};
   justify-content: flex-end;
+  align-items: center;
   user-select: none;
+  overflow: visible;
 `
 
-const FooterLink = styled(Link)`
+const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
-  margin: 0 10px;
+  font-size: 20px;
+  margin: ${({ margin }) => margin};
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    color: #dbdbdb;
+  }
+`
+
+const VerticalLine = styled.span`
+  border-right: 3.6px solid #efeeec;
+  height: 36px;
+  margin: 0 4px;
+`
+
+const GreySpan = styled.span`
+  color: #edefea;
+  margin-left: 2px;
+  letter-spacing: 2px;
 `

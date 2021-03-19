@@ -7,6 +7,7 @@ import "fontsource-lato"
 import "fontsource-lato/400.css"
 import "fontsource-lato/300.css"
 import disableScroll from "disable-scroll"
+import Tooltip from "./Tooltip"
 
 const Layout = props => {
   const [overlayOpened, setOverlayOpened] = useState(false)
@@ -32,6 +33,7 @@ const Layout = props => {
       <OverlayNav page={props.location.pathname} opened={overlayOpened} />
       <main>{props.children}</main>
       <Footer />
+      <Tooltip />
     </>
   )
 }

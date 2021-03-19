@@ -62,8 +62,6 @@ const IndexPage = props => {
     }
   }, [])
 
-  const handleExploreClicked = () => {}
-
   return (
     <Layout location={props.location}>
       <Head title="Home" />
@@ -96,10 +94,7 @@ const IndexPage = props => {
             placeholder="blurred"
           />
         </ImagesWrapper>
-        <InfoContainer
-          headlineText={headlineText}
-          handleExploreClicked={handleExploreClicked}
-        />
+        <InfoContainer headlineText={headlineText} />
         <ShowGrid>
           {[...Array(6).keys()].map(num => (
             <Drink

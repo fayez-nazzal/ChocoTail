@@ -166,4 +166,5 @@ const AlphaOverlay = styled.div`
   background-color: #433d3c;
   opacity: ${({ shown }) => (shown ? "0.6" : "0")};
   transition: opacity 0.6s;
+  border-radius: 12px;
 `
