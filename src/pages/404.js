@@ -1,7 +1,7 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import styled from "styled-components"
 import Layout from "../components/Layout"
+import Head from "../components/Head"
 
 const Container = styled.div`
   width: 100%;
@@ -17,9 +17,7 @@ const Container = styled.div`
 const Page404 = props => {
   return (
     <Layout location={props.location}>
-      <Helmet>
-        <title>ChocoTail | 404 Not found</title>
-      </Helmet>
+      <Head title="404 Not found" />
       <Container>
         <h1>Error 404, page not found</h1>
         <p>Try some coffee instead {"\u2615"}</p>
