@@ -19,7 +19,7 @@ const license = ({ location }) => {
           <YellowSpan>however you want</YellowSpan>.
         </p>
         <StaticImage
-          src="../images/emoji.png"
+          src="../images/winking.png"
           alt="emoji"
           quality={90}
           className="emoji"
