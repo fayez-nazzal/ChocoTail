@@ -22,7 +22,8 @@ const Navbar = props => {
   `)
 
   return (
-    <Nav {...props}>
+    <SidebarContainer {...props}>
+      <SpacerDiv space={26} />
       {props.opened &&
         navItems.map(item => (
           <LinkContainer key={item.name} samePage={item.to === props.page}>
@@ -31,8 +32,8 @@ const Navbar = props => {
             </Link>
           </LinkContainer>
         ))}
-      <SpacerDiv />
-    </Nav>
+      <SpacerDiv space={50} />
+    </SidebarContainer>
   )
 }
 
@@ -40,7 +41,7 @@ export default Navbar
 
 const bounceInAnimation = keyframes`${bounceIn}`
 
-const Nav = styled.nav`
+const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 1;
   height: 100%;
@@ -81,5 +82,5 @@ const LinkContainer = styled(Link)`
 `
 
 const SpacerDiv = styled.div`
-  padding: 50px;
+  padding: ${({ space }) => space}px;
 `

@@ -5,7 +5,6 @@ module.exports = {
     author: `@fayez-nazzal`,
   },
   plugins: [
-    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -41,6 +40,8 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-offline`,
       options: {

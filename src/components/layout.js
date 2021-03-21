@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { createGlobalStyle } from "styled-components"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
-import OverlayNav from "./OverlayNav"
+import Sidebar from "./Sidebar"
 import "fontsource-lato"
 import "fontsource-lato/400.css"
 import "fontsource-lato/300.css"
@@ -30,7 +30,7 @@ const Layout = props => {
         handleSideButtonClick={toggleOverlay}
         overlayOpened={overlayOpened}
       />
-      <OverlayNav page={props.location.pathname} opened={overlayOpened} />
+      <Sidebar page={props.location.pathname} opened={overlayOpened} />
       <main>{props.children}</main>
       <Footer />
       <Tooltip />
