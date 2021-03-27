@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { navigate } from "gatsby"
 import styled, { keyframes } from "styled-components"
 import LinkIcon from "../images/link.svg"
 import StarFill from "../images/star-fill.svg"
@@ -31,6 +32,9 @@ const Drink = props => {
       onTouchStart={showOverlay}
       onTouchEnd={hideOverlay}
       onTouchCancel={hideOverlay}
+      onClick={() => {
+        navigate(`/recepie/${props.fields.slug}`)
+      }}
     >
       <GatsbyImage
         loading={props.eager ? "eager" : "lazy"}
@@ -67,6 +71,7 @@ const Container = styled.span`
   max-width: 100%;
   max-height: 100%;
   margin-top: 6px;
+  cursor: pointer;
 
   .gatsby-image-wrapper {
     width: 100%;
@@ -90,6 +95,7 @@ const Info = styled.div`
   background-color: #c0c0c092;
   border-radius: 0 0 12px 12px;
   max-width: 100%;
+  cursor: default;
 
   & > h3 {
     font-size: ${({ bigFont }) => (bigFont ? "24px" : "18px")};

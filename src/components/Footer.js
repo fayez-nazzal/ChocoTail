@@ -3,19 +3,10 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import Flex from "./Flex"
 import SocialButton from "./SocialButton"
-import useMedia from "../hooks/useMedia"
 
-const Footer = () => {
-  const viewportMedia = useMedia()
-
+const Footer = props => {
   return (
-    <StyledFooter
-      direction={
-        viewportMedia && (viewportMedia.xs || viewportMedia.sm)
-          ? "column"
-          : "row"
-      }
-    >
+    <StyledFooter direction={props.direction}>
       {/* dark theme toggle */}
       {/*social buttons */}
       <Flex margin="4px auto 0 16px">
@@ -43,6 +34,11 @@ const Footer = () => {
 export default Footer
 
 const StyledFooter = styled.footer`
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
   background-color: #937755;
   max-width: 100%;
   box-sizing: border-box;

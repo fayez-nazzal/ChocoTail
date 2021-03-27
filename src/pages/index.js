@@ -305,6 +305,9 @@ export const query = graphql`
         prep
         rating
         calories
+        fields {
+          slug
+        }
       }
     }
   }

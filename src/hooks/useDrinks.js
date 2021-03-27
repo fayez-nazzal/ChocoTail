@@ -20,6 +20,9 @@ const useDrinks = (searchQuery, calories, excludes) => {
           prep
           rating
           calories
+          fields {
+            slug
+          }
         }
       }
     }
