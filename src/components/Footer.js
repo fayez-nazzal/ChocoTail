@@ -3,15 +3,22 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import Flex from "./Flex"
 import SocialButton from "./SocialButton"
+import useMedia from "../hooks/useMedia"
 
 const Footer = props => {
+  const viewportMedia = useMedia()
+
   return (
     <StyledFooter direction={props.direction}>
       {/* dark theme toggle */}
       {/*social buttons */}
-      <Flex margin="4px auto 0 16px">
+      <Flex
+        margin={viewportMedia && viewportMedia.md ? "4px auto 0 16px" : "4px"}
+        justifyContent="center"
+      >
         <span>
-          Follow <GreySpan>@fayez-nazzal</GreySpan>
+          {viewportMedia && viewportMedia.md && "Follow"}
+          <GreySpan>@fayez-nazzal</GreySpan>
         </span>
         <VerticalLine />
         <SocialButton type="github" />
@@ -19,11 +26,17 @@ const Footer = props => {
         <SocialButton type="facebook" />
         <SocialButton type="instagram" />
       </Flex>
-      <Flex margin="auto 0">
-        <StyledLink to="/license" margin="0 0 0 24px">
+      <Flex margin="auto 0" justifyContent="center">
+        <StyledLink
+          to="/license"
+          margin={viewportMedia && viewportMedia.md ? "0 0 0 24px" : "0 8px"}
+        >
           License
         </StyledLink>
-        <StyledLink to="/sitemap" margin="0 8px 0 16px">
+        <StyledLink
+          to="/sitemap"
+          margin={viewportMedia && viewportMedia.md ? "0 8px 0 16px" : "0 8px"}
+        >
           Sitemap
         </StyledLink>
       </Flex>
@@ -34,20 +47,16 @@ const Footer = props => {
 export default Footer
 
 const StyledFooter = styled.footer`
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
   margin-bottom: 0px;
   background-color: #937755;
   max-width: 100%;
-  box-sizing: border-box;
   margin-top: 16px;
-  height: ${({ direction }) => (direction === "column" ? 80 : 48)}px;
+  padding-right: 8px;
+  height: ${({ direction }) => (direction === "column" ? 11 : 7)}vh;
   display: flex;
   flex-direction: ${({ direction }) => direction || "row"};
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
   user-select: none;
   overflow: visible;
 `

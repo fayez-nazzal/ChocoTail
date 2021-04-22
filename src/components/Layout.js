@@ -54,13 +54,13 @@ const GlobalStyle = createGlobalStyle`
 
   hrml: {
     min-height: 100%;
+    min-height: 100vh;
   }
 
   body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    min-height: 100%;
     overflow-x: hidden;
     overflow-y: ${props => (props.scrollDisabled ? "hidden" : "auto")};
   }
