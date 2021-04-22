@@ -172,7 +172,7 @@ const ImagesWrapper = styled.div`
 const ShowGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, minmax(120px, 180px));
+  grid-template-rows: repeat(2, minmax(120px, 130px));
   grid-gap: 8px;
   margin: 8px;
   box-sizing: border-box;
@@ -189,6 +189,10 @@ const ShowGrid = styled.div`
   // for iMac Retina, MacBook, MacBook Pro and HIDPI-XL desktops & laptops
   @media only screen and (min-width: 2000px) {
     grid-template-rows: repeat(2, minmax(160px, 260px));
+  }
+
+  @media only screen and (min-width: 1400px) {
+    grid-template-rows: repeat(2, minmax(120px, 160px));
   }
 
   // for desktop & laptop
@@ -268,9 +272,15 @@ const MostRatedGrid = styled.div`
   }
 
   // for desktop
-  @media only screen and (min-width: 1024px) and (max-width: 2000px) {
+
+  @media only screen and (min-width: 1400px) and (max-width: 2000px) {
     grid-template-columns: repeat(5, minmax(200px, 320px));
-    grid-auto-rows: minmax(140px, 250px);
+    grid-auto-rows: minmax(140px, 220px);
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    grid-template-columns: repeat(5, minmax(200px, 320px));
+    grid-auto-rows: minmax(140px, 180px);
   }
 
   // tablets
