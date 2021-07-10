@@ -1,13 +1,15 @@
-import React from "react"
+import React, { useContext } from "react"
 import styled, { keyframes } from "styled-components"
 import { fadeIn, bounceIn } from "react-animations"
 import { Link } from "gatsby"
+import { ThemeContext } from "../contexts/themeContext"
 
 const InfoContainer = props => {
+  const [isDark] = useContext(ThemeContext)
   if (!props.headlineText) return null
 
   return (
-    <Container>
+    <Container isDark={isDark}>
       <StyledH1>{props.headlineText}</StyledH1>
       <StyledP>Explore a vast list of refreshing drinks</StyledP>
       <ButtonContainer>
@@ -40,7 +42,8 @@ const Container = styled.div`
   position: absolute;
   top: 80px;
   left: 32px;
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: ${props =>
+    props.isDark ? "#20202095" : "rgba(230, 230, 230, 0.6)"};
   padding: 8px 32px;
   border-radius: 28px;
   animation: ${scaleXAnimation} 1.4s;

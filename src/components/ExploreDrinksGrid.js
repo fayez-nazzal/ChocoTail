@@ -74,7 +74,7 @@ const Grid = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 174px);
   margin-bottom: 8px;
-  grid-gap: 8px;
+  grid-gap: 12px;
   animation: ${bounceInAnimation} 0.52s;
 
   // for iMac Retina, MacBook, MacBook Pro

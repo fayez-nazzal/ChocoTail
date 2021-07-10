@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useContext } from "react"
 import styled, { createGlobalStyle } from "styled-components"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
@@ -9,9 +9,11 @@ import "fontsource-lato/300.css"
 import disableScroll from "disable-scroll"
 import Tooltip from "./Tooltip"
 import useMedia from "../hooks/useMedia"
+import { ThemeContext } from "../contexts/themeContext"
 
 const Layout = props => {
   const [overlayOpened, setOverlayOpened] = useState(false)
+  const [isDark] = useContext(ThemeContext)
   const viewportMedia = useMedia()
   const footerDir =
     viewportMedia && (viewportMedia.xs || viewportMedia.sm) ? "column" : "row"
@@ -28,7 +30,11 @@ const Layout = props => {
 
   return (
     <Container>
-      <GlobalStyle footerDir={footerDir} scrollDisabled={overlayOpened} />
+      <GlobalStyle
+        isDark={isDark}
+        footerDir={footerDir}
+        scrollDisabled={overlayOpened}
+      />
       <Navbar
         homePage={props.location && props.location.pathname === "/"}
         handleSideButtonClick={toggleOverlay}
@@ -63,6 +69,10 @@ const GlobalStyle = createGlobalStyle`
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: ${props => (props.scrollDisabled ? "hidden" : "auto")};
+    background-color: ${props =>
+      props.isDark ? "#0d0d09" : "rgb(251, 251, 251)"};
+
+      color: ${props => (props.isDark ? "white" : "rgb(5, 5, 5)")};
   }
 `
 

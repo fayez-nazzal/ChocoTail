@@ -1,4 +1,10 @@
-import React, { useState, useRef, useEffect, useCallback } from "react"
+import React, {
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+  useContext,
+} from "react"
 import styled from "styled-components"
 import Layout from "../components/Layout"
 import useDrinks from "../hooks/useDrinks"
@@ -12,6 +18,7 @@ import StyledButton from "../components/CustomButton"
 import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
 import Head from "../components/Head"
+import { ThemeContext } from "../contexts/themeContext"
 
 const Explore = props => {
   const {
@@ -21,6 +28,7 @@ const Explore = props => {
   } = props.data
 
   const tagsRef = useRef(null)
+  const [isDark] = useContext(ThemeContext)
   const scrollInterval = useRef(null)
   const searchInputRef = useRef(null)
   const viewportMedia = useMedia()
@@ -100,10 +108,11 @@ const Explore = props => {
     <Layout location={props.location}>
       <Head title="Explore"></Head>
       <Container>
-        <CustomDiv gridArea="se" backgroundColor="#dbdbdb88" padding="8px">
+        <DrinkSearchContainer isDark={isDark}>
           <SearchInputContainer
             onSubmit={handleSubmit}
             animateSearch={animateSearch}
+            isDark={isDark}
           >
             <CustomButton
               type="submit"
@@ -122,60 +131,32 @@ const Explore = props => {
           <CustomDiv margin="20px 16px 8px 8px" fontSize="20px">
             Popular tags
           </CustomDiv>
-          <Flex>
-            <StyledButton
-              margin="0 4px 8px 8px"
-              padding="12px"
-              color="#af8e69"
-              hoverColor="#7b4c2a"
-              onMouseEnter={() => keepScrolling(-1.6)}
-              onMouseLeave={stopScrolling}
-              onTouchStart={() => keepScrolling(-2, true)}
-              onTouchEnd={stopScrolling}
-            >
-              {"<"}
-            </StyledButton>
-            <TagsFlex ref={tagsRef} onTagClicked={onTagClicked} />
-            <StyledButton
-              margin="0 8px 8px 4px"
-              padding="12px"
-              color="#af8e69"
-              hoverColor="#7b4c2a"
-              onMouseEnter={() => keepScrolling(1.6)}
-              onMouseLeave={stopScrolling}
-              onTouchStart={() => keepScrolling(2, true)}
-              onTouchEnd={stopScrolling}
-            >
-              {">"}
-            </StyledButton>
-          </Flex>
-        </CustomDiv>
-        <CustomDiv
-          gridArea="f"
-          backgroundColor="#dbdbdb88"
-          padding="8px"
-          fontSize="18px"
-        >
+          <TagsFlex ref={tagsRef} onTagClicked={onTagClicked} />
+        </DrinkSearchContainer>
+        <FiltersContainer isDark={isDark}>
           <StyledSelect
             {...selectCommonProps}
+            isDark={isDark}
             innerProps={{ placeholder: "Calories" }}
             options={calorieOptions}
             onChange={kcal => setCalories(kcal.value)}
           />
           <StyledSelect
             {...selectCommonProps}
+            isDark={isDark}
             innerProps={{ placeholder: "Sort by" }}
             options={sortOptions}
             onChange={sortBy => setSortBy(sortBy.value)}
           />
           <StyledSelect
             {...selectCommonProps}
+            isDark={isDark}
             innerProps={{ placeholder: "Exclude" }}
             options={excludeOptionsState}
             onInputChange={handleExcludeSelectChange}
             onChange={exc => setExclude(exc.value && exc.value.split(" "))}
           />
-        </CustomDiv>
+        </FiltersContainer>
         <DrinksContainer>
           <DrinksGrid sortBy={sortBy} drinks={drinks} />
         </DrinksContainer>
@@ -191,15 +172,13 @@ const { ValueContainer } = components
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: minmax(150px, 160px) auto;
+  grid-template-rows: minmax(min-content, max-content) auto;
   grid-template-areas:
     ". se se se se se se f f f ."
     ". d  d  d  d  d  d  d d d .";
 
   // extra small screen devices
   @media only screen and (max-width: 600px) {
-    grid-template-rows: minmax(150px, 160px) minmax(150px, 160px) auto;
-
     grid-template-areas:
       ". se se se se se se se se se ."
       ". f  f  f  f  f  f  f  f  f ."
@@ -214,7 +193,7 @@ const SearchInputContainer = styled.form`
 
   input,
   .search-icon {
-    border: 1px solid #7b4c2a;
+    border: 1px solid ${props => (props.isDark ? "#e9e9e9" : "#212121")};
     padding: 4px;
   }
 
@@ -226,6 +205,8 @@ const SearchInputContainer = styled.form`
     border-left: none;
     border-radius: 0 8px 8px 0 !important;
     font-weight: 300;
+    background-color: ${props => (props.isDark ? "#00000074" : "#ffffff")};
+    color: ${props => (props.isDark ? "#ffffff" : "#000000")};
   }
 
   input:focus {
@@ -234,9 +215,9 @@ const SearchInputContainer = styled.form`
 
   .search-icon {
     height: 32px;
-    fill: ${({ animateSearch }) => (animateSearch ? "black" : "#7b4c2a")};
-    background-color: ${({ animateSearch }) =>
-      animateSearch ? "rgb(123, 76, 42, 0.1)" : "white"};
+    fill: ${({ animateSearch, isDark }) =>
+      animateSearch || !isDark ? "black" : "#e9e9e9"};
+    background-color: ${props => (props.isDark ? "#00000074" : "#ffffff")};
     border-right: none;
     border-radius: 8px 0 0 8px;
   }
@@ -245,6 +226,21 @@ const SearchInputContainer = styled.form`
     fill: black;
     background-color: rgb(123, 76, 42, 0.1);
   }
+`
+
+const DrinkSearchContainer = styled.div`
+  grid-area: se;
+  background-color: ${props => (props.isDark ? "#82828290" : "#dbdbdb88")};
+  padding: 8px;
+  border-radius: 8px;
+`
+
+const FiltersContainer = styled(DrinkSearchContainer)`
+  grid-area: f;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
 `
 
 const CustomDiv = styled.div`
@@ -266,8 +262,18 @@ const StyledSelect = styled(Select)`
   user-select: none;
 
   .filter-select__control {
-    border-color: #7b4c2a !important;
+    border: 1px solid ${props => (props.isDark ? "#e9e9e9" : "#212121")} !important;
     box-shadow: none !important;
+    background-color: ${props => (props.isDark ? "#00000074" : "#ffffff")};
+  }
+
+  .filter-select__option {
+    background-color: ${props => (props.isDark ? "#00000074" : "#ffffff")};
+    border: none;
+  }
+
+  .filter-select__menu-list {
+    background-color: ${props => (props.isDark ? "#00000074" : "#ffffff")};
   }
 
   .filter-select__control--menu-is-open {
@@ -275,12 +281,20 @@ const StyledSelect = styled(Select)`
   }
 
   .filter-select__control:hover {
-    border-color: #7b4c2a !important;
+    border-color: ${props => (props.isDark ? "#e9e9e9" : "#212121")} !important;
   }
 
   .filter-select__option--is-focused,
   .filter-select__option:hover {
-    background-color: #cbaa8560;
+    background-color: #cbaa8550;
+  }
+
+  .filter-select__option--is-selected {
+    color: #cbaa85 !important;
+  }
+
+  .filter-select__single-value {
+    color: ${props => (props.isDark ? "#d1d1d1" : "#000000")} !important;
   }
 `
 

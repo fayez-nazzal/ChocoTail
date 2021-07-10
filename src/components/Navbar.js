@@ -5,6 +5,8 @@ import styled from "styled-components"
 import SideButtonIcon from "../images/menu.svg"
 import { getScrollPercent } from "../helpers/helpers"
 
+const navbarHeight = 60
+
 const Navbar = props => {
   const {
     allDataJson: {
@@ -36,7 +38,7 @@ const Navbar = props => {
 
   return (
     <Container>
-      <ColorBackground offset={offset} homePage={props.homePage} />
+      <NavBgColor offset={offset} homePage={props.homePage} />
       <Nav homePage={props.homePage}>
         <LinkContainer logo>
           <Link className="link" to="/">
@@ -75,19 +77,19 @@ const Container = styled.div`
   z-index: 2;
 `
 
-const ColorBackground = styled.div`
+const NavBgColor = styled.div`
   position: absolute;
-  height: 50px;
+  height: ${navbarHeight}px;
   width: 100%;
   background-color: rgba(175, 142, 105, 0.98);
   top: ${({ homePage, offset }) =>
-    homePage ? `${-50 * (1 - offset / 100)}px` : 0};
+    homePage ? `${-navbarHeight * (1 - offset / 100)}px` : 0};
   left: 0;
 `
 
 const Nav = styled.nav`
   position: ${({ homePage }) => (homePage ? "absolute" : "sticky")};
-  height: 50px;
+  height: ${navbarHeight}px;
   display: flex;
   padding-right: 8px;
   justify-content: flex-end;

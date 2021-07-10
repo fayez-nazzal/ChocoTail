@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
 import { navigate } from "gatsby"
 import styled, { keyframes } from "styled-components"
 import LinkIcon from "../images/link.svg"
@@ -6,10 +6,11 @@ import StarFill from "../images/star-fill.svg"
 import useDrinkImage from "../hooks/useDrinkImage"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { bounceIn } from "react-animations"
+import { ThemeContext } from "../contexts/themeContext"
 
 const Drink = props => {
+  const [isDark] = useContext(ThemeContext)
   const [overlayShown, setOverlayShown] = useState(false)
-
   const drinkImage = useDrinkImage(props.name)
 
   const image = getImage(drinkImage)
@@ -47,7 +48,7 @@ const Drink = props => {
         {parseInt(props.rating ? props.rating : 0)}
         <StarFill className="star" />
       </RatingContainer>
-      <Info bigFont={props.bigFont}>
+      <Info bigFont={props.bigFont} isDark={isDark}>
         <h3>{props.name}</h3>
         <span>{props.calories + "kcal"}</span>
         <span>{props.prep}</span>
@@ -87,12 +88,11 @@ const Container = styled.span`
 
 const Info = styled.div`
   position: absolute;
-  padding: 4px;
-  padding-bottom: 2px;
+  padding: 8px;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #c0c0c092;
+  background-color: ${props => (props.isDark ? "#12121292" : "#c0c0c092")};
   border-radius: 0 0 12px 12px;
   max-width: 100%;
   cursor: default;
@@ -104,6 +104,8 @@ const Info = styled.div`
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 1.3rem;
+    line-height: 2.2rem;
+    font-weight: 400;
     margin: 0;
   }
 
@@ -122,19 +124,19 @@ const Info = styled.div`
 
 const RatingContainer = styled.div`
   display: flex;
-  background-color: #c0c0c092;
+  background-color: ${props => (props.isDark ? "#20202092" : "#c0c0c092")};
   position: absolute;
-  border-radius: 12px;
-  padding: 4px;
+  border-radius: 16px;
+  padding: 8px 10px;
   top: 4px;
-  right: 2px;
-  font-size: 16px;
+  right: 4px;
+  font-size: 18px;
   line-height: 16px;
 
   .star {
-    margin-left: 2px;
+    margin-left: 4px;
     fill: #fdcc0d;
-    height: 14px;
+    height: 16px;
   }
 `
 

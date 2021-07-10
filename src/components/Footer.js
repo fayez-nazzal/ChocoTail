@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Flex from "./Flex"
 import SocialButton from "./SocialButton"
 import useMedia from "../hooks/useMedia"
+import ThemeToggler from "./ThemeToggler"
 
 const Footer = props => {
   const viewportMedia = useMedia()
@@ -12,10 +13,7 @@ const Footer = props => {
     <StyledFooter direction={props.direction}>
       {/* dark theme toggle */}
       {/*social buttons */}
-      <Flex
-        margin={viewportMedia && viewportMedia.md ? "4px auto 0 16px" : "4px"}
-        justifyContent="center"
-      >
+      <Flex margin="4px auto 0 16px" justifyContent="flex-start">
         <span>
           {viewportMedia && viewportMedia.md && "Follow"}
           <GreySpan>@fayez-nazzal</GreySpan>
@@ -39,6 +37,7 @@ const Footer = props => {
         >
           Sitemap
         </StyledLink>
+        <ThemeToggler />
       </Flex>
     </StyledFooter>
   )
