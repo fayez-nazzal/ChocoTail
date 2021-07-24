@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react"
+import React, { useContext, useEffect, useRef } from "react"
 import Sun from "../images/sun.svg"
 import Moon from "../images/moon.svg"
 import { ThemeContext } from "../contexts/themeContext"
@@ -8,11 +8,17 @@ const ThemeToggler = () => {
   const [isDark, setIsDark] = useContext(ThemeContext)
   const timeout = useRef(null)
 
+  useEffect(() => {
+    const theme = localStorage.getItem("choco-theme")
+    setIsDark(theme === "dark")
+  }, [])
+
   const onClick = () => {
     if (!timeout.current)
       timeout.current = setTimeout(() => {
         timeout.current = null
         setIsDark(prev => !prev)
+        localStorage.setItem("choco-theme", !isDark ? "dark" : "light")
       }, 20)
   }
 
