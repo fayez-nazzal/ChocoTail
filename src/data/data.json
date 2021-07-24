@@ -26,7 +26,12 @@
     "hot",
     "orange",
     "apple",
-    "ginger"
+    "ginger",
+    "berry",
+    "coconut",
+    "cocoa",
+    "mocha",
+    "mint"
   ],
   "calorieOptions": [
     { "value": "0 - 60", "label": "0 - 60" },

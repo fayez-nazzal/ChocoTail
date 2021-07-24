@@ -20,7 +20,7 @@ const TagsFlex = (props, ref) => {
   `)
 
   return (
-    <Flex ref={ref} wraps>
+    <Flex ref={ref} justifyContent="center" wraps>
       {tags.map(tag => (
         <CustomButton
           key={tag}
@@ -30,6 +30,7 @@ const TagsFlex = (props, ref) => {
           margin="0 4px 8px 4px"
           borderRadius="0"
           color={randomColor()}
+          hoverColor="#AC8B67"
           animateOnClick
         >
           {tag}
