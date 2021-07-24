@@ -49,9 +49,9 @@ const DrinksGrid = props => {
           num => (
             <CustomButton
               key={num}
-              margin="8px 4px"
-              padding="8px"
-              borderRadius="4px"
+              margin="1rem 4px"
+              padding="7px 10px"
+              borderRadius="8px"
               color={num === currentPage ? "#a0a4a8" : "#af8e69"}
               hoverColor={num === currentPage ? "#a0a4a8" : "#7b4c2a"}
               onClick={() => setCurrentPage(num)}
@@ -74,7 +74,7 @@ const Grid = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 174px);
   margin-bottom: 8px;
-  grid-gap: 12px;
+  grid-gap: 1rem;
   animation: ${bounceInAnimation} 0.52s;
 
   // for iMac Retina, MacBook, MacBook Pro

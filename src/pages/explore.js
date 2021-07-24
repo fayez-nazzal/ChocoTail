@@ -184,8 +184,9 @@ const Container = styled.div`
       ". f  f  f  f  f  f  f  f  f ."
       ". d  d  d  d  d  d  d d d .";
   }
-  margin-top: 16px;
-  grid-gap: 16px;
+  margin-top: 1.6rem;
+  margin-bottom: 2rem;
+  grid-gap: 1.2rem;
 `
 
 const SearchInputContainer = styled.form`

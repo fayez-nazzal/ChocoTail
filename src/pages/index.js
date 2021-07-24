@@ -173,8 +173,9 @@ const ShowGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, minmax(120px, 130px));
-  grid-gap: 8px;
-  margin: 8px;
+  grid-gap: 1rem;
+  margin: 0.6rem 1.2rem;
+  margin-top: 24px;
   box-sizing: border-box;
 
   .top1 {
@@ -245,7 +246,8 @@ const ShowGrid = styled.div`
 `
 
 const MostRatedDiv = styled.div`
-  margin: 8px;
+  margin: 0.6rem 1.2rem;
+  margin-bottom: 2.6rem;
   max-width: 100%;
   box-sizing: border-box;
   user-select: none;
@@ -255,6 +257,7 @@ const MostRatedDiv = styled.div`
   -ms-user-select: none;
 
   h2 {
+    margin-top: 28px;
     margin-bottom: 4px;
   }
 `
@@ -263,7 +266,7 @@ const MostRatedGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(5, minmax(140px, 194px));
   grid-auto-rows: minmax(80px, 170px);
-  grid-gap: 8px;
+  grid-gap: 1rem;
 
   // for iMac Retina, MacBook, MacBook Pro
   @media only screen and (min-width: 2000px) {
