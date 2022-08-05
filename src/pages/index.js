@@ -270,20 +270,14 @@ const MostRatedGrid = styled.div`
 
   // for iMac Retina, MacBook, MacBook Pro
   @media only screen and (min-width: 2000px) {
-    grid-template-columns: repeat(6, minmax(220px, 420px));
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: minmax(170px, 370px);
   }
 
-  // for desktop
-
-  @media only screen and (min-width: 1400px) and (max-width: 2000px) {
-    grid-template-columns: repeat(5, minmax(200px, 320px));
+  // Desktop
+  @media only screen and (min-width: 1024px) and (max-width: 1920px) {
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: minmax(140px, 220px);
-  }
-
-  @media only screen and (min-width: 1024px) and (max-width: 1400px) {
-    grid-template-columns: repeat(5, minmax(200px, 320px));
-    grid-auto-rows: minmax(140px, 180px);
   }
 
   // tablets
