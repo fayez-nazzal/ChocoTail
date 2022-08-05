@@ -58,9 +58,6 @@ const Drink = props => {
       onTouchStart={showOverlay}
       onTouchEnd={hideOverlay}
       onTouchCancel={hideOverlay}
-      onClick={() => {
-        navigate(`/recepie/${props.fields.slug}`)
-      }}
     >
       <GatsbyImage
         loading={props.eager ? "eager" : "lazy"}
