@@ -76,6 +76,9 @@ const Grid = styled.div`
   margin-bottom: 8px;
   grid-gap: 1rem;
   animation: ${bounceInAnimation} 0.52s;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 
   // for iMac Retina, MacBook, MacBook Pro
   @media only screen and (min-width: 2000px) {
@@ -96,11 +99,11 @@ const Grid = styled.div`
 
 const NoDrinks = styled.div`
   margin-top: 32px;
-  grid-column: 1 / 4;
-  grid-row: 1 / 6;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
+  // takes all space in grid
+  grid-column: 1 / -1;
 `
 
 const getCompareRxpression = (a, b) => ({

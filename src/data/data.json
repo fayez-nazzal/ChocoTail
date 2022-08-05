@@ -9,8 +9,8 @@
       "to": "/suggester"
     },
     {
-      "name": "About",
-      "to": "/about"
+      "name": "Favorites",
+      "to": "/favorites"
     }
   ],
   "tags": [

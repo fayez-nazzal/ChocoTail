@@ -5,7 +5,7 @@ import styled from "styled-components"
 import useDrinkImage from "../hooks/useDrinkImage"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const Recepie = props => {
+const recepie = props => {
   const { name, ingredients, directions } = props.data.drinkDataJson
   const drinkImage = useDrinkImage(name)
   const image = getImage(drinkImage)
@@ -49,10 +49,10 @@ const Recepie = props => {
   )
 }
 
-export default Recepie
+export default recepie
 
 export const query = graphql`
-  query($slug: String) {
+  query ($slug: String) {
     drinkDataJson(fields: { slug: { eq: $slug } }) {
       name
       ingredients

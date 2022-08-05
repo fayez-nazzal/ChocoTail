@@ -1,19 +1,32 @@
-import React, { useContext, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import { navigate } from "gatsby"
 import styled, { keyframes } from "styled-components"
 import LinkIcon from "../images/link.svg"
+import HeartIcon from "../images/heart.svg"
 import StarFill from "../images/star-fill.svg"
 import useDrinkImage from "../hooks/useDrinkImage"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { bounceIn } from "react-animations"
 import { ThemeContext } from "../contexts/themeContext"
+import { FavoritesContext } from "../contexts/favoritesContext"
 
 const Drink = props => {
   const [isDark] = useContext(ThemeContext)
   const [overlayShown, setOverlayShown] = useState(false)
   const drinkImage = useDrinkImage(props.name)
+  const { favoriteDrinks, onDrinkFavorite, onDrinkUnfavorite } =
+    useContext(FavoritesContext)
+  const [isFavorite, setIsFavorite] = useState(false)
 
   const image = getImage(drinkImage)
+
+  useEffect(() => {
+    const drink = favoriteDrinks.find(drink => drink.name === props.name)
+
+    if (drink) {
+      setIsFavorite(true)
+    }
+  }, [])
 
   const showOverlay = e => {
     setOverlayShown(true)
@@ -23,6 +36,18 @@ const Drink = props => {
   const hideOverlay = e => {
     setOverlayShown(false)
     e.preventDefault()
+  }
+
+  const onFavorite = e => {
+    setIsFavorite(!isFavorite)
+
+    if (isFavorite) {
+      onDrinkUnfavorite(props.name)
+    } else {
+      onDrinkFavorite({ ...props })
+    }
+
+    e.stopPropagation()
   }
 
   return (
@@ -48,13 +73,18 @@ const Drink = props => {
         {parseInt(props.rating ? props.rating : 0)}
         <StarFill className="star" />
       </RatingContainer>
-      <Info bigFont={props.bigFont} isDark={isDark}>
+      <Info bigFont={props.bigFont} isDark={isDark} favorite={isFavorite}>
         <h3>{props.name}</h3>
         <span>{props.calories + "kcal"}</span>
         <span>{props.prep}</span>
-        <a href={props.url}>
-          <LinkIcon />
-        </a>
+        <div className="actions">
+          <a href={props.url}>
+            <LinkIcon />
+          </a>
+          <button onClick={onFavorite}>
+            <HeartIcon />
+          </button>
+        </div>
       </Info>
     </Container>
   )
@@ -115,10 +145,44 @@ const Info = styled.div`
     margin: 0 16px 0 0;
   }
 
-  & > a {
+  & > .actions {
     position: absolute;
-    bottom: 0;
-    right: 5px;
+    bottom: 3px;
+    right: 3px;
+    display: flex;
+  }
+
+  & > .actions > a {
+    margin-right: 8px;
+  }
+
+  & > .actions > button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: ${props => (props.isDark ? "#12121292" : "#c0c0c092")};
+
+    & > * {
+      width: 20px;
+      height: 20px;
+      fill: ${props => (props.favorite ? "#fa2fb5" : "#FEE5F6")};
+    }
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+
+    &:active {
+      filter: brightness(0.8);
+    }
   }
 `
 
