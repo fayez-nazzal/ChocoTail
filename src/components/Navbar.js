@@ -87,6 +87,28 @@ const NavBgColor = styled.div`
   left: 0;
 `
 
+export const maxWidthQueries = `
+@media (min-width: 768px) {
+  max-width: 600px;
+}
+
+@media (min-width: 1024px) {
+  max-width: 800px;
+}
+
+@media (min-width: 1280px) {
+  max-width: 1000px;
+}
+
+@media (min-width: 1600px) {
+  max-width: 1360px;
+}
+
+@media (min-width: 1920px) {
+  max-width: 1700px;
+}
+`
+
 const Nav = styled.nav`
   position: ${({ homePage }) => (homePage ? "absolute" : "sticky")};
   height: ${navbarHeight}px;
@@ -99,6 +121,10 @@ const Nav = styled.nav`
   right: 0;
   transition: background-color ease-in 0.15s;
   user-select: none;
+  margin: 0 auto;
+  max-width: 100%;
+
+  ${maxWidthQueries}
 `
 
 const LinkContainer = styled.div`
