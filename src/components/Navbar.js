@@ -146,10 +146,15 @@ const SideButtonContainer = styled.div`
   margin: auto 2px;
 
   .side-button {
-    fill: ${({ overlayOpened }) => (overlayOpened ? "white" : "black")};
+    fill: ${({ overlayOpened }) => (overlayOpened ? "white" : "#333333")};
     transition: fill 0.24s;
     width: 36px;
     height: 36px;
+  }
+
+  .side-button:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
   }
 
   @media only screen and (min-width: 601px) {

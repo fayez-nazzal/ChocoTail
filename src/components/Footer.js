@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import Flex from "./Flex"
@@ -12,8 +12,12 @@ const Footer = props => {
 
   return (
     <StyledFooter direction={props.direction}>
-      <FooterContent>
-        <Flex margin="4px auto 0 16px" justifyContent="flex-start">
+      <FooterContent direction={props.direction}>
+        <Flex
+          justifyContent="flex-start"
+          alignItems="center"
+          margin={props.direction === "row" ? "4px auto 0 16px" : "0 auto"}
+        >
           <span>
             {viewportMedia && viewportMedia.md && "Follow"}
             <GreySpan>@fayez-nazzal</GreySpan>
@@ -66,7 +70,7 @@ const FooterContent = styled.div`
   display: flex;
   flex-direction: ${({ direction }) => direction || "row"};
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex: 1;
 
   ${maxWidthQueries}

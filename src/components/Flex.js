@@ -9,4 +9,5 @@ export default styled.div`
   align-items: center;
   flex-wrap: ${({ wraps }) => (wraps ? "wrap" : "nowrap")};
   padding: ${({ padding }) => padding || 0};
+  background: ${({ bg }) => bg || "initial"};
 `
