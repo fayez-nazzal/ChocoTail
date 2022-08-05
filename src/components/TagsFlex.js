@@ -20,7 +20,7 @@ const TagsFlex = (props, ref) => {
   `)
 
   return (
-    <Flex ref={ref} justifyContent="center" wraps>
+    <Flex padding="8px" ref={ref} wraps>
       {tags.map(tag => (
         <CustomButton
           key={tag}

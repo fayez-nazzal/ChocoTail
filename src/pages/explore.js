@@ -12,9 +12,7 @@ import { graphql } from "gatsby"
 import SearchIcon from "../images/search.svg"
 import DrinksGrid from "../components/ExploreDrinksGrid"
 import Select, { components } from "react-select"
-import Flex from "../components/Flex"
 import TagsFlex from "../components/TagsFlex"
-import StyledButton from "../components/CustomButton"
 import CustomButton from "../components/CustomButton"
 import useMedia from "../hooks/useMedia"
 import Head from "../components/Head"
@@ -120,7 +118,7 @@ const Explore = props => {
               margin="0"
               padding="0"
             >
-              <SearchIcon className="search-icon" />
+              <SearchIcon shapeRendering="crispEdges" className="search-icon" />
             </CustomButton>
             <input
               ref={searchInputRef}
@@ -129,11 +127,14 @@ const Explore = props => {
             />
           </SearchInputContainer>
           <CustomDiv margin="20px 16px 8px 8px" fontSize="20px">
-            Popular tags
+            Popular Tags
           </CustomDiv>
           <TagsFlex ref={tagsRef} onTagClicked={onTagClicked} />
         </DrinkSearchContainer>
         <FiltersContainer isDark={isDark}>
+          <CustomDiv margin="0px 16px 8px 8px" fontSize="20px">
+            Drinks Filters
+          </CustomDiv>
           <StyledSelect
             {...selectCommonProps}
             isDark={isDark}
@@ -195,7 +196,7 @@ const SearchInputContainer = styled.form`
   input,
   .search-icon {
     border: 1px solid ${props => (props.isDark ? "#e9e9e9" : "#212121")};
-    padding: 4px;
+    padding: 8px;
   }
 
   input {
@@ -232,7 +233,7 @@ const SearchInputContainer = styled.form`
 const DrinkSearchContainer = styled.div`
   grid-area: se;
   background-color: ${props => (props.isDark ? "#82828290" : "#dbdbdb88")};
-  padding: 8px;
+  padding: 16px;
   border-radius: 8px;
 `
 

@@ -8,4 +8,5 @@ export default styled.div`
   justify-content: ${({ justifyContent }) => justifyContent || "initial"};
   align-items: center;
   flex-wrap: ${({ wraps }) => (wraps ? "wrap" : "nowrap")};
+  padding: ${({ padding }) => padding || 0};
 `
